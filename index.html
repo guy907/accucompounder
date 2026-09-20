@@ -54,7 +54,7 @@ fetch('data/holdings.json').then(r=>r.json()).then(d=>{
 fetch('data/benchmark.json').then(r=>r.json()).then(b=>{
  var last=b.active_basket_norm.filter(Boolean).slice(-1)[0];
  var m=b.msci_world_norm.filter(Boolean).slice(-1)[0];
- document.getElementById('k-basket').innerHTML=`<span class="pos">${last}</span> vs ${m}`;
+ document.getElementById('k-basket').innerHTML=`<span class="pos" style="font-size:1.35em">${last}</span> <small style="color:#5B6B7C;font-weight:400">vs ${m}</small>`;
  var c=echarts.init(document.getElementById('bench'));
   c.setOption({tooltip:{trigger:'axis'},legend:{data:['Live basket (19 real tickers)','MSCI World (URTH)','S&P500 (SPY)']},xAxis:{type:'category',data:b.dates},yAxis:{type:'value'},series:[
    {name:'Live basket (19 real tickers)',type:'line',data:b.active_basket_norm,smooth:true},
