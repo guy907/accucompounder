@@ -31,8 +31,8 @@
 <div class="card"><h3>2 Consolidated Advisors</h3><p>Stock Advisor + ETF Advisor score dozens of signals into one conviction view. Pipeline page shows WATCH → CANDIDATE → QUEUED live.</p></div>
 <div class="card"><h3>Honest reporting</h3><p>Losers stay visible. Benchmark always shown. Trades published same-day with reason. Educational only.</p></div>
 </div>
-<div class="card" style="margin-top:14px"><h3>Advisor picks vs benchmarks (rebased to 100)</h3><div id="bench" style="height:320px"></div>
-<p style="color:#5B6B7C;font-size:13px">Paper line = all advisor picks index (176 picks, win rate ~27% — losers included, that is why it trails). Real money lives on the <a href="portfolio.html">Portfolio</a> page: ETF sleeve <b id="k-etf">–</b>, stock sleeve <b id="k-stk">–</b>. Benchmarks: URTH (MSCI World) + SPY (S&amp;P 500) via free yfinance. Live-holdings history logging started Sept 2026 — the money-weighted line builds from here.</p></div>
+<div class="card" style="margin-top:14px"><h3>Performance vs benchmarks (rebased to 100)</h3><div id="bench" style="height:320px"></div>
+<p style="color:#5B6B7C;font-size:13px">Live basket = our 19 real traded tickers (9 live holdings + 10 realized exits), equal-weighted, price-only, rebased 100. Same tickers as <a href="portfolio.html">Portfolio</a> + <a href="trades.html">Trades</a>. Benchmarks: URTH (MSCI World) + SPY (S&amp;P 500), same window, free yfinance. Live sleeves: ETF <b id="k-etf">–</b>, stocks <b id="k-stk">–</b>.</p></div>
 <div class="card" style="margin-top:14px"><h3>Allocation (% only, no euros)</h3><div id="alloc" style="height:320px"></div>
 <p style="color:#5B6B7C;font-size:13px">Source: <code>data/holdings.json</code> — auto-exported daily via GitHub Actions. Privacy-safe: tickers + % only.</p></div>
 </main>
@@ -53,8 +53,8 @@ fetch('data/holdings.json').then(r=>r.json()).then(d=>{
 });
 fetch('data/benchmark.json').then(r=>r.json()).then(b=>{
  var c=echarts.init(document.getElementById('bench'));
-  c.setOption({tooltip:{trigger:'axis'},legend:{data:['Picks index (paper)','MSCI World (URTH)','S&P500 (SPY)']},xAxis:{type:'category',data:b.dates},yAxis:{type:'value'},series:[
-   {name:'Picks index (paper)',type:'line',data:b.portfolio_norm,smooth:true},
+  c.setOption({tooltip:{trigger:'axis'},legend:{data:['Live basket (19 real tickers)','MSCI World (URTH)','S&P500 (SPY)']},xAxis:{type:'category',data:b.dates},yAxis:{type:'value'},series:[
+   {name:'Live basket (19 real tickers)',type:'line',data:b.active_basket_norm,smooth:true},
   {name:'MSCI World (URTH)',type:'line',data:b.msci_world_norm,smooth:true},
   {name:'S&P500 (SPY)',type:'line',data:b.sp500_norm,smooth:true}]});
 });
