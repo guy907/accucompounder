@@ -24,6 +24,9 @@ fetch('data/holdings.json').then(r=>r.json()).then(d=>{
  const row=x=>`<tr><td><b>${x.ticker}</b></td><td>${x.weight_pct}%</td><td class="${x.pnl_pct>=0?'pos':'neg'}">${x.pnl_pct}%</td><td><span class="badge ${x.status==='Core'?'core':'sat'}">${x.status}</span></td></tr>`;
  document.getElementById('etf').innerHTML+=''+d.etfs.map(row).join('');
  document.getElementById('stk').innerHTML+=''+d.stocks.map(row).join('');
+ const tot=(label,v)=>`<tr style="background:#EEF3F7;font-weight:700"><td>Total ${label}</td><td>100%</td><td class="${v>=0?'pos':'neg'}">${v}%</td><td>—</td></tr>`;
+ document.getElementById('etf').innerHTML+=tot('ETFs',d.etf_pnl_pct);
+ document.getElementById('stk').innerHTML+=tot('stocks',d.stock_pnl_pct);
  const fmt=v=>`<span class="${v>=0?'pos':'neg'}">${v}%</span>`;
  document.getElementById('etf-pnl').innerHTML=fmt(d.etf_pnl_pct);
  document.getElementById('stk-pnl').innerHTML=fmt(d.stock_pnl_pct);
