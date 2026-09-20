@@ -77,48 +77,6 @@
       "side": "SELL",
       "pnl_pct": -4.15,
       "note": "Thesis review / risk trim. See Methodology."
-    },
-    {
-      "date": "19-09-2026 14:40",
-      "ticker": "CSJP.AS",
-      "side": "HOLD",
-      "pnl_pct": 4.51,
-      "note": "Current core/satellite holding."
-    },
-    {
-      "date": "19-09-2026 14:40",
-      "ticker": "XCHA.DE",
-      "side": "HOLD",
-      "pnl_pct": -3.34,
-      "note": "Current core/satellite holding."
-    },
-    {
-      "date": "19-09-2026 14:40",
-      "ticker": "ASWC.DE",
-      "side": "HOLD",
-      "pnl_pct": -5.29,
-      "note": "Current core/satellite holding."
-    },
-    {
-      "date": "19-09-2026 14:40",
-      "ticker": "QDVF.DE",
-      "side": "HOLD",
-      "pnl_pct": 11.06,
-      "note": "Current core/satellite holding."
-    },
-    {
-      "date": "19-09-2026 14:40",
-      "ticker": "USPY.DE",
-      "side": "HOLD",
-      "pnl_pct": 54.33,
-      "note": "Current core/satellite holding."
-    },
-    {
-      "date": "19-09-2026 14:40",
-      "ticker": "XDWH.DE",
-      "side": "HOLD",
-      "pnl_pct": 2.32,
-      "note": "Current core/satellite holding."
     }
   ]
 }

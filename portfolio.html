@@ -11,7 +11,10 @@
 <header><nav class="nav"><span class="brand">AccuCompounder <small>Research</small></span>
 <a href="index.html">Home</a><a href="portfolio.html" class="active">Portfolio</a><a href="pipeline.html">Pipeline</a><a href="trades.html">Trades</a><a href="methodology.html">Methodology</a><a href="tearsheet.html">Tearsheet</a></nav></header>
 <main><h1>Portfolio — weights in %</h1>
-<p>Privacy-safe: only tickers, weights %, P&L %. No euros, no share counts. UCITS accumulating ETFs + US/EU compounders.</p>
+<div class="kpis"><div class="kpi"><b id="etf-pnl">–</b><br><span>ETF sleeve total P&amp;L</span></div>
+<div class="kpi"><b id="stk-pnl">–</b><br><span>Stock sleeve total P&amp;L</span></div>
+<div class="kpi"><b id="n-hold">–</b><br><span>Holdings</span></div></div>
+<p>UCITS accumulating ETFs + US/EU compounders. Core = sleeve weight ≥15%, Satellite below — full rule in <a href="methodology.html">Methodology</a>.</p>
 <h2>ETFs</h2><table id="etf"><tr><th>Ticker</th><th>Weight %</th><th>P&L %</th><th>Status</th></tr></table>
 <h2>Stocks</h2><table id="stk"><tr><th>Ticker</th><th>Weight %</th><th>P&L %</th><th>Status</th></tr></table>
 <p style="color:#5B6B7C">Example live holdings: USPY.DE 23.79% (+54.33%), QDVF.DE 19.98%, HALO 60.97% of stock sleeve (+52.56%), SMFG 24.51%, DKNG 14.51%. Full table auto-updates from <code>data/holdings.json</code>.</p>
@@ -21,5 +24,9 @@ fetch('data/holdings.json').then(r=>r.json()).then(d=>{
  const row=x=>`<tr><td><b>${x.ticker}</b></td><td>${x.weight_pct}%</td><td class="${x.pnl_pct>=0?'pos':'neg'}">${x.pnl_pct}%</td><td><span class="badge ${x.status==='Core'?'core':'sat'}">${x.status}</span></td></tr>`;
  document.getElementById('etf').innerHTML+=''+d.etfs.map(row).join('');
  document.getElementById('stk').innerHTML+=''+d.stocks.map(row).join('');
+ const fmt=v=>`<span class="${v>=0?'pos':'neg'}">${v}%</span>`;
+ document.getElementById('etf-pnl').innerHTML=fmt(d.etf_pnl_pct);
+ document.getElementById('stk-pnl').innerHTML=fmt(d.stock_pnl_pct);
+ document.getElementById('n-hold').textContent=d.etfs.length+d.stocks.length;
 });
 </script></body></html>
