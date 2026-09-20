@@ -32,7 +32,7 @@
 <div class="card"><h3>Honest reporting</h3><p>Losers stay visible. Benchmark always shown. Trades published same-day. Educational only.</p></div>
 </div>
 <div class="card" style="margin-top:14px"><h3>Performance vs benchmarks (rebased to 100)</h3><div id="bench" style="height:320px"></div>
-<p style="color:#5B6B7C;font-size:13px">Live basket = our 19 real traded tickers (9 live holdings + 10 realized exits), equal-weighted, price-only, rebased 100. Same tickers as <a href="portfolio.html">Portfolio</a> + <a href="trades.html">Trades</a>. Benchmarks: URTH (MSCI World) + SPY (S&amp;P 500), same window, free yfinance. Live sleeves: ETF <b id="k-etf">–</b>, stocks <b id="k-stk">–</b>.</p></div>
+<p style="color:#5B6B7C;font-size:13px">Live basket = our 19 real traded tickers (9 live holdings + 10 realized exits), equal-weighted, price-only, rebased 100. Same tickers as <a href="portfolio.html">Portfolio</a> + <a href="trades.html">Trades</a>. Benchmarks: URTH (MSCI World) + SPY (S&amp;P 500), same window, free yfinance. Live sleeves: ETF <b id="k-etf">–</b>, stocks <b id="k-stk">–</b>. <b id="excess" class="pos"></b></p></div>
 <div class="card" style="margin-top:14px"><h3>Allocation (% only, no euros)</h3><div id="alloc" style="height:320px"></div>
 <p style="color:#5B6B7C;font-size:13px">Source: <code>data/holdings.json</code> — auto-exported daily via GitHub Actions. Privacy-safe: tickers + % only.</p></div>
 </main>
@@ -55,6 +55,7 @@ fetch('data/benchmark.json').then(r=>r.json()).then(b=>{
  var last=b.active_basket_norm.filter(Boolean).slice(-1)[0];
  var m=b.msci_world_norm.filter(Boolean).slice(-1)[0];
  document.getElementById('k-basket').innerHTML=`<span class="pos" style="font-size:1.35em">${last}</span> <small style="color:#5B6B7C;font-weight:400">vs ${m}</small>`;
+ document.getElementById('excess').textContent=`Outperformance: +${(last-m).toFixed(1)}pp vs MSCI World since May.`;
  var c=echarts.init(document.getElementById('bench'));
   c.setOption({tooltip:{trigger:'axis'},legend:{data:['Live basket (19 real tickers)','MSCI World (URTH)','S&P500 (SPY)']},xAxis:{type:'category',data:b.dates},yAxis:{type:'value'},series:[
    {name:'Live basket (19 real tickers)',type:'line',data:b.active_basket_norm,smooth:true},
