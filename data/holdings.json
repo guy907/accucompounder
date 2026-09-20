@@ -59,5 +59,15 @@
       "pnl_pct": -12.37,
       "status": "Satellite"
     }
-  ]
+  ],
+  "realized_etf": {
+    "avg_pct": 15.58,
+    "wins": 1,
+    "n": 1
+  },
+  "realized_stk": {
+    "avg_pct": 11.13,
+    "wins": 4,
+    "n": 9
+  }
 }
