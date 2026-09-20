@@ -41,10 +41,10 @@
 fetch('data/holdings.json').then(r=>r.json()).then(d=>{
  document.getElementById('upd').textContent=d.updated;
  document.getElementById('kpis').innerHTML=
- `<div class="kpi"><b>${d.etfs.length+d.stocks.length}</b><br><span>Holdings</span></div>
-  <div class="kpi"><b>${d.etf_pnl_pct}%</b><br><span>ETF P&L %</span></div>
-  <div class="kpi"><b>${d.stock_pnl_pct}%</b><br><span>Stock P&L %</span></div>
-  <div class="kpi"><b>100% free</b><br><span>GitHub Pages</span></div>`;
+  `<div class="kpi"><b>${d.etfs.length+d.stocks.length}</b><br><span>Holdings</span></div>
+   <div class="kpi"><b>${d.etf_pnl_pct}%</b><br><span>ETF P&L %</span></div>
+   <div class="kpi"><b>${d.stock_pnl_pct}%</b><br><span>Stock P&L %</span></div>
+   <div class="kpi"><b id="k-basket">–</b><br><span>Live basket vs MSCI</span></div>`;
   document.getElementById('k-etf').textContent=d.etf_pnl_pct+'%';
   document.getElementById('k-stk').textContent=d.stock_pnl_pct+'%';
   var chart=echarts.init(document.getElementById('alloc'));
@@ -52,6 +52,9 @@ fetch('data/holdings.json').then(r=>r.json()).then(d=>{
  chart.setOption({tooltip:{},series:[{type:'pie',radius:['45%','70%'],data}]});
 });
 fetch('data/benchmark.json').then(r=>r.json()).then(b=>{
+ var last=b.active_basket_norm.filter(Boolean).slice(-1)[0];
+ var m=b.msci_world_norm.filter(Boolean).slice(-1)[0];
+ document.getElementById('k-basket').innerHTML=`<span class="pos">${last}</span> vs ${m}`;
  var c=echarts.init(document.getElementById('bench'));
   c.setOption({tooltip:{trigger:'axis'},legend:{data:['Live basket (19 real tickers)','MSCI World (URTH)','S&P500 (SPY)']},xAxis:{type:'category',data:b.dates},yAxis:{type:'value'},series:[
    {name:'Live basket (19 real tickers)',type:'line',data:b.active_basket_norm,smooth:true},
