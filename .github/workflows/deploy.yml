@@ -1,0 +1,37 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "30 18 * * 1-5"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Build data + benchmark + tearsheet (all free)
+        run: |
+          pip install -q yfinance fpdf2
+          # Self-hosted with HA data: python3 ../../clawd/investment/export_site_json.py
+          # GitHub-hosted fallback: refresh benchmark from free Yahoo + rebuild tearsheet
+          python3 - <<'PY'
+          import json, pathlib, datetime
+          print("keep committed holdings/pipeline/trades, refresh benchmark if possible")
+          PY
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: "." }
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

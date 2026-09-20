@@ -1,0 +1,59 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<meta name="theme-color" content="#0F2A44">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AccuCompounder Research">
+<meta property="og:title" content="AccuCompounder Research — Disciplined Accumulating Investing">
+<meta property="og:description" content="Accumulating EU UCITS ETFs + US/EU compounders. Holdings in %, pipeline, trades. Educational only.">
+<meta property="og:image" content="https://guy907.github.io/accucompounder/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<title>AccuCompounder Research — Disciplined Accumulating Investing</title>
+<meta name="description" content="Independent research showcase: accumulating EU UCITS ETFs + US/EU compounders. Holdings in %, pipeline, trades. Educational only.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+</head><body>
+<header><nav class="nav">
+<span class="brand">AccuCompounder <small>Research</small></span>
+<a href="index.html" class="active">Home</a><a href="portfolio.html">Portfolio</a><a href="pipeline.html">Pipeline</a><a href="trades.html">Trades</a><a href="methodology.html">Methodology</a><a href="tearsheet.html">Tearsheet</a>
+</nav></header>
+<main>
+<div class="hero">
+<h1>Disciplined Accumulating Investing</h1>
+<p>European accumulating UCITS ETFs + US/EU growth compounders. Long-only, no leverage. Full transparency in weights (%), pipeline and trades — no advice, just research.</p>
+<a class="btn" href="portfolio.html">View Holdings</a>
+<a class="btn ghost" href="pipeline.html" style="background:#fff">See Pipeline</a>
+<a class="btn ghost" href="trades.html" style="background:#fff">Latest Trades</a>
+</div>
+<div class="kpis" id="kpis"></div>
+<div class="grid">
+<div class="card"><h3>Why accumulating?</h3><p>Compounding without dividend drag. UCITS accumulating ETFs for Europe, non-dividend growers for stocks. Tax-simple, long-horizon.</p></div>
+<div class="card"><h3>2 Consolidated Advisors</h3><p>Stock Advisor + ETF Advisor score dozens of signals into one conviction view. Pipeline page shows WATCH → CANDIDATE → QUEUED live.</p></div>
+<div class="card"><h3>Honest reporting</h3><p>Losers stay visible. Benchmark always shown. Trades published same-day with reason. Educational only.</p></div>
+</div>
+<div class="card" style="margin-top:14px"><h3>Performance vs benchmarks (rebased to 100)</h3><div id="bench" style="height:320px"></div>
+<p style="color:#5B6B7C;font-size:13px">Portfolio = advisor picks index. Benchmarks: URTH (MSCI World) + SPY (S&amp;P 500) via free yfinance. Source: <code>data/benchmark.json</code>.</p></div>
+<div class="card" style="margin-top:14px"><h3>Allocation (% only, no euros)</h3><div id="alloc" style="height:320px"></div>
+<p style="color:#5B6B7C;font-size:13px">Source: <code>data/holdings.json</code> — auto-exported daily via GitHub Actions. Privacy-safe: tickers + % only.</p></div>
+</main>
+<footer>© AccuCompounder Research — Educational showcase only. Not financial advice. Past performance ≠ future results. | <a href="trades.xml">RSS Trades</a> | <a href="tearsheet.html">Tearsheet</a> | Updated <span id="upd"></span></footer>
+<script>
+fetch('data/holdings.json').then(r=>r.json()).then(d=>{
+ document.getElementById('upd').textContent=d.updated;
+ document.getElementById('kpis').innerHTML=
+ `<div class="kpi"><b>${d.etfs.length+d.stocks.length}</b><br><span>Holdings</span></div>
+  <div class="kpi"><b>${d.etf_pnl_pct}%</b><br><span>ETF P&L %</span></div>
+  <div class="kpi"><b>${d.stock_pnl_pct}%</b><br><span>Stock P&L %</span></div>
+  <div class="kpi"><b>100% free</b><br><span>GitHub Pages</span></div>`;
+ var chart=echarts.init(document.getElementById('alloc'));
+ var data=[...d.etfs.map(x=>({value:x.weight_pct,name:x.ticker+' (ETF)'})),...d.stocks.map(x=>({value:x.weight_pct,name:x.ticker+' (Stock)'}))];
+ chart.setOption({tooltip:{},series:[{type:'pie',radius:['45%','70%'],data}]});
+});
+fetch('data/benchmark.json').then(r=>r.json()).then(b=>{
+ var c=echarts.init(document.getElementById('bench'));
+ c.setOption({tooltip:{trigger:'axis'},legend:{data:['Portfolio','MSCI World (URTH)','S&P500 (SPY)']},xAxis:{type:'category',data:b.dates},yAxis:{type:'value'},series:[
+  {name:'Portfolio',type:'line',data:b.portfolio_norm,smooth:true},
+  {name:'MSCI World (URTH)',type:'line',data:b.msci_world_norm,smooth:true},
+  {name:'S&P500 (SPY)',type:'line',data:b.sp500_norm,smooth:true}]});
+});
+</script></body></html>

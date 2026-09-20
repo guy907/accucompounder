@@ -1,0 +1,116 @@
+{
+  "updated": "2026-09-20",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 11 HOLD | 🔶 0 TRIM | 🔴 0 SELL | ⚠️ Technology 5/11 (45%) — sectorconcentratie risico! | 🏆 Top: WAT (5.9), HALO (5.8), ARW (5.8)",
+  "etf_summary": "🟢 5 BUY | 🌀 22 ACCUMULATE | 🟡 46 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: QDVR.DE (8.6), PLAY.AS (8.5), WCOM.L (8.5)",
+  "stock_distribution": {
+    "BUY": 0,
+    "ACCUMULATE": 0,
+    "HOLD": 11,
+    "TRIM": 0,
+    "SELL": 0,
+    "CONFLICT": 0
+  },
+  "etf_distribution": {
+    "BUY": 5,
+    "ACCUMULATE": 22,
+    "HOLD": 46,
+    "TRIM": 0,
+    "SELL": 0
+  },
+  "stocks_watch": [
+    {
+      "ticker": "ARW",
+      "name": "Arrow Electronics, Inc.",
+      "advice": "HOLD",
+      "score": 5.76,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "BJ",
+      "name": "BJ's Wholesale Club Holdings, I",
+      "advice": "HOLD",
+      "score": 4.77,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "CLSK",
+      "name": "CleanSpark, Inc.",
+      "advice": "HOLD",
+      "score": 4.86,
+      "confidence": "LOW"
+    },
+    {
+      "ticker": "CRSR",
+      "name": "Corsair Gaming, Inc.",
+      "advice": "HOLD",
+      "score": 5.72,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "DKNG",
+      "name": "",
+      "advice": "HOLD",
+      "score": 4.37,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "DT",
+      "name": "Dynatrace, Inc.",
+      "advice": "HOLD",
+      "score": 5.47,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet, Inc.",
+      "advice": "HOLD",
+      "score": 4.62,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "HALO",
+      "name": "",
+      "advice": "HOLD",
+      "score": 5.85,
+      "confidence": "MEDIUM"
+    }
+  ],
+  "etf_queue": [
+    {
+      "ticker": "QDVF.DE",
+      "name": "iShares S&P 500 Financials Acc",
+      "advice": "BUY",
+      "score": 7.74,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "QDVR.DE",
+      "name": "iShares S&P 500 Comm Services Acc",
+      "advice": "BUY",
+      "score": 8.63,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "MOAT.MI",
+      "name": "VanEck Morningstar US Moat Acc",
+      "advice": "BUY",
+      "score": 8.27,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "PLAY.AS",
+      "name": "iShares Digital Entertainment and Education UCITS ETF USD (A",
+      "advice": "BUY",
+      "score": 8.54,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "WCOM.L",
+      "name": "WisdomTree Enhanced Commodity UCITS ETF - GBP Hedged Acc",
+      "advice": "BUY",
+      "score": 8.5,
+      "confidence": "HIGH"
+    }
+  ],
+  "regime_note": "Market context only (log-only audit). No signal use."
+}

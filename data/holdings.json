@@ -1,0 +1,63 @@
+{
+  "updated": "19-09-2026 14:40",
+  "etf_pnl_pct": 11.36,
+  "stock_pnl_pct": 31.78,
+  "etfs": [
+    {
+      "ticker": "USPY.DE",
+      "weight_pct": 23.79,
+      "pnl_pct": 54.33,
+      "status": "Core"
+    },
+    {
+      "ticker": "QDVF.DE",
+      "weight_pct": 19.98,
+      "pnl_pct": 11.06,
+      "status": "Core"
+    },
+    {
+      "ticker": "XDWH.DE",
+      "weight_pct": 18.7,
+      "pnl_pct": 2.32,
+      "status": "Core"
+    },
+    {
+      "ticker": "XCHA.DE",
+      "weight_pct": 13.88,
+      "pnl_pct": -3.34,
+      "status": "Satellite"
+    },
+    {
+      "ticker": "CSJP.AS",
+      "weight_pct": 12.24,
+      "pnl_pct": 4.51,
+      "status": "Satellite"
+    },
+    {
+      "ticker": "ASWC.DE",
+      "weight_pct": 11.41,
+      "pnl_pct": -5.29,
+      "status": "Satellite"
+    }
+  ],
+  "stocks": [
+    {
+      "ticker": "HALO",
+      "weight_pct": 60.97,
+      "pnl_pct": 52.56,
+      "status": "Core"
+    },
+    {
+      "ticker": "SMFG",
+      "weight_pct": 24.51,
+      "pnl_pct": 26.64,
+      "status": "Core"
+    },
+    {
+      "ticker": "DKNG",
+      "weight_pct": 14.51,
+      "pnl_pct": -12.37,
+      "status": "Satellite"
+    }
+  ]
+}
