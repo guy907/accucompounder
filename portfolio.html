@@ -29,7 +29,7 @@ fetch('data/holdings.json').then(r=>r.json()).then(d=>{
  document.getElementById('etf').innerHTML+=tot('total ETFs',d.etf_pnl_pct);
  document.getElementById('stk').innerHTML+=tot('total stocks',d.stock_pnl_pct);
  const r=(s,n)=>`${s.avg_pct}% (${s.wins}/${s.n} wins)`;
- document.getElementById('realized').textContent=`Realized exits (closed trades, not in the tables above): ETFs ${r(d.realized_etf)} · stocks ${r(d.realized_stk)} — details on the Trades page.`;
+ document.getElementById('realized').textContent=`All-in per deployed euro (live + exits): ETFs ${d.allin_etf.pct}% (${d.allin_etf.n_exits} exits) · stocks ${d.allin_stk.pct}% (${d.allin_stk.n_exits} exits). Live alone: ETFs ${d.etf_pnl_pct}%, stocks ${d.stock_pnl_pct}%. Realized exits avg: ETFs ${r(d.realized_etf)} · stocks ${r(d.realized_stk)} — details on the Trades page.`;
  const fmt=v=>`<span class="${v>=0?'pos':'neg'}">${v}%</span>`;
  document.getElementById('etf-pnl').innerHTML=fmt(d.etf_pnl_pct);
  document.getElementById('stk-pnl').innerHTML=fmt(d.stock_pnl_pct);
