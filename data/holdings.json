@@ -7,37 +7,49 @@
       "ticker": "USPY.DE",
       "weight_pct": 23.21,
       "pnl_pct": 49.36,
-      "status": "Core"
+      "status": "Core",
+      "buy_date": null,
+      "ann_pct": null
     },
     {
       "ticker": "QDVF.DE",
       "weight_pct": 20.34,
       "pnl_pct": 12.13,
-      "status": "Core"
+      "status": "Core",
+      "buy_date": null,
+      "ann_pct": null
     },
     {
       "ticker": "XDWH.DE",
       "weight_pct": 18.83,
       "pnl_pct": 2.2,
-      "status": "Core"
+      "status": "Core",
+      "buy_date": null,
+      "ann_pct": null
     },
     {
       "ticker": "XCHA.DE",
       "weight_pct": 14.08,
       "pnl_pct": -2.74,
-      "status": "Satellite"
+      "status": "Satellite",
+      "buy_date": null,
+      "ann_pct": null
     },
     {
       "ticker": "CSJP.AS",
       "weight_pct": 12.19,
       "pnl_pct": 3.25,
-      "status": "Satellite"
+      "status": "Satellite",
+      "buy_date": null,
+      "ann_pct": null
     },
     {
       "ticker": "ASWC.DE",
       "weight_pct": 11.36,
       "pnl_pct": -6.49,
-      "status": "Satellite"
+      "status": "Satellite",
+      "buy_date": null,
+      "ann_pct": null
     }
   ],
   "stocks": [
@@ -45,19 +57,25 @@
       "ticker": "HALO",
       "weight_pct": 60.97,
       "pnl_pct": 52.56,
-      "status": "Core"
+      "status": "Core",
+      "buy_date": null,
+      "ann_pct": null
     },
     {
       "ticker": "SMFG",
       "weight_pct": 24.51,
       "pnl_pct": 26.64,
-      "status": "Core"
+      "status": "Core",
+      "buy_date": null,
+      "ann_pct": null
     },
     {
       "ticker": "DKNG",
       "weight_pct": 14.51,
       "pnl_pct": -12.37,
-      "status": "Satellite"
+      "status": "Satellite",
+      "buy_date": null,
+      "ann_pct": null
     }
   ],
   "realized_etf": {
