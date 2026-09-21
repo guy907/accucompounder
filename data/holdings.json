@@ -1,22 +1,24 @@
 {
   "updated": "21-09-2026 08:48",
   "etf_pnl_pct": 10.47,
-  "stock_pnl_pct": 31.78,
+  "stock_pnl_pct": 32.19,
   "etfs": [
     {
       "ticker": "USPY.DE",
       "weight_pct": 23.21,
       "pnl_pct": 49.36,
       "status": "Core",
-      "buy_date": null,
-      "ann_pct": null
+      "buy_date": "2026-04-21",
+      "days_held": 153,
+      "ann_pct": 160.4
     },
     {
       "ticker": "QDVF.DE",
       "weight_pct": 20.34,
       "pnl_pct": 12.13,
       "status": "Core",
-      "buy_date": null,
+      "buy_date": "2026-08-06",
+      "days_held": 46,
       "ann_pct": null
     },
     {
@@ -24,7 +26,8 @@
       "weight_pct": 18.83,
       "pnl_pct": 2.2,
       "status": "Core",
-      "buy_date": null,
+      "buy_date": "2026-09-11",
+      "days_held": 10,
       "ann_pct": null
     },
     {
@@ -32,7 +35,8 @@
       "weight_pct": 14.08,
       "pnl_pct": -2.74,
       "status": "Satellite",
-      "buy_date": null,
+      "buy_date": "2026-08-17",
+      "days_held": 35,
       "ann_pct": null
     },
     {
@@ -40,7 +44,8 @@
       "weight_pct": 12.19,
       "pnl_pct": 3.25,
       "status": "Satellite",
-      "buy_date": null,
+      "buy_date": "2026-08-21",
+      "days_held": 31,
       "ann_pct": null
     },
     {
@@ -48,34 +53,38 @@
       "weight_pct": 11.36,
       "pnl_pct": -6.49,
       "status": "Satellite",
-      "buy_date": null,
+      "buy_date": "2026-08-07",
+      "days_held": 45,
       "ann_pct": null
     }
   ],
   "stocks": [
     {
       "ticker": "HALO",
-      "weight_pct": 60.97,
-      "pnl_pct": 52.56,
+      "weight_pct": 60.48,
+      "pnl_pct": 51.8,
       "status": "Core",
-      "buy_date": null,
+      "buy_date": "2026-07-13",
+      "days_held": 70,
       "ann_pct": null
     },
     {
       "ticker": "SMFG",
-      "weight_pct": 24.51,
-      "pnl_pct": 26.64,
+      "weight_pct": 24.78,
+      "pnl_pct": 28.43,
       "status": "Core",
-      "buy_date": null,
-      "ann_pct": null
+      "buy_date": "2026-03-10",
+      "days_held": 195,
+      "ann_pct": 59.7
     },
     {
       "ticker": "DKNG",
-      "weight_pct": 14.51,
-      "pnl_pct": -12.37,
+      "weight_pct": 14.74,
+      "pnl_pct": -10.72,
       "status": "Satellite",
-      "buy_date": null,
-      "ann_pct": null
+      "buy_date": "2026-05-07",
+      "days_held": 137,
+      "ann_pct": -26.1
     }
   ],
   "realized_etf": {
@@ -93,7 +102,7 @@
     "n_exits": 1
   },
   "allin_stk": {
-    "pct": 16.56,
+    "pct": 16.68,
     "n_exits": 9
   }
 }
