@@ -22,7 +22,9 @@
 </main><footer>© AccuCompounder Research — Educational showcase only. Not financial advice. Past performance ≠ future results. | <a href="trades.xml">RSS Trades</a> | <a href="tearsheet.html">Tearsheet</a></footer>
 <script>
 fetch('data/holdings.json').then(r=>r.json()).then(d=>{
- const row=x=>`<tr><td><b>${x.ticker}</b></td><td>${x.weight_pct}%</td><td class="${x.pnl_pct>=0?'pos':'neg'}">${x.pnl_pct}%</td><td><span class="badge ${x.status==='Core'?'core':'sat'}">${x.status}</span></td></tr>`;
+ const row=x=>{let s=`<span class="badge ${x.status==='Core'?'core':'sat'}">${x.status}</span>`;
+  if(x.buy_date&&x.ann_pct!=null)s+=`<br><small style="color:#5B6B7C">sinds ${x.buy_date} (~${x.ann_pct}%/jr)</small>`;
+  return `<tr><td><b>${x.ticker}</b></td><td>${x.weight_pct}%</td><td class="${x.pnl_pct>=0?'pos':'neg'}">${x.pnl_pct}%</td><td>${s}</td></tr>`;};
  document.getElementById('etf').innerHTML+=''+d.etfs.map(row).join('');
  document.getElementById('stk').innerHTML+=''+d.stocks.map(row).join('');
  const tot=(label,v)=>`<tr style="background:#EEF3F7;font-weight:700"><td>Live ${label}</td><td>100%</td><td class="${v>=0?'pos':'neg'}">${v}%</td><td>—</td></tr>`;
