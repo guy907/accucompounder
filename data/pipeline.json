@@ -1,19 +1,19 @@
 {
-  "updated": "2026-09-21",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 13 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: SKHY (6.5), HALO (6.4), SMFG (6.2)",
-  "etf_summary": "🟢 7 BUY | 🌀 22 ACCUMULATE | 🟡 46 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: QDVR.DE (8.6), PLAY.AS (8.5), WCOM.L (8.5)",
+  "updated": "2026-09-22",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 11 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: HALO (6.2), EXEL (6.1), SMFG (6.0)",
+  "etf_summary": "🟢 10 BUY | 🌀 35 ACCUMULATE | 🟡 30 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: QDVR.DE (8.6), L0CK.DE (8.6), PLAY.AS (8.5)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 13,
-    "TRIM": 0,
+    "HOLD": 11,
+    "TRIM": 1,
     "SELL": 0,
     "CONFLICT": 0
   },
   "etf_distribution": {
-    "BUY": 7,
-    "ACCUMULATE": 22,
-    "HOLD": 46,
+    "BUY": 10,
+    "ACCUMULATE": 35,
+    "HOLD": 30,
     "TRIM": 0,
     "SELL": 0
   },
@@ -22,93 +22,93 @@
       "ticker": "ALMR",
       "name": "Alamar Biosciences, Inc.",
       "advice": "HOLD",
-      "score": 4.49,
+      "score": 4.62,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "ARW",
       "name": "Arrow Electronics, Inc.",
       "advice": "HOLD",
-      "score": 6.03,
+      "score": 5.98,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "CLSK",
       "name": "CleanSpark, Inc.",
-      "advice": "HOLD",
-      "score": 4.92,
+      "advice": "TRIM",
+      "score": 5.82,
       "confidence": "LOW"
     },
     {
       "ticker": "CRSR",
       "name": "Corsair Gaming, Inc.",
       "advice": "HOLD",
-      "score": 5.78,
+      "score": 5.75,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "DKNG",
       "name": "",
       "advice": "HOLD",
-      "score": 3.66,
+      "score": 3.24,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "DT",
       "name": "Dynatrace, Inc.",
       "advice": "HOLD",
-      "score": 5.46,
-      "confidence": "MEDIUM"
+      "score": 5.64,
+      "confidence": "HIGH"
     },
     {
       "ticker": "EXEL",
       "name": "Exelixis, Inc.",
       "advice": "HOLD",
-      "score": 6.08,
+      "score": 6.14,
       "confidence": "HIGH"
     },
     {
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 6.36,
+      "score": 6.21,
       "confidence": "HIGH"
     }
   ],
   "etf_queue": [
     {
+      "ticker": "CSJP.MI",
+      "name": "iShares VII PLC - iShares MSCI Japan ETF USD Acc",
+      "advice": "BUY",
+      "score": 7.94,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "ECGH.L",
+      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
+      "advice": "BUY",
+      "score": 8.39,
+      "confidence": "HIGH"
+    },
+    {
       "ticker": "L0CK.DE",
       "name": "iShares Digital Security UCITS ETF USD Acc",
       "advice": "BUY",
-      "score": 8.26,
+      "score": 8.6,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "QDVE.DE",
+      "name": "iShares S&P 500 Info Tech Acc",
+      "advice": "BUY",
+      "score": 8.38,
       "confidence": "HIGH"
     },
     {
       "ticker": "QDVF.DE",
       "name": "iShares S&P 500 Financials Acc",
       "advice": "BUY",
-      "score": 8.13,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "SHLD.L",
-      "name": "HanETF Future of Defence Acc",
-      "advice": "BUY",
-      "score": 8.2,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "QDVR.DE",
-      "name": "iShares S&P 500 Comm Services Acc",
-      "advice": "BUY",
-      "score": 8.63,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "MOAT.MI",
-      "name": "VanEck Morningstar US Moat Acc",
-      "advice": "BUY",
-      "score": 8.27,
+      "score": 8.39,
       "confidence": "HIGH"
     }
   ],
