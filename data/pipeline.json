@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 11 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: HALO (6.2), EXEL (6.1), SMFG (6.0)",
   "etf_summary": "🟢 10 BUY | 🌀 35 ACCUMULATE | 🟡 30 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: QDVR.DE (8.6), L0CK.DE (8.6), PLAY.AS (8.5)",
   "stock_distribution": {
@@ -19,11 +19,25 @@
   },
   "stocks_watch": [
     {
-      "ticker": "ALMR",
-      "name": "Alamar Biosciences, Inc.",
+      "ticker": "HALO",
+      "name": "",
       "advice": "HOLD",
-      "score": 4.62,
-      "confidence": "MEDIUM"
+      "score": 6.21,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "EXEL",
+      "name": "Exelixis, Inc.",
+      "advice": "HOLD",
+      "score": 6.14,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "SMFG",
+      "name": "",
+      "advice": "HOLD",
+      "score": 6.03,
+      "confidence": "HIGH"
     },
     {
       "ticker": "ARW",
@@ -31,6 +45,13 @@
       "advice": "HOLD",
       "score": 5.98,
       "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "WAT",
+      "name": "Waters Corporation",
+      "advice": "HOLD",
+      "score": 5.83,
+      "confidence": "HIGH"
     },
     {
       "ticker": "CLSK",
@@ -47,47 +68,19 @@
       "confidence": "MEDIUM"
     },
     {
-      "ticker": "DKNG",
-      "name": "",
-      "advice": "HOLD",
-      "score": 3.24,
-      "confidence": "MEDIUM"
-    },
-    {
       "ticker": "DT",
       "name": "Dynatrace, Inc.",
       "advice": "HOLD",
       "score": 5.64,
       "confidence": "HIGH"
-    },
-    {
-      "ticker": "EXEL",
-      "name": "Exelixis, Inc.",
-      "advice": "HOLD",
-      "score": 6.14,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "HALO",
-      "name": "",
-      "advice": "HOLD",
-      "score": 6.21,
-      "confidence": "HIGH"
     }
   ],
   "etf_queue": [
     {
-      "ticker": "CSJP.MI",
-      "name": "iShares VII PLC - iShares MSCI Japan ETF USD Acc",
+      "ticker": "QDVR.DE",
+      "name": "iShares S&P 500 Comm Services Acc",
       "advice": "BUY",
-      "score": 7.94,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "ECGH.L",
-      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
-      "advice": "BUY",
-      "score": 8.39,
+      "score": 8.63,
       "confidence": "HIGH"
     },
     {
@@ -98,10 +91,24 @@
       "confidence": "HIGH"
     },
     {
-      "ticker": "QDVE.DE",
-      "name": "iShares S&P 500 Info Tech Acc",
+      "ticker": "PLAY.AS",
+      "name": "iShares Digital Entertainment and Education UCITS ETF USD (A",
       "advice": "BUY",
-      "score": 8.38,
+      "score": 8.54,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "WCOM.L",
+      "name": "WisdomTree Enhanced Commodity UCITS ETF - GBP Hedged Acc",
+      "advice": "BUY",
+      "score": 8.5,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "ECGH.L",
+      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
+      "advice": "BUY",
+      "score": 8.39,
       "confidence": "HIGH"
     },
     {
@@ -109,6 +116,20 @@
       "name": "iShares S&P 500 Financials Acc",
       "advice": "BUY",
       "score": 8.39,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "QDVE.DE",
+      "name": "iShares S&P 500 Info Tech Acc",
+      "advice": "BUY",
+      "score": 8.38,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "MOAT.MI",
+      "name": "VanEck Morningstar US Moat Acc",
+      "advice": "BUY",
+      "score": 8.27,
       "confidence": "HIGH"
     }
   ],
