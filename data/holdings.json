@@ -1,7 +1,7 @@
 {
   "updated": "23-09-2026 16:24",
   "etf_pnl_pct": 12.3,
-  "stock_pnl_pct": 31.88,
+  "stock_pnl_pct": 31.99,
   "etfs": [
     {
       "ticker": "USPY.DE",
@@ -61,8 +61,8 @@
   "stocks": [
     {
       "ticker": "HALO",
-      "weight_pct": 59.17,
-      "pnl_pct": 54.93,
+      "weight_pct": 61.83,
+      "pnl_pct": 54.96,
       "status": "Core",
       "buy_date": "2026-07-13",
       "days_held": 72,
@@ -70,21 +70,21 @@
     },
     {
       "ticker": "SMFG",
-      "weight_pct": 27.29,
-      "pnl_pct": 25.14,
+      "weight_pct": 24.15,
+      "pnl_pct": 24.95,
       "status": "Core",
       "buy_date": "2026-03-10",
       "days_held": 197,
-      "ann_pct": 51.5
+      "ann_pct": 51.1
     },
     {
       "ticker": "DKNG",
-      "weight_pct": 13.54,
-      "pnl_pct": -14.46,
+      "weight_pct": 14.02,
+      "pnl_pct": -15.19,
       "status": "Satellite",
       "buy_date": "2026-05-07",
       "days_held": 139,
-      "ann_pct": -33.6
+      "ann_pct": -35.1
     }
   ],
   "realized_etf": {
@@ -102,7 +102,7 @@
     "n_exits": 1
   },
   "allin_stk": {
-    "pct": 16.79,
+    "pct": 16.63,
     "n_exits": 9
   }
 }
