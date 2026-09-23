@@ -32,7 +32,7 @@
 <div class="card"><h3>Honest reporting</h3><p>Losers stay visible. Benchmark always shown. Trades published same-day. Educational only.</p></div>
 </div>
 <div class="card" style="margin-top:14px"><h3>Performance vs benchmarks (rebased to 100)</h3><div id="bench" style="height:320px"></div>
-<p style="color:#5B6B7C;font-size:13px">Live basket = our 19 real traded tickers (9 live holdings + 10 realized exits), equal-weighted, price-only, rebased 100. Same tickers as <a href="portfolio.html">Portfolio</a> + <a href="trades.html">Trades</a>. Benchmarks: URTH (MSCI World) + SPY (S&amp;P 500), same window, free yfinance. Live sleeves: ETF <b id="k-etf">–</b>, stocks <b id="k-stk">–</b>. <b id="excess" class="pos"></b></p></div>
+<p style="color:#5B6B7C;font-size:13px">Live basket = our 19 real traded tickers (9 live holdings + 10 realized exits), equal-weighted, price-only, rebased 100. Same tickers as <a href="portfolio.html">Portfolio</a> + <a href="trades.html">Trades</a>. Benchmarks: URTH (MSCI World) + SPY (S&amp;P 500), same window, free yfinance. All-in sleeves (live + exits): ETF <b id="k-etf">–</b>, stocks <b id="k-stk">–</b>. <b id="excess" class="pos"></b></p></div>
 <div class="card" style="margin-top:14px"><h3>Allocation (% only, no euros)</h3><div id="alloc" style="height:320px"></div>
 <p style="color:#5B6B7C;font-size:13px">Source: <code>data/holdings.json</code> — auto-exported daily via GitHub Actions. Privacy-safe: tickers + % only.</p></div>
 </main>
@@ -45,8 +45,8 @@ fetch('data/holdings.json').then(r=>r.json()).then(d=>{
    <div class="kpi"><b>${d.allin_etf.pct}%</b><br><span>ETF all-in %</span></div>
     <div class="kpi"><b>${d.allin_stk.pct}%</b><br><span>Stock all-in %</span></div>
    <div class="kpi"><b id="k-basket">–</b><br><span>Live basket vs MSCI</span></div>`;
-  document.getElementById('k-etf').textContent=d.etf_pnl_pct+'%';
-  document.getElementById('k-stk').textContent=d.stock_pnl_pct+'%';
+  document.getElementById('k-etf').textContent=d.allin_etf.pct+'%';
+  document.getElementById('k-stk').textContent=d.allin_stk.pct+'%';
   var chart=echarts.init(document.getElementById('alloc'));
  var data=[...d.etfs.map(x=>({value:x.weight_pct,name:x.ticker+' (ETF)'})),...d.stocks.map(x=>({value:x.weight_pct,name:x.ticker+' (Stock)'}))];
  chart.setOption({tooltip:{},series:[{type:'pie',radius:['45%','70%'],data}]});
