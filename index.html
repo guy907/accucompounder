@@ -41,7 +41,7 @@
 fetch('data/holdings.json').then(r=>r.json()).then(d=>{
  document.getElementById('upd').textContent=d.updated;
  document.getElementById('kpis').innerHTML=
-  `<div class="kpi"><b>${d.etfs.length+d.stocks.length}</b><br><span>Holdings</span></div>
+  `   <div class="kpi"><b>${d.etfs.length+d.stocks.length+d.allin_etf.n_exits+d.allin_stk.n_exits}</b><br><span>Tickers (live + exits)</span></div>
    <div class="kpi"><b>${d.allin_etf.pct}%</b><br><span>ETF all-in %</span></div>
     <div class="kpi"><b>${d.allin_stk.pct}%</b><br><span>Stock all-in %</span></div>
    <div class="kpi"><b id="k-basket">–</b><br><span>Live basket vs MSCI</span></div>`;
