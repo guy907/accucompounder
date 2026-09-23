@@ -15,6 +15,6 @@
 <div class="timeline" id="tl"></div></main><footer>© AccuCompounder Research — Educational showcase only. Not financial advice. Past performance ≠ future results. | <a href="trades.xml">RSS Trades</a> | <a href="tearsheet.html">Tearsheet</a></footer>
 <script>
 fetch('data/trades.json').then(r=>r.json()).then(d=>{
- document.getElementById('tl').innerHTML=d.trades.map(t=>`<div><b>${t.date}</b> — <b>${t.side}</b> ${t.ticker} <span class="${(t.pnl_pct??0)>=0?'pos':'neg'}">${t.pnl_pct??''}%</span></div>`).join('');
+ document.getElementById('tl').innerHTML=d.trades.map(t=>`<div><b>${t.date}</b> — <b>${t.side}</b> ${t.ticker}${t.pnl_pct!=null?` <span class="${t.pnl_pct>=0?'pos':'neg'}">${t.pnl_pct}%</span>`:''}</div>`).join('');
 });
 </script></body></html>
