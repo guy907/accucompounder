@@ -1,12 +1,12 @@
 {
   "updated": "2026-09-23",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 11 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: HALO (6.2), EXEL (6.1), SMFG (6.0)",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 10 HOLD | 🔶 2 TRIM | 🔴 0 SELL | ⚠️ Technology 5/12 (42%) — sectorconcentratie risico! | 🏆 Top: HALO (5.8), CLSK (5.6), SMFG (5.5)",
   "etf_summary": "🟢 10 BUY | 🌀 35 ACCUMULATE | 🟡 30 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: QDVR.DE (8.6), L0CK.DE (8.6), PLAY.AS (8.5)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 11,
-    "TRIM": 1,
+    "HOLD": 10,
+    "TRIM": 2,
     "SELL": 0,
     "CONFLICT": 0
   },
@@ -22,56 +22,56 @@
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 6.21,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "EXEL",
-      "name": "Exelixis, Inc.",
-      "advice": "HOLD",
-      "score": 6.14,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "SMFG",
-      "name": "",
-      "advice": "HOLD",
-      "score": 6.03,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "ARW",
-      "name": "Arrow Electronics, Inc.",
-      "advice": "HOLD",
-      "score": 5.98,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "WAT",
-      "name": "Waters Corporation",
-      "advice": "HOLD",
-      "score": 5.83,
+      "score": 5.8,
       "confidence": "HIGH"
     },
     {
       "ticker": "CLSK",
       "name": "CleanSpark, Inc.",
       "advice": "TRIM",
-      "score": 5.82,
+      "score": 5.63,
       "confidence": "LOW"
     },
     {
-      "ticker": "CRSR",
-      "name": "Corsair Gaming, Inc.",
+      "ticker": "SMFG",
+      "name": "",
       "advice": "HOLD",
-      "score": 5.75,
-      "confidence": "MEDIUM"
+      "score": 5.49,
+      "confidence": "HIGH"
     },
     {
       "ticker": "DT",
       "name": "Dynatrace, Inc.",
       "advice": "HOLD",
-      "score": 5.64,
+      "score": 5.3,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks, Inc.",
+      "advice": "HOLD",
+      "score": 5.24,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "ARW",
+      "name": "Arrow Electronics, Inc.",
+      "advice": "HOLD",
+      "score": 5.22,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "CRSR",
+      "name": "Corsair Gaming, Inc.",
+      "advice": "HOLD",
+      "score": 5.22,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "WAT",
+      "name": "Waters Corporation",
+      "advice": "HOLD",
+      "score": 5.1,
       "confidence": "HIGH"
     }
   ],
