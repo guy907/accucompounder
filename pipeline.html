@@ -20,7 +20,9 @@
 fetch('data/pipeline.json').then(r=>r.json()).then(d=>{
  document.getElementById('ss').textContent=d.stock_summary;
  document.getElementById('es').textContent=d.etf_summary;
- document.getElementById('st').innerHTML+=''+d.stocks_watch.map(x=>`<tr><td><b>${x.ticker}</b></td><td>${x.advice}</td><td>${x.score??''}</td></tr>`).join('');
- document.getElementById('et').innerHTML+=''+d.etf_queue.map(x=>`<tr><td><b>${x.ticker}</b></td><td>${x.advice}</td><td>${x.score??''}</td></tr>`).join('');
+  const dot={BUY:'🟢',ACCUMULATE:'🌀',HOLD:'🟡',TRIM:'🔶',SELL:'🔴',CONFLICT:'⚪'};
+  const trow=x=>`<tr><td><b>${x.ticker}</b></td><td>${dot[x.advice]||''} ${x.advice}</td><td>${x.score??''}</td></tr>`;
+  document.getElementById('st').innerHTML+=''+d.stocks_watch.map(trow).join('');
+  document.getElementById('et').innerHTML+=''+d.etf_queue.map(trow).join('');
 });
 </script><script data-goatcounter="https://fred1964.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>
