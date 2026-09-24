@@ -23,4 +23,4 @@ fetch('data/pipeline.json').then(r=>r.json()).then(d=>{
  document.getElementById('st').innerHTML+=''+d.stocks_watch.map(x=>`<tr><td><b>${x.ticker}</b></td><td>${x.advice}</td><td>${x.score??''}</td></tr>`).join('');
  document.getElementById('et').innerHTML+=''+d.etf_queue.map(x=>`<tr><td><b>${x.ticker}</b></td><td>${x.advice}</td><td>${x.score??''}</td></tr>`).join('');
 });
-</script></body></html>
+</script><script data-goatcounter="https://fred1964.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>

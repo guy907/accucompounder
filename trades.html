@@ -17,4 +17,4 @@
 fetch('data/trades.json').then(r=>r.json()).then(d=>{
  document.getElementById('tl').innerHTML=d.trades.map(t=>`<div><b>${t.date}</b> — <b>${t.side}</b> ${t.ticker}${t.pnl_pct!=null?` <span class="${t.pnl_pct>=0?'pos':'neg'}">${t.pnl_pct}%</span>`:''}</div>`).join('');
 });
-</script></body></html>
+</script><script data-goatcounter="https://fred1964.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>

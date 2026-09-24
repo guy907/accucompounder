@@ -26,4 +26,4 @@ Promise.all([fetch('data/pipeline.json').then(r=>r.json()),fetch('data/holdings.
  const w=[...h.etfs.map(x=>`${x.ticker} ${x.pnl_pct}%`),...h.stocks.map(x=>`${x.ticker} ${x.pnl_pct}%`)];
  document.getElementById('m-honest').textContent=`Live sleeve P&L: ETFs ${h.etf_pnl_pct}%, stocks ${h.stock_pnl_pct}%. Per holding: ${w.join(', ')}. Weights in %, benchmarks always alongside.`;
 });
-</script></body></html>
+</script><script data-goatcounter="https://fred1964.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>
