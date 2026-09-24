@@ -66,8 +66,20 @@
       "note": "Conviction buy. See Methodology."
     },
     {
+      "date": "2026-08-03",
+      "ticker": "WCLD.PA",
+      "side": "BUY",
+      "note": "Accumulating buy. See Methodology."
+    },
+    {
       "date": "2026-07-13",
       "ticker": "HALO",
+      "side": "BUY",
+      "note": "Conviction buy. See Methodology."
+    },
+    {
+      "date": "2026-07-13",
+      "ticker": "ARGX",
       "side": "BUY",
       "note": "Conviction buy. See Methodology."
     },
@@ -77,6 +89,12 @@
       "side": "SELL",
       "pnl_pct": -28.96,
       "note": "Thesis review / risk trim. See Methodology."
+    },
+    {
+      "date": "2026-06-24",
+      "ticker": "AMZN",
+      "side": "BUY",
+      "note": "Conviction buy. See Methodology."
     },
     {
       "date": "2026-06-11 16:15",
@@ -126,6 +144,18 @@
       "note": "Thesis review / risk trim. See Methodology."
     },
     {
+      "date": "2026-05-29",
+      "ticker": "PLTR",
+      "side": "BUY",
+      "note": "Conviction buy. See Methodology."
+    },
+    {
+      "date": "2026-05-15",
+      "ticker": "ARGX",
+      "side": "BUY",
+      "note": "Conviction buy. See Methodology."
+    },
+    {
       "date": "2026-05-07",
       "ticker": "DKNG",
       "side": "BUY",
@@ -146,6 +176,18 @@
     {
       "date": "2026-04-17",
       "ticker": "NFLX",
+      "side": "BUY",
+      "note": "Conviction buy. See Methodology."
+    },
+    {
+      "date": "2026-04-09",
+      "ticker": "AMZN",
+      "side": "BUY",
+      "note": "Conviction buy. See Methodology."
+    },
+    {
+      "date": "2026-04-02",
+      "ticker": "AMD",
       "side": "BUY",
       "note": "Conviction buy. See Methodology."
     },
