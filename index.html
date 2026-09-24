@@ -32,7 +32,7 @@
 <div class="card"><h3>Honest reporting</h3><p>Losers stay visible. Benchmark always shown. Trades published same-day. Educational only.</p></div>
 </div>
 <div class="card" style="margin-top:14px"><h3>Performance vs benchmarks (rebased to 100)</h3><div id="bench" style="height:320px"></div>
-<p style="color:#5B6B7C;font-size:13px">Live basket = our 19 real traded tickers (9 live holdings + 10 realized exits), equal-weighted, price-only, rebased 100. Same tickers as <a href="portfolio.html">Portfolio</a> + <a href="trades.html">Trades</a>. Benchmarks: URTH (MSCI World) + SPY (S&amp;P 500), same window, free yfinance. All-in sleeves (live + exits): ETF <b id="k-etf">–</b>, stocks <b id="k-stk">–</b>. <b id="excess" class="pos"></b></p></div>
+<p style="color:#5B6B7C;font-size:13px">Live basket = our <b id="n-tick">–</b> real traded tickers (<b id="n-live">–</b> live holdings + <b id="n-exit">–</b> realized exits), equal-weighted, price-only, rebased 100. Same tickers as <a href="portfolio.html">Portfolio</a> + <a href="trades.html">Trades</a>. Benchmarks: URTH (MSCI World) + SPY (S&amp;P 500), same window. All-in sleeves (live + exits): ETF <b id="k-etf">–</b>, stocks <b id="k-stk">–</b>. <b id="excess" class="pos"></b></p></div>
 <div class="card" style="margin-top:14px"><h3>Allocation (% only, no euros)</h3><div id="alloc" style="height:320px"></div></div>
 </main>
 <footer>© AccuCompounder Research — Educational showcase only. Not financial advice. Past performance ≠ future results. | <a href="trades.xml">RSS Trades</a> | <a href="tearsheet.html">Tearsheet</a> | Updated <span id="upd"></span></footer>
@@ -46,6 +46,10 @@ fetch('data/holdings.json').then(r=>r.json()).then(d=>{
    <div class="kpi"><b id="k-basket">–</b><br><span>Live basket vs MSCI</span></div>`;
   document.getElementById('k-etf').textContent=d.allin_etf.pct+'%';
   document.getElementById('k-stk').textContent=d.allin_stk.pct+'%';
+  var nl=d.etfs.length+d.stocks.length, nx=d.allin_etf.n_exits+d.allin_stk.n_exits;
+  document.getElementById('n-live').textContent=nl;
+  document.getElementById('n-exit').textContent=nx;
+  document.getElementById('n-tick').textContent=nl+nx;
   var chart=echarts.init(document.getElementById('alloc'));
  var data=[...d.etfs.map(x=>({value:x.weight_pct,name:x.ticker+' (ETF)'})),...d.stocks.map(x=>({value:x.weight_pct,name:x.ticker+' (Stock)'}))];
  chart.setOption({tooltip:{},series:[{type:'pie',radius:['45%','70%'],data}]});
