@@ -1,11 +1,11 @@
 {
   "updated": "2026-09-24",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 9 HOLD | 🔶 1 TRIM | 🔴 0 SELL | ⚠️ Technology 5/10 (50%) — sectorconcentratie risico! | 🏆 Top: HALO (5.7), WAT (5.5), SMFG (5.4)",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 10 HOLD | 🔶 1 TRIM | 🔴 0 SELL | ⚠️ Technology 5/11 (45%) — sectorconcentratie risico! | 🏆 Top: HALO (5.8), WAT (5.5), ANET (5.3)",
   "etf_summary": "🟢 9 BUY | 🌀 33 ACCUMULATE | 🟡 35 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: QDVR.DE (8.6), L0CK.DE (8.6), PLAY.AS (8.5)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 9,
+    "HOLD": 10,
     "TRIM": 1,
     "SELL": 0,
     "CONFLICT": 0
@@ -22,29 +22,29 @@
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 5.66,
-      "confidence": "HIGH"
+      "score": 5.83,
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "WAT",
       "name": "Waters Corporation",
       "advice": "HOLD",
-      "score": 5.46,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "SMFG",
-      "name": "",
-      "advice": "HOLD",
-      "score": 5.42,
+      "score": 5.49,
       "confidence": "HIGH"
     },
     {
       "ticker": "ANET",
       "name": "Arista Networks, Inc.",
       "advice": "HOLD",
-      "score": 5.32,
-      "confidence": "MEDIUM"
+      "score": 5.26,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "SMFG",
+      "name": "",
+      "advice": "HOLD",
+      "score": 5.15,
+      "confidence": "HIGH"
     },
     {
       "ticker": "ARW",
@@ -57,21 +57,21 @@
       "ticker": "CRSR",
       "name": "Corsair Gaming, Inc.",
       "advice": "HOLD",
-      "score": 5.1,
+      "score": 5.02,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "DT",
       "name": "Dynatrace, Inc.",
       "advice": "HOLD",
-      "score": 5.09,
+      "score": 4.7,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "TWLO",
       "name": "Twilio Inc.",
       "advice": "TRIM",
-      "score": 4.75,
+      "score": 4.67,
       "confidence": "MEDIUM"
     }
   ],
@@ -81,6 +81,7 @@
       "name": "iShares S&P 500 Comm Services Acc",
       "advice": "BUY",
       "score": 8.63,
+      "theme": "SP500-SECTOR",
       "confidence": "HIGH"
     },
     {
@@ -88,6 +89,7 @@
       "name": "iShares Digital Security UCITS ETF USD Acc",
       "advice": "BUY",
       "score": 8.6,
+      "theme": "TECH-THEMATIC",
       "confidence": "HIGH"
     },
     {
@@ -95,6 +97,7 @@
       "name": "iShares Digital Entertainment and Education UCITS ETF USD (A",
       "advice": "BUY",
       "score": 8.54,
+      "theme": "TECH-THEMATIC",
       "confidence": "HIGH"
     },
     {
@@ -102,6 +105,7 @@
       "name": "WisdomTree Enhanced Commodity UCITS ETF - GBP Hedged Acc",
       "advice": "BUY",
       "score": 8.5,
+      "theme": "COMMODITY",
       "confidence": "HIGH"
     },
     {
@@ -109,6 +113,7 @@
       "name": "VanEck Morningstar US Moat Acc",
       "advice": "BUY",
       "score": 8.27,
+      "theme": "SMART-BETA",
       "confidence": "HIGH"
     },
     {
@@ -116,6 +121,7 @@
       "name": "iShares S&P 500 Financials Acc",
       "advice": "BUY",
       "score": 8.12,
+      "theme": "FINANCIALS",
       "confidence": "HIGH"
     },
     {
@@ -123,6 +129,7 @@
       "name": "iShares VII PLC - iShares MSCI Japan ETF USD Acc",
       "advice": "BUY",
       "score": 7.93,
+      "theme": "OTHER/BROAD",
       "confidence": "HIGH"
     },
     {
@@ -130,6 +137,7 @@
       "name": "L&G Cybersecurity Acc",
       "advice": "BUY",
       "score": 7.83,
+      "theme": "TECH-THEMATIC",
       "confidence": "HIGH"
     }
   ],
