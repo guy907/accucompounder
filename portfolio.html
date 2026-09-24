@@ -23,8 +23,8 @@
 <script>
 fetch('data/holdings.json').then(r=>r.json()).then(d=>{
  const row=x=>{let s=`<span class="badge ${x.status==='Core'?'core':'sat'}">${x.status}</span>`;
-  if(x.buy_date&&x.days_held!=null){s+=`<br><small style="color:#5B6B7C">sinds ${x.buy_date} · ${x.days_held}d`;
-   if(x.ann_pct!=null)s+=` · ~${x.ann_pct}%/jr`;s+=`</small>`;}
+  if(x.buy_date&&x.days_held!=null){const dur=x.days_held>=60?(x.days_held/30.44).toFixed(1)+'mnd':x.days_held+'d';s+=`<br><small style="color:#5B6B7C">sinds ${x.buy_date} · ${dur}`;
+   if(x.ann_pct!=null)s+=` · ${x.ann_pct>=0?'+':''}${x.ann_pct}%/jr`;s+=`</small>`;}
   return `<tr><td><b>${x.ticker}</b></td><td>${x.weight_pct}%</td><td class="${x.pnl_pct>=0?'pos':'neg'}">${x.pnl_pct}%</td><td>${s}</td></tr>`;};
  document.getElementById('etf').innerHTML+=''+d.etfs.map(row).join('');
  document.getElementById('stk').innerHTML+=''+d.stocks.map(row).join('');

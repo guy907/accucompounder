@@ -10,7 +10,7 @@
       "status": "Core",
       "buy_date": "2026-04-21",
       "days_held": 156,
-      "ann_pct": 188.3
+      "ann_pct": null
     },
     {
       "ticker": "QDVF.DE",
@@ -75,7 +75,7 @@
       "status": "Core",
       "buy_date": "2026-03-10",
       "days_held": 198,
-      "ann_pct": 50.8
+      "ann_pct": null
     },
     {
       "ticker": "DKNG",
@@ -84,7 +84,7 @@
       "status": "Satellite",
       "buy_date": "2026-05-07",
       "days_held": 140,
-      "ann_pct": -34.9
+      "ann_pct": null
     }
   ],
   "realized_etf": {
