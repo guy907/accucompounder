@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "trades": [
     {
       "date": "2026-09-11",
@@ -60,6 +60,12 @@
       "note": "Thesis review / risk trim. See Methodology."
     },
     {
+      "date": "2026-08-04",
+      "ticker": "CMG",
+      "side": "BUY",
+      "note": "Conviction buy. See Methodology."
+    },
+    {
       "date": "2026-07-13",
       "ticker": "HALO",
       "side": "BUY",
@@ -80,11 +86,23 @@
       "note": "Thesis review / risk trim. See Methodology."
     },
     {
+      "date": "2026-06-11",
+      "ticker": "APP",
+      "side": "BUY",
+      "note": "Conviction buy. See Methodology."
+    },
+    {
       "date": "2026-06-10 19:39",
       "ticker": "VRTX",
       "side": "SELL",
       "pnl_pct": -2.78,
       "note": "Thesis review / risk trim. See Methodology."
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "VRTX",
+      "side": "BUY",
+      "note": "Conviction buy. See Methodology."
     },
     {
       "date": "2026-06-09 19:20",
@@ -114,10 +132,22 @@
       "note": "Conviction buy. See Methodology."
     },
     {
+      "date": "2026-04-27",
+      "ticker": "ALGN",
+      "side": "BUY",
+      "note": "Conviction buy. See Methodology."
+    },
+    {
       "date": "2026-04-21",
       "ticker": "USPY.DE",
       "side": "BUY",
       "note": "Accumulating buy. See Methodology."
+    },
+    {
+      "date": "2026-04-17",
+      "ticker": "NFLX",
+      "side": "BUY",
+      "note": "Conviction buy. See Methodology."
     },
     {
       "date": "2026-03-10",

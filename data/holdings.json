@@ -9,8 +9,8 @@
       "pnl_pct": 57.23,
       "status": "Core",
       "buy_date": "2026-04-21",
-      "days_held": 155,
-      "ann_pct": 190.3
+      "days_held": 156,
+      "ann_pct": 188.3
     },
     {
       "ticker": "QDVF.DE",
@@ -18,7 +18,7 @@
       "pnl_pct": 9.79,
       "status": "Core",
       "buy_date": "2026-08-06",
-      "days_held": 48,
+      "days_held": 49,
       "ann_pct": null
     },
     {
@@ -27,7 +27,7 @@
       "pnl_pct": 3.78,
       "status": "Core",
       "buy_date": "2026-09-11",
-      "days_held": 12,
+      "days_held": 13,
       "ann_pct": null
     },
     {
@@ -36,7 +36,7 @@
       "pnl_pct": -1.86,
       "status": "Satellite",
       "buy_date": "2026-08-17",
-      "days_held": 37,
+      "days_held": 38,
       "ann_pct": null
     },
     {
@@ -45,7 +45,7 @@
       "pnl_pct": 4.8,
       "status": "Satellite",
       "buy_date": "2026-08-21",
-      "days_held": 33,
+      "days_held": 34,
       "ann_pct": null
     },
     {
@@ -54,7 +54,7 @@
       "pnl_pct": -4.34,
       "status": "Satellite",
       "buy_date": "2026-08-07",
-      "days_held": 47,
+      "days_held": 48,
       "ann_pct": null
     }
   ],
@@ -65,7 +65,7 @@
       "pnl_pct": 54.96,
       "status": "Core",
       "buy_date": "2026-07-13",
-      "days_held": 72,
+      "days_held": 73,
       "ann_pct": null
     },
     {
@@ -74,8 +74,8 @@
       "pnl_pct": 24.95,
       "status": "Core",
       "buy_date": "2026-03-10",
-      "days_held": 197,
-      "ann_pct": 51.1
+      "days_held": 198,
+      "ann_pct": 50.8
     },
     {
       "ticker": "DKNG",
@@ -83,8 +83,8 @@
       "pnl_pct": -15.19,
       "status": "Satellite",
       "buy_date": "2026-05-07",
-      "days_held": 139,
-      "ann_pct": -35.1
+      "days_held": 140,
+      "ann_pct": -34.9
     }
   ],
   "realized_etf": {
