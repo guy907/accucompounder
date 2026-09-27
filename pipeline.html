@@ -16,6 +16,7 @@
 <div class="grid"><div class="card"><h3>Stock Advisor</h3><p id="ss"></p><table id="st"><tr><th>Ticker</th><th>Advice</th><th>Score</th></tr></table></div>
 <div class="card"><h3>ETF Advisor</h3><p id="es"></p><table id="et"><tr><th>Ticker</th><th>Advice</th><th>Score</th></tr></table></div></div>
 <p style="color:#5B6B7C">Stages: WATCH → CANDIDATE → QUEUED → BUY. Scores are weighted multi-signal composites. Market-regime badge is context-only (log-only audit).</p>
+<p style="color:#5B6B7C;background:#EEF3F7;border-radius:8px;padding:10px 14px"><b>About the ⚠️ sector line:</b> it describes the <b>watchlist above</b>, not the live portfolio on the <a href="portfolio.html">Portfolio</a> page. Anything above 40% of the watchlist in one sector is flagged as context — a flag is not an automatic block and not a trade trigger. A flagged sector can still hold real positions.</p>
 </main><footer>© AccuCompounder Research — Educational showcase only. Not financial advice. Past performance ≠ future results. | <a href="trades.xml">RSS Trades</a> | <a href="tearsheet.html">Tearsheet</a></footer>
 <script>
 fetch('data/pipeline.json').then(r=>r.json()).then(d=>{
