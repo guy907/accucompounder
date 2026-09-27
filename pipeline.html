@@ -22,8 +22,9 @@
 </main><footer>© AccuCompounder Research — Educational showcase only. Not financial advice. Past performance ≠ future results. | <a href="trades.xml">RSS Trades</a> | <a href="tearsheet.html">Tearsheet</a></footer>
 <script>
 fetch('data/pipeline.json').then(r=>r.json()).then(d=>{
- document.getElementById('ss').textContent=d.stock_summary;
- document.getElementById('es').textContent=d.etf_summary;
+ const EN=x=>String(x||'').replace(/sectorconcentratie risico!/gi,'concentration risk').trim();
+ document.getElementById('ss').textContent=EN(d.stock_summary);
+ document.getElementById('es').textContent=EN(d.etf_summary);
   const dot={BUY:'🟢',ACCUMULATE:'🌀',HOLD:'🟡',TRIM:'🔶',SELL:'🔴',CONFLICT:'⚪'};
   const trow=x=>`<tr><td><b>${x.ticker}</b></td><td>${dot[x.advice]||''} ${x.advice}</td><td>${x.score??''}</td></tr>`;
   document.getElementById('st').innerHTML+=''+d.stocks_watch.map(trow).join('');
