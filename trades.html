@@ -12,9 +12,12 @@
 <a href="index.html">Home</a><a href="portfolio.html">Portfolio</a><a href="pipeline.html">Pipeline</a><a href="trades.html" class="active">Trades</a><a href="methodology.html">Methodology</a><a href="tearsheet.html">Tearsheet</a></nav></header>
 <main><h1>Trades — every buy & sell disclosed</h1>
 <p>Only real transactions — no hold-snapshots (holdings live on <a href="portfolio.html">Portfolio</a>). Same-day publication. Legend: stock exits = thesis review / risk trim (see <a href="methodology.html">Methodology</a>), ETF exits = rebalance. Follow automatically via <a href="trades.xml">RSS</a>: paste that link in any feed reader (Feedly, Inoreader, Thunderbird) and you get each new trade without a newsletter.</p>
+<noscript><p class="noscript">The trade log below is built from live JSON and needs JavaScript. The same trades without it: <a href="trades.xml">RSS feed</a> (works in any feed reader) or the raw file at <a href="data/trades.json">data/trades.json</a>.</p></noscript>
 <div class="timeline" id="tl"></div></main><footer>© AccuCompounder Research — Educational showcase only. Not financial advice. Past performance ≠ future results. | <a href="trades.xml">RSS Trades</a> | <a href="tearsheet.html">Tearsheet</a></footer>
 <script>
 fetch('data/trades.json').then(r=>r.json()).then(d=>{
  document.getElementById('tl').innerHTML=d.trades.map(t=>`<div><b>${String(t.date).slice(0,10)}</b> — <b>${t.side}</b> ${t.ticker}${t.pnl_pct!=null?` <span class="${t.pnl_pct>=0?'pos':'neg'}">${t.pnl_pct}%</span>`:''}</div>`).join('');
+}).catch(()=>{
+ document.getElementById('tl').innerHTML='<p class="datafail" style="border-radius:8px">Trade log could not be loaded — <code>data/trades.json</code> did not respond, so <b>no trades are listed here, not because none were made</b>. Every trade is still in the <a href="trades.xml">RSS feed</a> and in the raw file at <a href="data/trades.json">data/trades.json</a>.</p>';
 });
 </script><script data-goatcounter="https://fred1964.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>

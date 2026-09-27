@@ -11,6 +11,7 @@
 <header><nav class="nav"><span class="brand">AccuCompounder <small>Research</small></span>
 <a href="index.html">Home</a><a href="portfolio.html">Portfolio</a><a href="pipeline.html">Pipeline</a><a href="trades.html">Trades</a><a href="methodology.html" class="active">Methodology</a><a href="tearsheet.html">Tearsheet</a></nav></header>
 <main><h1>Methodology</h1>
+<noscript><p class="noscript">The live advisor stats and per-holding P&amp;L on this page are built from live JSON and need JavaScript. The raw data is available at <a href="data/pipeline.json">data/pipeline.json</a> and <a href="data/holdings.json">data/holdings.json</a>.</p></noscript>
 <div class="card"><h3>1. Universe</h3><p>ETFs: only European accumulating UCITS. Stocks: only accumulating US + EU growers (no dividend-chasers). Long-only, no leverage.</p></div>
 <div class="card"><h3>2. Consolidated Advisors <span class="badge" id="m-upd">live</span></h3><p id="m-adv">Loading live advisor stats…</p><p>Dozens of signals → one weighted score → HOLD/BUY/TRIM/SELL + human check. Full queue on the <a href="pipeline.html">Pipeline</a> page.</p></div>
 <div class="card"><h3>3. Position sizing</h3><p><b>Core</b> = sleeve weight ≥15%, <b>Satellite</b> below. Simple, mechanical, no storytelling — current labels on the <a href="portfolio.html">Portfolio</a> page.</p></div>
@@ -25,5 +26,9 @@ Promise.all([fetch('data/pipeline.json').then(r=>r.json()),fetch('data/holdings.
  document.getElementById('m-adv').textContent=`Stock Advisor (${sCount} tickers: `+Object.entries(sd).map(([k,v])=>`${v} ${k}`).join(' / ')+`) — top: ${(p.stocks_watch||[]).slice(0,3).map(x=>x.ticker).join(' / ')} | ETF Advisor (${eCount} tickers: `+Object.entries(ed).map(([k,v])=>`${v} ${k}`).join(' / ')+') — queue: '+(p.etf_queue||[]).slice(0,3).map(x=>x.ticker).join(' / ');
  const w=[...h.etfs.map(x=>`${x.ticker} ${x.pnl_pct}%`),...h.stocks.map(x=>`${x.ticker} ${x.pnl_pct}%`)];
  document.getElementById('m-honest').textContent=`Live sleeve P&L: ETFs ${h.etf_pnl_pct}%, stocks ${h.stock_pnl_pct}%. Per holding: ${w.join(', ')}. Weights in %, benchmarks always alongside.`;
-});
+ }).catch(()=>{
+  document.getElementById('m-upd').textContent='unavailable';
+  document.getElementById('m-adv').innerHTML='<span class="datafail" style="display:inline-block">Live advisor stats could not be loaded — <code>data/pipeline.json</code> and <code>data/holdings.json</code> did not respond. The raw data is still readable at <a href="data/pipeline.json">data/pipeline.json</a> and <a href="data/holdings.json">data/holdings.json</a>.</span>';
+  document.getElementById('m-honest').innerHTML='<span class="datafail" style="display:inline-block">Live P&amp;L per holding could not be loaded, so no numbers are shown here. The raw data is still readable at <a href="data/holdings.json">data/holdings.json</a>.</span>';
+ });
 </script><script data-goatcounter="https://fred1964.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>

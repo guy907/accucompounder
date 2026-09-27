@@ -25,4 +25,6 @@ th{background:#EEF3F7;font-size:12px;text-transform:uppercase;letter-spacing:.5p
 footer{max-width:1000px;margin:0 auto;padding:20px;color:var(--muted);font-size:13px}
 .timeline{border-left:3px solid var(--line);padding-left:16px}.timeline div{margin:12px 0}
 code{background:#EEF3F7;padding:2px 6px;border-radius:6px}
+.datafail,.noscript{background:#FFF8E6;border:1px solid #F0DCA8;border-left:4px solid #D9A441;color:#6B5416;border-radius:8px;padding:10px 14px;margin:12px 0;font-size:14px}
+.datafail a,.noscript a{color:#6B5416;font-weight:700}
 @media(max-width:600px){.hero h1{font-size:24px}}

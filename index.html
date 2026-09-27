@@ -25,14 +25,16 @@
 <a class="btn ghost" href="pipeline.html" style="background:#fff">See Pipeline</a>
 <a class="btn ghost" href="trades.html" style="background:#fff">Latest Trades</a>
 </div>
+<noscript><p class="noscript">The charts and tables on this page are built from live JSON, which needs JavaScript. The same numbers without it: <a href="data/holdings.json">holdings.json</a>, <a href="data/benchmark.json">benchmark.json</a>, <a href="trades.xml">RSS trade feed</a>.</p></noscript>
 <div class="kpis" id="kpis"></div>
+<div class="datafail" id="f-holdings" hidden>Holdings could not be shown — either <code>data/holdings.json</code> did not load, or the charting library was blocked. The raw numbers are still readable at <a href="data/holdings.json">data/holdings.json</a>.</div>
 <div class="grid">
 <div class="card"><h3>Why accumulating?</h3><p>Compounding without dividend drag. UCITS accumulating ETFs for Europe, non-dividend growers for stocks. Tax-simple, long-horizon.</p></div>
 <div class="card"><h3>2 Consolidated Advisors</h3><p>Stock Advisor + ETF Advisor score dozens of signals into one conviction view. Pipeline page shows WATCH → CANDIDATE → QUEUED live.</p></div>
 <div class="card"><h3>Honest reporting</h3><p>Losers stay visible. Benchmark always shown. Trades published same-day. Educational only.</p></div>
 </div>
-<div class="card" style="margin-top:14px"><h3>Performance vs benchmarks (rebased to 100)</h3><div id="bench" style="height:320px"></div>
-<p style="color:#5B6B7C;font-size:13px">Live basket = our <b id="n-tick">–</b> real traded tickers (<b id="n-live">–</b> live holdings + <b id="n-exit">–</b> realized exits), equal-weighted, price-only, rebased 100. Same tickers as <a href="portfolio.html">Portfolio</a> + <a href="trades.html">Trades</a>. Benchmarks: URTH (MSCI World) + SPY (S&amp;P 500), same window. All-in sleeves (live + exits): ETF <b id="k-etf">–</b>, stocks <b id="k-stk">–</b>. <b id="excess" class="pos"></b></p></div>
+<div class="card" style="margin-top:14px"><h3>Performance vs benchmarks (rebased to 100)</h3><div class="datafail" id="f-bench" hidden>Performance could not be charted — either <code>data/benchmark.json</code> did not load, or the charting library was blocked. The raw numbers are still readable at <a href="data/benchmark.json">data/benchmark.json</a>.</div><div id="bench" style="height:320px"></div>
+<p style="color:#5B6B7C;font-size:13px">Live basket = our <b id="n-tick">–</b> real traded tickers (<b id="n-live">–</b> live holdings + <b id="n-exit">–</b> realized exits), equal-weighted, price-only, rebased 100. Same tickers as <a href="portfolio.html">Portfolio</a> + <a href="trades.html">Trades</a>. Benchmarks: URTH (MSCI World) + SPY (S&amp;P 500), same window. All-in sleeves (live + exits): ETF <b id="k-etf">–</b>, stocks <b id="k-stk">–</b>. <b id="excess" class="pos"></b><br>Tracked since <b id="since">–</b> · price-only, dividends and fees not included.</p></div>
 <div class="card" style="margin-top:14px"><h3>Allocation (% only, no euros)</h3><div id="alloc" style="height:320px"></div></div>
 </main>
 <footer>© AccuCompounder Research — Educational showcase only. Not financial advice. Past performance ≠ future results. | <a href="trades.xml">RSS Trades</a> | <a href="tearsheet.html">Tearsheet</a> | Updated <span id="upd"></span></footer>
@@ -52,17 +54,21 @@ fetch('data/holdings.json').then(r=>r.json()).then(d=>{
   document.getElementById('n-tick').textContent=nl+nx;
   var chart=echarts.init(document.getElementById('alloc'));
  var data=[...d.etfs.map(x=>({value:x.weight_pct,name:x.ticker+' (ETF)'})),...d.stocks.map(x=>({value:x.weight_pct,name:x.ticker+' (Stock)'}))];
- chart.setOption({tooltip:{},series:[{type:'pie',radius:['45%','70%'],data}]});
-});
+  chart.setOption({tooltip:{},series:[{type:'pie',radius:['45%','70%'],data}]});
+}).catch(()=>{document.getElementById('f-holdings').hidden=false});
 fetch('data/benchmark.json').then(r=>r.json()).then(b=>{
  var last=b.active_basket_norm.filter(Boolean).slice(-1)[0];
  var m=b.msci_world_norm.filter(Boolean).slice(-1)[0];
+ var n=(b.constituents||[]).length;
+ var startLabel=new Date(b.dates[0]+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
+ var basketName='Live basket ('+n+' real tickers)';
  document.getElementById('k-basket').innerHTML=`<span class="pos" style="font-size:1.35em">${last}</span> <small style="color:#5B6B7C;font-weight:400">vs ${m}</small>`;
- document.getElementById('excess').textContent=`Outperformance: +${(last-m).toFixed(1)}pp vs MSCI World since May.`;
+ document.getElementById('excess').textContent=`Outperformance: +${(last-m).toFixed(1)}pp vs MSCI World since ${startLabel}.`;
+ document.getElementById('since').textContent=startLabel;
  var c=echarts.init(document.getElementById('bench'));
-  c.setOption({tooltip:{trigger:'axis'},legend:{data:['Live basket (19 real tickers)','MSCI World (URTH)','S&P500 (SPY)']},xAxis:{type:'category',data:b.dates},yAxis:{type:'value'},series:[
-   {name:'Live basket (19 real tickers)',type:'line',data:b.active_basket_norm,smooth:true},
+  c.setOption({tooltip:{trigger:'axis'},legend:{data:[basketName,'MSCI World (URTH)','S&P500 (SPY)']},xAxis:{type:'category',data:b.dates},yAxis:{type:'value'},series:[
+   {name:basketName,type:'line',data:b.active_basket_norm,smooth:true},
   {name:'MSCI World (URTH)',type:'line',data:b.msci_world_norm,smooth:true},
   {name:'S&P500 (SPY)',type:'line',data:b.sp500_norm,smooth:true}]});
-});
+}).catch(()=>{document.getElementById('f-bench').hidden=false});
 </script><script data-goatcounter="https://fred1964.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>
