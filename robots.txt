@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# Geen gegevensbestanden of build-rommel crawlen
+Disallow: /.github/
+Disallow: /README.md
+
+Sitemap: https://guy907.github.io/accucompounder/sitemap.xml
