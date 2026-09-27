@@ -26,11 +26,16 @@
 <a class="btn ghost" href="trades.html" style="background:#fff">Latest Trades</a>
 </div>
 <noscript><p class="noscript">The charts and tables on this page are built from live JSON, which needs JavaScript. The same numbers without it: <a href="data/holdings.json">holdings.json</a>, <a href="data/benchmark.json">benchmark.json</a>, <a href="trades.xml">RSS trade feed</a>.</p></noscript>
-<div class="kpis" id="kpis"></div>
+<div class="kpis" id="kpis">
+ <div class="kpi"><b id="k-tick">–</b><br><span>Tickers (live + exits)</span></div>
+ <div class="kpi"><b id="k-etfpct">–</b><br><span>ETF all-in %</span></div>
+ <div class="kpi"><b id="k-stkpct">–</b><br><span>Stock all-in %</span></div>
+ <div class="kpi"><b id="k-basket">–</b><br><span>Live basket vs MSCI</span></div>
+</div>
 <div class="datafail" id="f-holdings" hidden>Holdings could not be shown — either <code>data/holdings.json</code> did not load, or the charting library was blocked. The raw numbers are still readable at <a href="data/holdings.json">data/holdings.json</a>.</div>
 <div class="grid">
 <div class="card"><h3>Why accumulating?</h3><p>Compounding without dividend drag. UCITS accumulating ETFs for Europe, non-dividend growers for stocks. Tax-simple, long-horizon.</p></div>
-<div class="card"><h3>2 Consolidated Advisors</h3><p>Stock Advisor + ETF Advisor score dozens of signals into one conviction view. Pipeline page shows WATCH → CANDIDATE → QUEUED live.</p></div>
+<div class="card"><h3>2 Consolidated Advisors</h3><p id="adv-card">Stock Advisor + ETF Advisor combine dozens of weighted multi-signal scores into one conviction view per ticker. WATCH → CANDIDATE → QUEUED, <a href="pipeline.html">full queue</a>.</p></div>
 <div class="card"><h3>Honest reporting</h3><p>Losers stay visible. Benchmark always shown. Trades published same-day. Educational only.</p></div>
 </div>
 <div class="card" style="margin-top:14px"><h3>Performance vs benchmarks (rebased to 100)</h3><div class="datafail" id="f-bench" hidden>Performance could not be charted — either <code>data/benchmark.json</code> did not load, or the charting library was blocked. The raw numbers are still readable at <a href="data/benchmark.json">data/benchmark.json</a>.</div><div id="bench" style="height:320px"></div>
@@ -41,17 +46,15 @@
 <script>
 fetch('data/holdings.json').then(r=>r.json()).then(d=>{
  document.getElementById('upd').textContent=d.updated;
- document.getElementById('kpis').innerHTML=
-  `   <div class="kpi"><b>${d.etfs.length+d.stocks.length+d.allin_etf.n_exits+d.allin_stk.n_exits}</b><br><span>Tickers (live + exits)</span></div>
-   <div class="kpi"><b>${d.allin_etf.pct}%</b><br><span>ETF all-in %</span></div>
-    <div class="kpi"><b>${d.allin_stk.pct}%</b><br><span>Stock all-in %</span></div>
-   <div class="kpi"><b id="k-basket">–</b><br><span>Live basket vs MSCI</span></div>`;
-  document.getElementById('k-etf').textContent=d.allin_etf.pct+'%';
-  document.getElementById('k-stk').textContent=d.allin_stk.pct+'%';
-  var nl=d.etfs.length+d.stocks.length, nx=d.allin_etf.n_exits+d.allin_stk.n_exits;
-  document.getElementById('n-live').textContent=nl;
-  document.getElementById('n-exit').textContent=nx;
-  document.getElementById('n-tick').textContent=nl+nx;
+ var nl=d.etfs.length+d.stocks.length, nx=d.allin_etf.n_exits+d.allin_stk.n_exits;
+ document.getElementById('k-tick').textContent=nl+nx;
+ document.getElementById('k-etfpct').textContent=d.allin_etf.pct+'%';
+ document.getElementById('k-stkpct').textContent=d.allin_stk.pct+'%';
+ document.getElementById('k-etf').textContent=d.allin_etf.pct+'%';
+ document.getElementById('k-stk').textContent=d.allin_stk.pct+'%';
+ document.getElementById('n-live').textContent=nl;
+ document.getElementById('n-exit').textContent=nx;
+ document.getElementById('n-tick').textContent=nl+nx;
   var chart=echarts.init(document.getElementById('alloc'));
  var data=[...d.etfs.map(x=>({value:x.weight_pct,name:x.ticker+' (ETF)'})),...d.stocks.map(x=>({value:x.weight_pct,name:x.ticker+' (Stock)'}))];
   chart.setOption({tooltip:{},series:[{type:'pie',radius:['45%','70%'],data}]});
@@ -71,4 +74,10 @@ fetch('data/benchmark.json').then(r=>r.json()).then(b=>{
   {name:'MSCI World (URTH)',type:'line',data:b.msci_world_norm,smooth:true},
   {name:'S&P500 (SPY)',type:'line',data:b.sp500_norm,smooth:true}]});
 }).catch(()=>{document.getElementById('f-bench').hidden=false});
+fetch('data/pipeline.json').then(r=>r.json()).then(p=>{
+ var nS=Object.values(p.stock_distribution||{}).reduce((a,b)=>a+b,0);
+ var nE=Object.values(p.etf_distribution||{}).reduce((a,b)=>a+b,0);
+ var n=nS+nE;
+ document.getElementById('adv-card').innerHTML=`<b>${n} signals</b> (${nS} stocks + ${nE} ETFs) combined into one conviction view per ticker. Stock Advisor + ETF Advisor, weighted multi-signal composites. <a href="pipeline.html">See the full queue</a>.`;
+});
 </script><script data-goatcounter="https://fred1964.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>
