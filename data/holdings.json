@@ -1,6 +1,6 @@
 {
-  "updated": "28-09-2026 11:29",
-  "etf_pnl_pct": 10.79,
+  "updated": "28-09-2026 11:30",
+  "etf_pnl_pct": 10.78,
   "stock_pnl_pct": 33.5,
   "etfs": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "ticker": "QDVF.DE",
-      "weight_pct": 20.06,
+      "weight_pct": 20.07,
       "pnl_pct": 10.96,
       "status": "Core",
       "buy_date": "2026-08-06",
@@ -24,7 +24,7 @@
     {
       "ticker": "XDWH.DE",
       "weight_pct": 19.16,
-      "pnl_pct": 4.29,
+      "pnl_pct": 4.27,
       "status": "Core",
       "buy_date": "2026-09-11",
       "days_held": 17,
