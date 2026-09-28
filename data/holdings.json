@@ -1,12 +1,12 @@
 {
-  "updated": "28-09-2026 11:08",
-  "etf_pnl_pct": 10.93,
+  "updated": "28-09-2026 11:27",
+  "etf_pnl_pct": 10.79,
   "stock_pnl_pct": 33.5,
   "etfs": [
     {
       "ticker": "USPY.DE",
-      "weight_pct": 23.53,
-      "pnl_pct": 52.1,
+      "weight_pct": 23.48,
+      "pnl_pct": 51.55,
       "status": "Core",
       "buy_date": "2026-04-21",
       "days_held": 160,
@@ -14,8 +14,8 @@
     },
     {
       "ticker": "QDVF.DE",
-      "weight_pct": 20.01,
-      "pnl_pct": 10.79,
+      "weight_pct": 20.06,
+      "pnl_pct": 10.96,
       "status": "Core",
       "buy_date": "2026-08-06",
       "days_held": 53,
@@ -23,8 +23,8 @@
     },
     {
       "ticker": "XDWH.DE",
-      "weight_pct": 19.17,
-      "pnl_pct": 4.48,
+      "weight_pct": 19.16,
+      "pnl_pct": 4.29,
       "status": "Core",
       "buy_date": "2026-09-11",
       "days_held": 17,
@@ -32,7 +32,7 @@
     },
     {
       "ticker": "XCHA.DE",
-      "weight_pct": 13.63,
+      "weight_pct": 13.65,
       "pnl_pct": -5.42,
       "status": "Satellite",
       "buy_date": "2026-08-17",
@@ -41,8 +41,8 @@
     },
     {
       "ticker": "CSJP.AS",
-      "weight_pct": 12.25,
-      "pnl_pct": 4.19,
+      "weight_pct": 12.27,
+      "pnl_pct": 4.25,
       "status": "Satellite",
       "buy_date": "2026-08-21",
       "days_held": 38,
@@ -50,8 +50,8 @@
     },
     {
       "ticker": "ASWC.DE",
-      "weight_pct": 11.41,
-      "pnl_pct": -5.73,
+      "weight_pct": 11.38,
+      "pnl_pct": -6.09,
       "status": "Satellite",
       "buy_date": "2026-08-07",
       "days_held": 52,
@@ -98,7 +98,7 @@
     "n": 9
   },
   "allin_etf": {
-    "pct": 11.61,
+    "pct": 11.49,
     "n_exits": 1
   },
   "allin_stk": {
