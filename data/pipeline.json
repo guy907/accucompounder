@@ -1,119 +1,95 @@
 {
   "updated": "2026-09-28",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 11 HOLD | 🔶 0 TRIM | 🔴 0 SELL | ⚠️ Technology 6/11 (55%) — sectorconcentratie risico! | 🏆 Top: HALO (6.2), WAT (5.7), ARW (5.5)",
-  "etf_summary": "🟢 7 BUY | 🌀 34 ACCUMULATE | 🟡 42 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: L0CK.DE (8.6), PLAY.AS (8.5), WCOM.L (8.5)",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 11 HOLD | 🔶 1 TRIM | 🔴 0 SELL | ⚠️ Technology 6/12 (50%) — sectorconcentratie risico! | 🏆 Top: DT (6.5), HALO (5.7), CRSR (5.5)",
+  "etf_summary": "🟢 2 BUY | 🌀 1 ACCUMULATE | 🟡 21 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: LYTR.DE (8.2), QDVE.DE (8.1), USPY.DE (7.8) | ⚠️ COMMODITY 2/3 (67%) — themaconcentratie risico!",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
     "HOLD": 11,
-    "TRIM": 0,
+    "TRIM": 1,
     "SELL": 0,
     "CONFLICT": 0
   },
   "etf_distribution": {
-    "BUY": 7,
-    "ACCUMULATE": 34,
-    "HOLD": 42,
+    "BUY": 2,
+    "ACCUMULATE": 1,
+    "HOLD": 21,
     "TRIM": 0,
     "SELL": 0
   },
   "stocks_watch": [
     {
+      "ticker": "DT",
+      "name": "Dynatrace, Inc.",
+      "advice": "TRIM",
+      "score": 6.45,
+      "confidence": "HIGH"
+    },
+    {
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 6.19,
+      "score": 5.71,
       "confidence": "HIGH"
-    },
-    {
-      "ticker": "WAT",
-      "name": "Waters Corporation",
-      "advice": "HOLD",
-      "score": 5.73,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "ARW",
-      "name": "Arrow Electronics, Inc.",
-      "advice": "HOLD",
-      "score": 5.48,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "DT",
-      "name": "Dynatrace, Inc.",
-      "advice": "HOLD",
-      "score": 5.44,
-      "confidence": "MEDIUM"
     },
     {
       "ticker": "CRSR",
       "name": "Corsair Gaming, Inc.",
       "advice": "HOLD",
-      "score": 5.31,
+      "score": 5.52,
       "confidence": "MEDIUM"
     },
     {
-      "ticker": "AKAM",
-      "name": "Akamai Technologies, Inc.",
+      "ticker": "ARW",
+      "name": "Arrow Electronics, Inc.",
       "advice": "HOLD",
-      "score": 5.18,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "SMFG",
-      "name": "",
-      "advice": "HOLD",
-      "score": 5.14,
+      "score": 5.17,
       "confidence": "HIGH"
     },
     {
       "ticker": "ANET",
       "name": "Arista Networks, Inc.",
       "advice": "HOLD",
-      "score": 4.17,
+      "score": 5.15,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "WAT",
+      "name": "Waters Corporation",
+      "advice": "HOLD",
+      "score": 5.03,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "SMFG",
+      "name": "",
+      "advice": "HOLD",
+      "score": 4.96,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "BJ",
+      "name": "BJ's Wholesale Club Holdings, I",
+      "advice": "HOLD",
+      "score": 4.83,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
-      "ticker": "L0CK.DE",
-      "name": "iShares Digital Security UCITS ETF USD Acc",
-      "advice": "BUY",
-      "score": 8.6,
-      "theme": "TECH-THEMATIC",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "PLAY.AS",
-      "name": "iShares Digital Entertainment and Education UCITS ETF USD (A",
-      "advice": "BUY",
-      "score": 8.54,
-      "theme": "TECH-THEMATIC",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "WCOM.L",
-      "name": "WisdomTree Enhanced Commodity UCITS ETF - GBP Hedged Acc",
-      "advice": "BUY",
-      "score": 8.5,
-      "theme": "COMMODITY",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "XDWT.DE",
-      "name": "Xtrackers Europe Info Tech Acc",
-      "advice": "BUY",
-      "score": 8.36,
-      "theme": "TECH-THEMATIC",
-      "confidence": "HIGH"
-    },
-    {
       "ticker": "LYTR.DE",
       "name": "Lyxor Commodities Refinitiv/CoreCommodity CRB TR UCITS ETF -",
       "advice": "BUY",
-      "score": 8.08,
+      "score": 8.17,
       "theme": "COMMODITY",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "QDVE.DE",
+      "name": "iShares S&P 500 Info Tech Acc",
+      "advice": "BUY",
+      "score": 8.08,
+      "theme": "TECH-THEMATIC",
       "confidence": "HIGH"
     }
   ],
