@@ -1,12 +1,12 @@
 {
   "updated": "2026-09-29",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 9 HOLD | 🔶 3 TRIM | 🔴 0 SELL | ⚠️ Technology 6/12 (50%) — sectorconcentratie risico! | 🏆 Top: WAT (6.8), DT (6.8), HALO (6.1)",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 13 HOLD | 🔶 1 TRIM | 🔴 0 SELL | ⚠️ Technology 6/14 (43%) — sectorconcentratie risico! | 🏆 Top: HALO (6.2), DT (6.2), LIND (5.8)",
   "etf_summary": "🟢 10 BUY | 🌀 8 ACCUMULATE | 🟡 6 HOLD | 🔶 0 TRIM | 🔴 1 SELL | 🏆 Top: XDWT.DE (8.3), ASPY.L (8.3), QDVE.DE (8.2)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 9,
-    "TRIM": 3,
+    "HOLD": 13,
+    "TRIM": 1,
     "SELL": 0,
     "CONFLICT": 0
   },
@@ -19,60 +19,60 @@
   },
   "stocks_watch": [
     {
-      "ticker": "WAT",
-      "name": "Waters Corporation",
-      "advice": "TRIM",
-      "score": 6.82,
+      "ticker": "HALO",
+      "name": "",
+      "advice": "HOLD",
+      "score": 6.25,
       "confidence": "HIGH"
     },
     {
       "ticker": "DT",
       "name": "Dynatrace, Inc.",
       "advice": "TRIM",
-      "score": 6.77,
-      "confidence": "HIGH"
+      "score": 6.17,
+      "confidence": "MEDIUM"
     },
     {
-      "ticker": "HALO",
-      "name": "",
+      "ticker": "LIND",
+      "name": "Lindblad Expeditions Holdings I",
       "advice": "HOLD",
-      "score": 6.08,
-      "confidence": "HIGH"
+      "score": 5.82,
+      "confidence": "MEDIUM"
     },
     {
-      "ticker": "BJ",
-      "name": "BJ's Wholesale Club Holdings, I",
+      "ticker": "ANET",
+      "name": "Arista Networks, Inc.",
       "advice": "HOLD",
-      "score": 5.33,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "SMFG",
-      "name": "",
-      "advice": "HOLD",
-      "score": 5.15,
-      "confidence": "HIGH"
+      "score": 5.8,
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "CRSR",
       "name": "Corsair Gaming, Inc.",
       "advice": "HOLD",
-      "score": 5.14,
+      "score": 5.8,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "ARW",
       "name": "Arrow Electronics, Inc.",
       "advice": "HOLD",
-      "score": 5.1,
+      "score": 5.7,
       "confidence": "MEDIUM"
     },
     {
-      "ticker": "TWLO",
-      "name": "Twilio Inc.",
-      "advice": "TRIM",
-      "score": 4.56,
+      "ticker": "BJ",
+      "name": "BJ's Wholesale Club Holdings, I",
+      "advice": "HOLD",
+      "score": 5.67,
       "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "SMFG",
+      "name": "",
+      "advice": "HOLD",
+      "score": 5.43,
+      "confidence": "HIGH"
     }
   ],
   "etf_queue": [
