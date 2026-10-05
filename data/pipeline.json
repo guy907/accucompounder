@@ -1,142 +1,142 @@
 {
-  "updated": "2026-10-02",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 5 TRIM | 🔴 0 SELL | ⚠️ Technology 5/10 (50%) — sectorconcentratie risico! | 🏆 Top: CRSR (6.8), HALO (6.5), LIND (6.4)",
-  "etf_summary": "🟢 8 BUY | 🌀 7 ACCUMULATE | 🟡 6 HOLD | 🔶 0 TRIM | 🔴 3 SELL | 🏆 Top: CSJP.MI (8.3), USPY.DE (8.1), LSMC.DE (7.9)",
+  "updated": "2026-10-05",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 6 HOLD | 🔶 3 TRIM | 🔴 0 SELL | ⚠️ Technology 5/9 (56%) — sectorconcentratie risico! | 🏆 Top: HALO (7.0), DT (6.7), KEYS (6.6)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 25 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: QDVF.DE (7.9), QDVR.DE (7.7), CSJP.MI (7.7)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 5,
-    "TRIM": 5,
+    "HOLD": 6,
+    "TRIM": 3,
     "SELL": 0,
     "CONFLICT": 0
   },
   "etf_distribution": {
-    "BUY": 8,
-    "ACCUMULATE": 7,
-    "HOLD": 6,
+    "BUY": 0,
+    "ACCUMULATE": 0,
+    "HOLD": 25,
     "TRIM": 0,
-    "SELL": 3
+    "SELL": 0
   },
   "stocks_watch": [
-    {
-      "ticker": "CRSR",
-      "name": "Corsair Gaming, Inc.",
-      "advice": "TRIM",
-      "score": 6.76,
-      "confidence": "MEDIUM"
-    },
     {
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 6.5,
+      "score": 6.97,
       "confidence": "HIGH"
     },
     {
-      "ticker": "LIND",
-      "name": "Lindblad Expeditions Holdings I",
+      "ticker": "DT",
+      "name": "Dynatrace, Inc.",
       "advice": "TRIM",
-      "score": 6.38,
+      "score": 6.67,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "KEYS",
+      "name": "Keysight Technologies Inc.",
+      "advice": "TRIM",
+      "score": 6.63,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "ARW",
+      "name": "Arrow Electronics, Inc.",
+      "advice": "TRIM",
+      "score": 6.48,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "WAT",
       "name": "Waters Corporation",
       "advice": "HOLD",
-      "score": 6.34,
+      "score": 6.3,
       "confidence": "HIGH"
-    },
-    {
-      "ticker": "ARW",
-      "name": "Arrow Electronics, Inc.",
-      "advice": "TRIM",
-      "score": 6.33,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "DT",
-      "name": "Dynatrace, Inc.",
-      "advice": "TRIM",
-      "score": 6.02,
-      "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 5.79,
+      "score": 5.9,
       "confidence": "HIGH"
     },
     {
-      "ticker": "ANET",
-      "name": "Arista Networks, Inc.",
+      "ticker": "CRSR",
+      "name": "Corsair Gaming, Inc.",
       "advice": "HOLD",
-      "score": 5.66,
+      "score": 5.52,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "GME",
+      "name": "GameStop Corporation",
+      "advice": "HOLD",
+      "score": 5.28,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
+      "ticker": "QDVF.DE",
+      "name": "iShares S&P 500 Financials Acc",
+      "advice": "HOLD",
+      "score": 7.87,
+      "theme": "FINANCIALS",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "QDVR.DE",
+      "name": "iShares S&P 500 Comm Services Acc",
+      "advice": "HOLD",
+      "score": 7.71,
+      "theme": "SP500-SECTOR",
+      "confidence": "HIGH"
+    },
+    {
       "ticker": "CSJP.MI",
       "name": "iShares VII PLC - iShares MSCI Japan ETF USD Acc",
-      "advice": "BUY",
-      "score": 8.3,
+      "advice": "HOLD",
+      "score": 7.69,
+      "theme": "OTHER/BROAD",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "AYEU.DE",
+      "name": "iShares Smart City Infrastructure UCITS ETF USD Acc",
+      "advice": "HOLD",
+      "score": 7.63,
+      "theme": "OTHER/BROAD",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "QDVG.DE",
+      "name": "iShares S&P 500 Health Care Acc",
+      "advice": "HOLD",
+      "score": 7.58,
+      "theme": "HEALTH",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "IS3R.DE",
+      "name": "iShares Edge MSCI World Momentum",
+      "advice": "HOLD",
+      "score": 7.52,
+      "theme": "SMART-BETA",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "IMIE.PA",
+      "name": "State Street SPDR MSCI ACWI IMI UCITS ETF",
+      "advice": "HOLD",
+      "score": 7.46,
       "theme": "OTHER/BROAD",
       "confidence": "MEDIUM"
     },
     {
       "ticker": "USPY.DE",
       "name": "L&G Cybersecurity Acc",
-      "advice": "BUY",
-      "score": 8.13,
-      "theme": "TECH-THEMATIC",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "LSMC.DE",
-      "name": "Lyxor MSCI Semiconductors ESG Filtered UCITS ETF - Acc EUR",
-      "advice": "BUY",
-      "score": 7.89,
-      "theme": "TECH-THEMATIC",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "QDVR.DE",
-      "name": "iShares S&P 500 Comm Services Acc",
-      "advice": "BUY",
-      "score": 7.77,
-      "theme": "SP500-SECTOR",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "IS3R.DE",
-      "name": "iShares Edge MSCI World Momentum",
-      "advice": "BUY",
-      "score": 7.76,
-      "theme": "SMART-BETA",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "IS3Q.DE",
-      "name": "iShares Edge MSCI World Quality",
-      "advice": "BUY",
-      "score": 7.65,
-      "theme": "SMART-BETA",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "XDWH.DE",
-      "name": "Xtrackers Europe Health Care Acc",
-      "advice": "ACCUMULATE",
-      "score": 7.58,
-      "theme": "HEALTH",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "QDVE.DE",
-      "name": "iShares S&P 500 Info Tech Acc",
-      "advice": "BUY",
-      "score": 7.58,
+      "advice": "HOLD",
+      "score": 7.38,
       "theme": "TECH-THEMATIC",
       "confidence": "HIGH"
     }
