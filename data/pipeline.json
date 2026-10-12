@@ -1,142 +1,142 @@
 {
-  "updated": "2026-10-09",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 9 HOLD | 🔶 0 TRIM | 🔴 0 SELL | ⚠️ Technology 6/9 (67%) — sectorconcentratie risico! | 🏆 Top: HALO (6.3), ANET (6.0), ARW (5.8)",
-  "etf_summary": "🟢 3 BUY | 🌀 2 ACCUMULATE | 🟡 20 HOLD | 🔶 0 TRIM | 🔴 1 SELL | 🏆 Top: IU5C.DE (8.1), RBOE.AS (8.0), QDVF.DE (7.7)",
+  "updated": "2026-10-12",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 8 HOLD | 🔶 0 TRIM | 🔴 0 SELL | ⚠️ Technology 5/8 (62%) — sectorconcentratie risico! | 🏆 Top: HALO (6.6), KEYS (6.2), AMZN (6.2)",
+  "etf_summary": "🟢 10 BUY | 🌀 7 ACCUMULATE | 🟡 8 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: XDWH.DE (8.5), XDW0.DE (8.4), RBOE.AS (8.0)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 9,
+    "HOLD": 8,
     "TRIM": 0,
     "SELL": 0,
     "CONFLICT": 0
   },
   "etf_distribution": {
-    "BUY": 3,
-    "ACCUMULATE": 2,
-    "HOLD": 20,
+    "BUY": 10,
+    "ACCUMULATE": 7,
+    "HOLD": 8,
     "TRIM": 0,
-    "SELL": 1
+    "SELL": 0
   },
   "stocks_watch": [
     {
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 6.29,
+      "score": 6.59,
       "confidence": "HIGH"
-    },
-    {
-      "ticker": "ANET",
-      "name": "Arista Networks, Inc.",
-      "advice": "HOLD",
-      "score": 5.95,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "ARW",
-      "name": "Arrow Electronics, Inc.",
-      "advice": "HOLD",
-      "score": 5.8,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "WAT",
-      "name": "Waters Corporation",
-      "advice": "HOLD",
-      "score": 5.6,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "DT",
-      "name": "Dynatrace, Inc.",
-      "advice": "HOLD",
-      "score": 5.52,
-      "confidence": "MEDIUM"
     },
     {
       "ticker": "KEYS",
       "name": "Keysight Technologies Inc.",
       "advice": "HOLD",
-      "score": 5.49,
+      "score": 6.2,
       "confidence": "HIGH"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "advice": "HOLD",
+      "score": 6.15,
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "CRSR",
       "name": "Corsair Gaming, Inc.",
       "advice": "HOLD",
-      "score": 5.44,
+      "score": 5.96,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 4.92,
+      "score": 5.59,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "DT",
+      "name": "Dynatrace, Inc.",
+      "advice": "HOLD",
+      "score": 5.56,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "BRZE",
+      "name": "Braze, Inc.",
+      "advice": "HOLD",
+      "score": 5.49,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "TWLO",
+      "name": "Twilio Inc.",
+      "advice": "HOLD",
+      "score": 4.82,
       "confidence": "HIGH"
     }
   ],
   "etf_queue": [
     {
-      "ticker": "IU5C.DE",
-      "name": "iShares S&P 500 Comm Services Acc",
+      "ticker": "XDWH.DE",
+      "name": "Xtrackers Europe Health Care Acc",
       "advice": "BUY",
-      "score": 8.13,
-      "theme": "SP500-SECTOR",
-      "confidence": "MEDIUM"
+      "score": 8.49,
+      "theme": "HEALTH",
+      "confidence": "HIGH"
     },
     {
-      "ticker": "LSMC.DE",
-      "name": "Lyxor MSCI Semiconductors ESG Filtered UCITS ETF - Acc EUR",
+      "ticker": "XDW0.DE",
+      "name": "Xtrackers Europe Energy Acc",
       "advice": "BUY",
-      "score": 7.5,
+      "score": 8.41,
+      "theme": "ENERGY",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "RBOE.AS",
+      "name": "iShares Automation & Robotics UCITS ETF USD (Acc)",
+      "advice": "BUY",
+      "score": 8.0,
       "theme": "TECH-THEMATIC",
       "confidence": "HIGH"
     },
     {
       "ticker": "QDVE.DE",
       "name": "iShares S&P 500 Info Tech Acc",
-      "advice": "ACCUMULATE",
-      "score": 7.17,
-      "theme": "TECH-THEMATIC",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "XDWH.DE",
-      "name": "Xtrackers Europe Health Care Acc",
       "advice": "BUY",
-      "score": 7.0,
-      "theme": "HEALTH",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "ECGH.L",
-      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
-      "advice": "ACCUMULATE",
-      "score": 6.71,
-      "theme": "COMMODITY",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "DFEN.DE",
-      "name": "VanEck Defense Acc",
-      "advice": "STRONG_SELL",
-      "score": 1.67,
-      "theme": "OTHER/BROAD",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "RBOE.AS",
-      "name": "iShares Automation & Robotics UCITS ETF USD (Acc)",
-      "advice": "HOLD",
-      "score": 7.99,
+      "score": 7.9,
       "theme": "TECH-THEMATIC",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "XDWT.DE",
+      "name": "Xtrackers Europe Info Tech Acc",
+      "advice": "BUY",
+      "score": 7.83,
+      "theme": "TECH-THEMATIC",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "JPGL.DE",
+      "name": "JPM Global Multi-Factor Equity",
+      "advice": "ACCUMULATE",
+      "score": 7.75,
+      "theme": "OTHER/BROAD",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "CSJP.MI",
+      "name": "iShares VII PLC - iShares MSCI Japan ETF USD Acc",
+      "advice": "BUY",
+      "score": 7.7,
+      "theme": "OTHER/BROAD",
       "confidence": "HIGH"
     },
     {
       "ticker": "QDVF.DE",
       "name": "iShares S&P 500 Financials Acc",
-      "advice": "HOLD",
-      "score": 7.73,
+      "advice": "BUY",
+      "score": 7.67,
       "theme": "FINANCIALS",
       "confidence": "HIGH"
     }
