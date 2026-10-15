@@ -1,61 +1,61 @@
 {
-  "updated": "2026-10-14",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 8 HOLD | 🔶 0 TRIM | 🔴 0 SELL | ⚠️ Technology 5/8 (62%) — sectorconcentratie risico! | 🏆 Top: HALO (6.8), DT (6.3), KEYS (6.1)",
-  "etf_summary": "🟢 11 BUY | 🌀 7 ACCUMULATE | 🟡 6 HOLD | 🔶 0 TRIM | 🔴 1 SELL | 🏆 Top: QDVG.DE (8.5), XDWH.DE (8.3), CSJP.MI (8.1)",
+  "updated": "2026-10-15",
+  "stock_summary": "🟢 0 BUY | 🌀 1 ACCUMULATE | 🟡 6 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 📊 HALO 40% | 🏆 Top: HALO (6.8), MNST (6.4), URBN (6.4)",
+  "etf_summary": "🟢 3 BUY | 🌀 1 ACCUMULATE | 🟡 19 HOLD | 🔶 0 TRIM | 🔴 2 SELL | 🏆 Top: XDWH.DE (7.9), QDVR.DE (7.7), SHLD.L (7.6) | ⚠️ TECH-THEMATIC 2/4 (50%) — themaconcentratie risico!",
   "stock_distribution": {
     "BUY": 0,
-    "ACCUMULATE": 0,
-    "HOLD": 8,
+    "ACCUMULATE": 1,
+    "HOLD": 6,
     "TRIM": 0,
     "SELL": 0,
     "CONFLICT": 0
   },
   "etf_distribution": {
-    "BUY": 11,
-    "ACCUMULATE": 7,
-    "HOLD": 6,
+    "BUY": 3,
+    "ACCUMULATE": 1,
+    "HOLD": 19,
     "TRIM": 0,
-    "SELL": 1
+    "SELL": 2
   },
   "stocks_watch": [
     {
       "ticker": "HALO",
       "name": "",
-      "advice": "HOLD",
-      "score": 6.78,
+      "advice": "ACCUMULATE",
+      "score": 6.8,
       "confidence": "MEDIUM"
     },
     {
-      "ticker": "DT",
-      "name": "Dynatrace, Inc.",
+      "ticker": "MNST",
+      "name": "Monster Beverage Corporation",
       "advice": "HOLD",
-      "score": 6.27,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "KEYS",
-      "name": "Keysight Technologies Inc.",
-      "advice": "HOLD",
-      "score": 6.11,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "CRSR",
-      "name": "Corsair Gaming, Inc.",
-      "advice": "HOLD",
-      "score": 5.83,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "BRZE",
-      "name": "Braze, Inc.",
-      "advice": "HOLD",
-      "score": 5.76,
+      "score": 6.44,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
+      "advice": "HOLD",
+      "score": 6.43,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "BSP",
+      "name": "Bending Spoons S.p.A.",
+      "advice": "HOLD",
+      "score": 6.02,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "DLTR",
+      "name": "Dollar Tree, Inc.",
+      "advice": "HOLD",
+      "score": 5.96,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "DT",
+      "name": "Dynatrace, Inc.",
       "advice": "HOLD",
       "score": 5.6,
       "confidence": "MEDIUM"
@@ -64,80 +64,73 @@
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 4.9,
+      "score": 4.58,
       "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "TWLO",
-      "name": "Twilio Inc.",
-      "advice": "HOLD",
-      "score": 4.69,
-      "confidence": "HIGH"
     }
   ],
   "etf_queue": [
     {
-      "ticker": "QDVG.DE",
-      "name": "iShares S&P 500 Health Care Acc",
-      "advice": "BUY",
-      "score": 8.47,
-      "theme": "HEALTH",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "XDWH.DE",
-      "name": "Xtrackers Europe Health Care Acc",
-      "advice": "BUY",
-      "score": 8.32,
-      "theme": "HEALTH",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "CSJP.MI",
-      "name": "iShares VII PLC - iShares MSCI Japan ETF USD Acc",
-      "advice": "BUY",
-      "score": 8.07,
-      "theme": "OTHER/BROAD",
-      "confidence": "HIGH"
-    },
-    {
       "ticker": "USPY.DE",
       "name": "L&G Cybersecurity Acc",
       "advice": "BUY",
-      "score": 8.07,
+      "score": 7.6,
       "theme": "TECH-THEMATIC",
       "confidence": "HIGH"
     },
     {
-      "ticker": "IU5C.DE",
-      "name": "iShares S&P 500 Comm Services Acc",
+      "ticker": "CBUN.DE",
+      "name": "iShares Digital Entertainment and Education UCITS ETF USD (A",
       "advice": "BUY",
-      "score": 8.04,
-      "theme": "SP500-SECTOR",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "QDVE.DE",
-      "name": "iShares S&P 500 Info Tech Acc",
-      "advice": "BUY",
-      "score": 8.04,
+      "score": 7.25,
       "theme": "TECH-THEMATIC",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "COMO.MI",
-      "name": "Amundi Bloomberg Equal-weight Commodity ex-Agriculture UCITS",
-      "advice": "ACCUMULATE",
-      "score": 7.61,
-      "theme": "COMMODITY",
-      "confidence": "HIGH"
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "ECGH.L",
       "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
       "advice": "ACCUMULATE",
-      "score": 7.61,
+      "score": 6.72,
       "theme": "COMMODITY",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "IS3R.DE",
+      "name": "iShares Edge MSCI World Momentum",
+      "advice": "BUY",
+      "score": 6.3,
+      "theme": "SMART-BETA",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "XCHA.DE",
+      "name": "Xtrackers CSI 300 China Acc",
+      "advice": "SELL",
+      "score": 2.33,
+      "theme": "OTHER/BROAD",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "COPX.L",
+      "name": "Global X Copper Miners UCITS ETF USD Acc",
+      "advice": "STRONG_SELL",
+      "score": 2.12,
+      "theme": "COMMODITY",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "XDWH.DE",
+      "name": "Xtrackers Europe Health Care Acc",
+      "advice": "HOLD",
+      "score": 7.91,
+      "theme": "HEALTH",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "QDVR.DE",
+      "name": "iShares S&P 500 Comm Services Acc",
+      "advice": "HOLD",
+      "score": 7.69,
+      "theme": "SP500-SECTOR",
       "confidence": "HIGH"
     }
   ],
