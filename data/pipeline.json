@@ -1,136 +1,143 @@
 {
-  "updated": "2026-10-15",
-  "stock_summary": "🟢 0 BUY | 🌀 1 ACCUMULATE | 🟡 6 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 📊 HALO 40% | 🏆 Top: HALO (6.8), MNST (6.4), URBN (6.4)",
-  "etf_summary": "🟢 3 BUY | 🌀 1 ACCUMULATE | 🟡 19 HOLD | 🔶 0 TRIM | 🔴 2 SELL | 🏆 Top: XDWH.DE (7.9), QDVR.DE (7.7), SHLD.L (7.6) | ⚠️ TECH-THEMATIC 2/4 (50%) — themaconcentratie risico!",
+  "updated": "2026-10-16",
+  "stock_summary": "🟢 1 BUY | 🌀 1 ACCUMULATE | 🟡 7 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 📊 DT 40% | HALO 40% | 🏆 Top: DT (6.5), HALO (6.4), ABNB (6.1)",
+  "etf_summary": "🟢 2 BUY | 🌀 1 ACCUMULATE | 🟡 20 HOLD | 🔶 0 TRIM | 🔴 2 SELL | 🏆 Top: XDW0.DE (7.9), XDWH.DE (7.9), QDVF.DE (7.7) | ⚠️ TECH-THEMATIC 2/3 (67%) — themaconcentratie risico!",
   "stock_distribution": {
-    "BUY": 0,
+    "BUY": 1,
     "ACCUMULATE": 1,
-    "HOLD": 6,
+    "HOLD": 7,
     "TRIM": 0,
     "SELL": 0,
     "CONFLICT": 0
   },
   "etf_distribution": {
-    "BUY": 3,
+    "BUY": 2,
     "ACCUMULATE": 1,
-    "HOLD": 19,
+    "HOLD": 20,
     "TRIM": 0,
     "SELL": 2
   },
   "stocks_watch": [
     {
+      "ticker": "DT",
+      "name": "Dynatrace, Inc.",
+      "advice": "BUY",
+      "score": 6.54,
+      "confidence": "HIGH"
+    },
+    {
       "ticker": "HALO",
       "name": "",
       "advice": "ACCUMULATE",
-      "score": 6.8,
+      "score": 6.39,
       "confidence": "MEDIUM"
     },
     {
-      "ticker": "MNST",
-      "name": "Monster Beverage Corporation",
+      "ticker": "ABNB",
+      "name": "Airbnb, Inc.",
       "advice": "HOLD",
-      "score": 6.44,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "URBN",
-      "name": "Urban Outfitters, Inc.",
-      "advice": "HOLD",
-      "score": 6.43,
+      "score": 6.14,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "BSP",
       "name": "Bending Spoons S.p.A.",
       "advice": "HOLD",
-      "score": 6.02,
+      "score": 5.97,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "DLTR",
       "name": "Dollar Tree, Inc.",
       "advice": "HOLD",
-      "score": 5.96,
+      "score": 5.92,
       "confidence": "HIGH"
     },
     {
-      "ticker": "DT",
-      "name": "Dynatrace, Inc.",
+      "ticker": "MNST",
+      "name": "Monster Beverage Corporation",
       "advice": "HOLD",
-      "score": 5.6,
+      "score": 5.91,
       "confidence": "MEDIUM"
     },
     {
-      "ticker": "SMFG",
-      "name": "",
+      "ticker": "URBN",
+      "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 4.58,
+      "score": 5.83,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "ACGL",
+      "name": "Arch Capital Group Ltd.",
+      "advice": "HOLD",
+      "score": 5.73,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
-      "ticker": "USPY.DE",
-      "name": "L&G Cybersecurity Acc",
-      "advice": "BUY",
-      "score": 7.6,
-      "theme": "TECH-THEMATIC",
-      "confidence": "HIGH"
-    },
-    {
       "ticker": "CBUN.DE",
       "name": "iShares Digital Entertainment and Education UCITS ETF USD (A",
       "advice": "BUY",
-      "score": 7.25,
+      "score": 7.16,
       "theme": "TECH-THEMATIC",
       "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "USPY.DE",
+      "name": "L&G Cybersecurity Acc",
+      "advice": "BUY",
+      "score": 7.09,
+      "theme": "TECH-THEMATIC",
+      "confidence": "HIGH"
     },
     {
       "ticker": "ECGH.L",
       "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
       "advice": "ACCUMULATE",
-      "score": 6.72,
+      "score": 6.7,
       "theme": "COMMODITY",
       "confidence": "HIGH"
-    },
-    {
-      "ticker": "IS3R.DE",
-      "name": "iShares Edge MSCI World Momentum",
-      "advice": "BUY",
-      "score": 6.3,
-      "theme": "SMART-BETA",
-      "confidence": "MEDIUM"
     },
     {
       "ticker": "XCHA.DE",
       "name": "Xtrackers CSI 300 China Acc",
       "advice": "SELL",
-      "score": 2.33,
+      "score": 1.84,
       "theme": "OTHER/BROAD",
-      "confidence": "HIGH"
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "COPX.L",
       "name": "Global X Copper Miners UCITS ETF USD Acc",
       "advice": "STRONG_SELL",
-      "score": 2.12,
+      "score": 1.63,
       "theme": "COMMODITY",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "XDW0.DE",
+      "name": "Xtrackers Europe Energy Acc",
+      "advice": "HOLD",
+      "score": 7.91,
+      "theme": "ENERGY",
       "confidence": "HIGH"
     },
     {
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "HOLD",
-      "score": 7.91,
+      "score": 7.89,
       "theme": "HEALTH",
       "confidence": "HIGH"
     },
     {
-      "ticker": "QDVR.DE",
-      "name": "iShares S&P 500 Comm Services Acc",
+      "ticker": "QDVF.DE",
+      "name": "iShares S&P 500 Financials Acc",
       "advice": "HOLD",
-      "score": 7.69,
-      "theme": "SP500-SECTOR",
+      "score": 7.73,
+      "theme": "FINANCIALS",
       "confidence": "HIGH"
     }
   ],
