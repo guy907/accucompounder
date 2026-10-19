@@ -1,144 +1,144 @@
 {
-  "updated": "2026-10-16",
-  "stock_summary": "🟢 1 BUY | 🌀 1 ACCUMULATE | 🟡 7 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 📊 DT 40% | HALO 40% | 🏆 Top: DT (6.5), HALO (6.4), ABNB (6.1)",
-  "etf_summary": "🟢 2 BUY | 🌀 1 ACCUMULATE | 🟡 20 HOLD | 🔶 0 TRIM | 🔴 2 SELL | 🏆 Top: XDW0.DE (7.9), XDWH.DE (7.9), QDVF.DE (7.7) | ⚠️ TECH-THEMATIC 2/3 (67%) — themaconcentratie risico!",
+  "updated": "2026-10-19",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 8 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: HALO (5.9), MNST (5.9), DT (5.8)",
+  "etf_summary": "🟢 1 BUY | 🌀 0 ACCUMULATE | 🟡 21 HOLD | 🔶 0 TRIM | 🔴 2 SELL | 🏆 Top: XDWH.DE (8.1), QDVF.DE (7.2), XDW0.DE (7.2) | ⚠️ HEALTH 1/1 (100%) — themaconcentratie risico! | 📅 koers: 24/24 op koers >2d | 🤖 LLM 36/48 mislukt (3.64% gewicht neutraal)",
   "stock_distribution": {
-    "BUY": 1,
-    "ACCUMULATE": 1,
-    "HOLD": 7,
+    "BUY": 0,
+    "ACCUMULATE": 0,
+    "HOLD": 8,
     "TRIM": 0,
     "SELL": 0,
     "CONFLICT": 0
   },
   "etf_distribution": {
-    "BUY": 2,
-    "ACCUMULATE": 1,
-    "HOLD": 20,
+    "BUY": 1,
+    "ACCUMULATE": 0,
+    "HOLD": 21,
     "TRIM": 0,
     "SELL": 2
   },
   "stocks_watch": [
     {
-      "ticker": "DT",
-      "name": "Dynatrace, Inc.",
-      "advice": "BUY",
-      "score": 6.54,
-      "confidence": "HIGH"
-    },
-    {
       "ticker": "HALO",
       "name": "",
-      "advice": "ACCUMULATE",
-      "score": 6.39,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "ABNB",
-      "name": "Airbnb, Inc.",
       "advice": "HOLD",
-      "score": 6.14,
+      "score": 5.94,
       "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "BSP",
-      "name": "Bending Spoons S.p.A.",
-      "advice": "HOLD",
-      "score": 5.97,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "DLTR",
-      "name": "Dollar Tree, Inc.",
-      "advice": "HOLD",
-      "score": 5.92,
-      "confidence": "HIGH"
     },
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
       "advice": "HOLD",
       "score": 5.91,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "DT",
+      "name": "Dynatrace, Inc.",
+      "advice": "HOLD",
+      "score": 5.81,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "BJ",
+      "name": "BJ's Wholesale Club Holdings, I",
+      "advice": "HOLD",
+      "score": 5.7,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "BSP",
+      "name": "Bending Spoons S.p.A.",
+      "advice": "HOLD",
+      "score": 5.66,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 5.83,
-      "confidence": "MEDIUM"
+      "score": 5.33,
+      "confidence": "HIGH"
     },
     {
-      "ticker": "ACGL",
-      "name": "Arch Capital Group Ltd.",
+      "ticker": "DLTR",
+      "name": "Dollar Tree, Inc.",
       "advice": "HOLD",
-      "score": 5.73,
+      "score": 5.06,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "SMFG",
+      "name": "",
+      "advice": "HOLD",
+      "score": 4.08,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
-      "ticker": "CBUN.DE",
-      "name": "iShares Digital Entertainment and Education UCITS ETF USD (A",
-      "advice": "BUY",
-      "score": 7.16,
-      "theme": "TECH-THEMATIC",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "USPY.DE",
-      "name": "L&G Cybersecurity Acc",
-      "advice": "BUY",
-      "score": 7.09,
-      "theme": "TECH-THEMATIC",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "ECGH.L",
-      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
-      "advice": "ACCUMULATE",
-      "score": 6.7,
-      "theme": "COMMODITY",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "XCHA.DE",
-      "name": "Xtrackers CSI 300 China Acc",
-      "advice": "SELL",
-      "score": 1.84,
-      "theme": "OTHER/BROAD",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "COPX.L",
-      "name": "Global X Copper Miners UCITS ETF USD Acc",
-      "advice": "STRONG_SELL",
-      "score": 1.63,
-      "theme": "COMMODITY",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "XDW0.DE",
-      "name": "Xtrackers Europe Energy Acc",
-      "advice": "HOLD",
-      "score": 7.91,
-      "theme": "ENERGY",
-      "confidence": "HIGH"
-    },
-    {
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
-      "advice": "HOLD",
-      "score": 7.89,
+      "advice": "BUY",
+      "score": 8.05,
       "theme": "HEALTH",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "SC0U.DE",
+      "name": "Invesco STOXX Europe 600 Optimised Banks UCITS ETF",
+      "advice": "STRONG_SELL",
+      "score": 2.47,
+      "theme": "FINANCIALS",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "BNKE.PA",
+      "name": "Amundi Euro Stoxx Banks UCITS ETF Acc",
+      "advice": "STRONG_SELL",
+      "score": 2.37,
+      "theme": "FINANCIALS",
       "confidence": "HIGH"
     },
     {
       "ticker": "QDVF.DE",
       "name": "iShares S&P 500 Financials Acc",
       "advice": "HOLD",
-      "score": 7.73,
+      "score": 7.21,
       "theme": "FINANCIALS",
       "confidence": "HIGH"
+    },
+    {
+      "ticker": "XDW0.DE",
+      "name": "Xtrackers Europe Energy Acc",
+      "advice": "HOLD",
+      "score": 7.19,
+      "theme": "ENERGY",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "IU5C.DE",
+      "name": "iShares S&P 500 Comm Services Acc",
+      "advice": "HOLD",
+      "score": 7.04,
+      "theme": "SP500-SECTOR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "ECGH.L",
+      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
+      "advice": "HOLD",
+      "score": 7.03,
+      "theme": "COMMODITY",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "LYTR.DE",
+      "name": "Lyxor Commodities Refinitiv/CoreCommodity CRB TR UCITS ETF -",
+      "advice": "HOLD",
+      "score": 6.87,
+      "theme": "COMMODITY",
+      "confidence": "MEDIUM"
     }
   ],
   "regime_note": "Market context only (log-only audit). No signal use."
