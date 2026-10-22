@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-21",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 8 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: HALO (6.2), MNST (5.5), DT (5.4)",
-  "etf_summary": "🟢 1 BUY | 🌀 0 ACCUMULATE | 🟡 21 HOLD | 🔶 0 TRIM | 🔴 2 SELL | 🏆 Top: XDWH.DE (7.4), XDW0.DE (7.3), QDVF.DE (7.2) | ⚠️ HEALTH 1/1 (100%) — themaconcentratie risico! | 🤖 LLM 35/48 mislukt (3.54% gewicht neutraal)",
+  "updated": "2026-10-22",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 7 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: HALO (6.5), DT (6.1), BJ (5.5)",
+  "etf_summary": "🟢 1 BUY | 🌀 0 ACCUMULATE | 🟡 18 HOLD | 🔶 1 TRIM | 🔴 4 SELL | 🏆 Top: XDWH.DE (8.0), XDWC.DE (7.6), ECGH.L (7.3) | ⚠️ HEALTH 1/1 (100%) — themaconcentratie risico! | 🤖 LLM 37/48 mislukt (3.74% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 8,
+    "HOLD": 7,
     "TRIM": 1,
     "SELL": 0,
     "CONFLICT": 0
@@ -13,66 +13,66 @@
   "etf_distribution": {
     "BUY": 1,
     "ACCUMULATE": 0,
-    "HOLD": 21,
-    "TRIM": 0,
-    "SELL": 2
+    "HOLD": 18,
+    "TRIM": 1,
+    "SELL": 4
   },
   "stocks_watch": [
     {
       "ticker": "HALO",
       "name": "",
       "advice": "TRIM",
-      "score": 6.25,
+      "score": 6.53,
       "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "MNST",
-      "name": "Monster Beverage Corporation",
-      "advice": "HOLD",
-      "score": 5.53,
-      "confidence": "HIGH"
     },
     {
       "ticker": "DT",
       "name": "Dynatrace, Inc.",
       "advice": "HOLD",
-      "score": 5.37,
+      "score": 6.13,
       "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "BJ",
+      "name": "BJ's Wholesale Club Holdings, I",
+      "advice": "HOLD",
+      "score": 5.54,
+      "confidence": "HIGH"
     },
     {
       "ticker": "BSP",
       "name": "Bending Spoons S.p.A.",
       "advice": "HOLD",
-      "score": 5.33,
+      "score": 5.43,
       "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "DLTR",
-      "name": "Dollar Tree, Inc.",
-      "advice": "HOLD",
-      "score": 5.21,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "advice": "HOLD",
-      "score": 5.13,
-      "confidence": "HIGH"
     },
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 4.84,
+      "score": 5.22,
       "confidence": "HIGH"
     },
     {
-      "ticker": "THC",
-      "name": "Tenet Healthcare Corporation",
+      "ticker": "MNST",
+      "name": "Monster Beverage Corporation",
       "advice": "HOLD",
-      "score": 4.81,
+      "score": 5.11,
       "confidence": "HIGH"
+    },
+    {
+      "ticker": "DLTR",
+      "name": "Dollar Tree, Inc.",
+      "advice": "HOLD",
+      "score": 5.1,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "SMFG",
+      "name": "",
+      "advice": "HOLD",
+      "score": 4.36,
+      "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
@@ -80,15 +80,23 @@
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "BUY",
-      "score": 7.38,
+      "score": 7.96,
       "theme": "HEALTH",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "QDVF.DE",
+      "name": "iShares S&P 500 Financials Acc",
+      "advice": "TRIM",
+      "score": 6.35,
+      "theme": "FINANCIALS",
       "confidence": "HIGH"
     },
     {
       "ticker": "SC0U.DE",
       "name": "Invesco STOXX Europe 600 Optimised Banks UCITS ETF",
       "advice": "STRONG_SELL",
-      "score": 2.55,
+      "score": 2.35,
       "theme": "FINANCIALS",
       "confidence": "HIGH"
     },
@@ -101,26 +109,26 @@
       "confidence": "HIGH"
     },
     {
-      "ticker": "XDW0.DE",
-      "name": "Xtrackers Europe Energy Acc",
-      "advice": "HOLD",
-      "score": 7.32,
-      "theme": "ENERGY",
-      "confidence": "HIGH"
+      "ticker": "XCHA.DE",
+      "name": "Xtrackers CSI 300 China Acc",
+      "advice": "STRONG_SELL",
+      "score": 1.23,
+      "theme": "OTHER/BROAD",
+      "confidence": "MEDIUM"
     },
     {
-      "ticker": "QDVF.DE",
-      "name": "iShares S&P 500 Financials Acc",
-      "advice": "HOLD",
-      "score": 7.23,
-      "theme": "FINANCIALS",
+      "ticker": "COPX.L",
+      "name": "Global X Copper Miners UCITS ETF USD Acc",
+      "advice": "STRONG_SELL",
+      "score": 1.01,
+      "theme": "COMMODITY",
       "confidence": "HIGH"
     },
     {
       "ticker": "XDWC.DE",
       "name": "Xtrackers Europe Construction Acc",
       "advice": "HOLD",
-      "score": 6.94,
+      "score": 7.58,
       "theme": "OTHER/BROAD",
       "confidence": "MEDIUM"
     },
@@ -128,16 +136,8 @@
       "ticker": "ECGH.L",
       "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
       "advice": "HOLD",
-      "score": 6.89,
+      "score": 7.33,
       "theme": "COMMODITY",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "QDVR.DE",
-      "name": "iShares S&P 500 Comm Services Acc",
-      "advice": "HOLD",
-      "score": 6.69,
-      "theme": "SP500-SECTOR",
       "confidence": "HIGH"
     }
   ],
