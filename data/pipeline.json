@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-23",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 7 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: AMRX (6.7), URBN (6.5), HALO (6.3)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 21 HOLD | 🔶 1 TRIM | 🔴 3 SELL | 🏆 Top: XDW0.DE (7.7), EWSP.AS (7.5), QDVF.DE (7.4) | 🤖 LLM 32/50 mislukt (3.11% gewicht neutraal)",
+  "updated": "2026-10-26",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 4 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: HALO (6.4), MNST (5.9), URBN (5.7)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 23 HOLD | 🔶 2 TRIM | 🔴 0 SELL | 🏆 Top: XDWC.DE (7.3), QDVG.DE (7.0), EWSP.AS (7.0) | 📅 koers: 25/25 op koers >2d | 🤖 LLM 37/50 mislukt (3.59% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 7,
+    "HOLD": 4,
     "TRIM": 1,
     "SELL": 0,
     "CONFLICT": 0
@@ -13,131 +13,110 @@
   "etf_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 21,
-    "TRIM": 1,
-    "SELL": 3
+    "HOLD": 23,
+    "TRIM": 2,
+    "SELL": 0
   },
   "stocks_watch": [
-    {
-      "ticker": "AMRX",
-      "name": "Amneal Pharmaceuticals, Inc.",
-      "advice": "HOLD",
-      "score": 6.68,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "URBN",
-      "name": "Urban Outfitters, Inc.",
-      "advice": "HOLD",
-      "score": 6.5,
-      "confidence": "HIGH"
-    },
     {
       "ticker": "HALO",
       "name": "",
       "advice": "TRIM",
-      "score": 6.3,
+      "score": 6.38,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
       "advice": "HOLD",
-      "score": 6.24,
+      "score": 5.86,
       "confidence": "HIGH"
     },
     {
-      "ticker": "DLTR",
-      "name": "Dollar Tree, Inc.",
+      "ticker": "URBN",
+      "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 6.16,
+      "score": 5.7,
       "confidence": "HIGH"
     },
     {
-      "ticker": "BSP",
-      "name": "Bending Spoons S.p.A.",
+      "ticker": "AMRX",
+      "name": "Amneal Pharmaceuticals, Inc.",
       "advice": "HOLD",
-      "score": 5.64,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "DT",
-      "name": "Dynatrace, Inc.",
-      "advice": "HOLD",
-      "score": 5.64,
+      "score": 5.3,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 5.21,
+      "score": 4.32,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
+      "ticker": "QDVF.DE",
+      "name": "iShares S&P 500 Financials Acc",
+      "advice": "TRIM",
+      "score": 6.65,
+      "theme": "FINANCIALS",
+      "confidence": "HIGH"
+    },
+    {
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "TRIM",
-      "score": 6.53,
+      "score": 6.47,
       "theme": "HEALTH",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "SC0U.DE",
-      "name": "Invesco STOXX Europe 600 Optimised Banks UCITS ETF",
-      "advice": "STRONG_SELL",
-      "score": 2.59,
-      "theme": "FINANCIALS",
       "confidence": "HIGH"
     },
     {
-      "ticker": "BNKE.PA",
-      "name": "Amundi Euro Stoxx Banks UCITS ETF Acc",
-      "advice": "STRONG_SELL",
-      "score": 2.53,
-      "theme": "FINANCIALS",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "COPX.L",
-      "name": "Global X Copper Miners UCITS ETF USD Acc",
-      "advice": "STRONG_SELL",
-      "score": 0.8,
-      "theme": "COMMODITY",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "XDW0.DE",
-      "name": "Xtrackers Europe Energy Acc",
+      "ticker": "XDWC.DE",
+      "name": "Xtrackers Europe Construction Acc",
       "advice": "HOLD",
-      "score": 7.66,
-      "theme": "ENERGY",
+      "score": 7.28,
+      "theme": "OTHER/BROAD",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "QDVG.DE",
+      "name": "iShares S&P 500 Health Care Acc",
+      "advice": "HOLD",
+      "score": 7.01,
+      "theme": "HEALTH",
       "confidence": "HIGH"
     },
     {
       "ticker": "EWSP.AS",
       "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
       "advice": "HOLD",
-      "score": 7.51,
+      "score": 6.98,
       "theme": "SP500-SECTOR",
       "confidence": "MEDIUM"
     },
     {
-      "ticker": "QDVF.DE",
-      "name": "iShares S&P 500 Financials Acc",
+      "ticker": "QDVK.DE",
+      "name": "iShares S&P 500 Energy Acc",
       "advice": "HOLD",
-      "score": 7.36,
-      "theme": "FINANCIALS",
+      "score": 6.77,
+      "theme": "ENERGY",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "IS3Q.DE",
+      "name": "iShares Edge MSCI World Quality",
+      "advice": "HOLD",
+      "score": 6.7,
+      "theme": "SMART-BETA",
       "confidence": "HIGH"
     },
     {
-      "ticker": "ECGH.L",
-      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
+      "ticker": "USPY.DE",
+      "name": "L&G Cybersecurity Acc",
       "advice": "HOLD",
-      "score": 7.3,
-      "theme": "COMMODITY",
+      "score": 6.66,
+      "theme": "TECH-THEMATIC",
       "confidence": "HIGH"
     }
   ],
