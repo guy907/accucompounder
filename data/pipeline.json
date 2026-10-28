@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-27",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 4 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: HALO (6.1), MNST (5.8), URBN (5.7)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 22 HOLD | 🔶 2 TRIM | 🔴 1 SELL | 🏆 Top: XDWC.DE (7.0), ECGH.L (7.0), EWSP.AS (7.0) | 📅 koers: 23/25 op koers >2d | 🤖 LLM 37/50 mislukt (3.59% gewicht neutraal)",
+  "updated": "2026-10-28",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 4 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: HALO (6.6), MNST (6.1), URBN (5.6)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 23 HOLD | 🔶 1 TRIM | 🔴 1 SELL | 🏆 Top: XDW0.DE (7.4), EWSP.AS (7.2), QDVF.DE (7.1) | 🤖 LLM 38/50 mislukt (3.69% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
@@ -13,8 +13,8 @@
   "etf_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 22,
-    "TRIM": 2,
+    "HOLD": 23,
+    "TRIM": 1,
     "SELL": 1
   },
   "stocks_watch": [
@@ -22,52 +22,44 @@
       "ticker": "HALO",
       "name": "",
       "advice": "TRIM",
-      "score": 6.09,
+      "score": 6.56,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
       "advice": "HOLD",
-      "score": 5.77,
+      "score": 6.13,
       "confidence": "HIGH"
     },
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 5.67,
+      "score": 5.61,
       "confidence": "HIGH"
     },
     {
-      "ticker": "BJ",
-      "name": "BJ's Wholesale Club Holdings, I",
+      "ticker": "IQV",
+      "name": "IQVIA Holdings, Inc.",
       "advice": "HOLD",
-      "score": 5.16,
-      "confidence": "MEDIUM"
+      "score": 4.98,
+      "confidence": "HIGH"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 3.98,
+      "score": 3.74,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
-      "ticker": "QDVF.DE",
-      "name": "iShares S&P 500 Financials Acc",
-      "advice": "TRIM",
-      "score": 6.96,
-      "theme": "FINANCIALS",
-      "confidence": "HIGH"
-    },
-    {
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "TRIM",
-      "score": 6.67,
+      "score": 6.38,
       "theme": "HEALTH",
       "confidence": "HIGH"
     },
@@ -75,39 +67,39 @@
       "ticker": "BNKE.PA",
       "name": "Amundi Euro Stoxx Banks UCITS ETF Acc",
       "advice": "STRONG_SELL",
-      "score": 1.74,
+      "score": 2.18,
       "theme": "FINANCIALS",
       "confidence": "HIGH"
     },
     {
-      "ticker": "XDWC.DE",
-      "name": "Xtrackers Europe Construction Acc",
+      "ticker": "XDW0.DE",
+      "name": "Xtrackers Europe Energy Acc",
       "advice": "HOLD",
-      "score": 7.05,
-      "theme": "OTHER/BROAD",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "ECGH.L",
-      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
-      "advice": "HOLD",
-      "score": 6.98,
-      "theme": "COMMODITY",
+      "score": 7.42,
+      "theme": "ENERGY",
       "confidence": "HIGH"
     },
     {
       "ticker": "EWSP.AS",
       "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
       "advice": "HOLD",
-      "score": 6.97,
+      "score": 7.15,
       "theme": "SP500-SECTOR",
-      "confidence": "MEDIUM"
+      "confidence": "HIGH"
     },
     {
-      "ticker": "QDVG.DE",
-      "name": "iShares S&P 500 Health Care Acc",
+      "ticker": "QDVF.DE",
+      "name": "iShares S&P 500 Financials Acc",
       "advice": "HOLD",
-      "score": 6.75,
+      "score": 7.09,
+      "theme": "FINANCIALS",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "2B70.DE",
+      "name": "iShares Nasdaq US Biotechnology UCITS ETF USD (Acc)",
+      "advice": "HOLD",
+      "score": 7.02,
       "theme": "HEALTH",
       "confidence": "HIGH"
     },
@@ -115,9 +107,17 @@
       "ticker": "QDVR.DE",
       "name": "iShares S&P 500 Comm Services Acc",
       "advice": "HOLD",
-      "score": 6.66,
+      "score": 7.02,
       "theme": "SP500-SECTOR",
-      "confidence": "MEDIUM"
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "QDVG.DE",
+      "name": "iShares S&P 500 Health Care Acc",
+      "advice": "HOLD",
+      "score": 7.01,
+      "theme": "HEALTH",
+      "confidence": "HIGH"
     }
   ],
   "regime_note": "Market context only (log-only audit). No signal use."
