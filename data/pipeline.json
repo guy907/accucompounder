@@ -1,19 +1,19 @@
 {
-  "updated": "2026-10-28",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 4 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: HALO (6.6), MNST (6.1), URBN (5.6)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 23 HOLD | 🔶 1 TRIM | 🔴 1 SELL | 🏆 Top: XDW0.DE (7.4), EWSP.AS (7.2), QDVF.DE (7.1) | 🤖 LLM 38/50 mislukt (3.69% gewicht neutraal)",
+  "updated": "2026-10-29",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: HALO (6.5), PGY (5.9), URBN (5.5)",
+  "etf_summary": "🟢 10 BUY | 🌀 5 ACCUMULATE | 🟡 9 HOLD | 🔶 1 TRIM | 🔴 1 SELL | 🏆 Top: EWSP.AS (8.1), ECGH.L (8.0), XDWF.DE (7.8) | 🤖 LLM 40/52 mislukt (3.73% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 4,
+    "HOLD": 5,
     "TRIM": 1,
     "SELL": 0,
     "CONFLICT": 0
   },
   "etf_distribution": {
-    "BUY": 0,
-    "ACCUMULATE": 0,
-    "HOLD": 23,
+    "BUY": 10,
+    "ACCUMULATE": 5,
+    "HOLD": 9,
     "TRIM": 1,
     "SELL": 1
   },
@@ -22,101 +22,108 @@
       "ticker": "HALO",
       "name": "",
       "advice": "TRIM",
-      "score": 6.56,
+      "score": 6.47,
       "confidence": "MEDIUM"
     },
     {
-      "ticker": "MNST",
-      "name": "Monster Beverage Corporation",
+      "ticker": "PGY",
+      "name": "Pagaya Technologies Ltd.",
       "advice": "HOLD",
-      "score": 6.13,
-      "confidence": "HIGH"
+      "score": 5.87,
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 5.61,
+      "score": 5.47,
       "confidence": "HIGH"
     },
     {
-      "ticker": "IQV",
-      "name": "IQVIA Holdings, Inc.",
+      "ticker": "BIIB",
+      "name": "Biogen Inc.",
       "advice": "HOLD",
-      "score": 4.98,
+      "score": 5.43,
       "confidence": "HIGH"
+    },
+    {
+      "ticker": "CART",
+      "name": "Maplebear Inc.",
+      "advice": "HOLD",
+      "score": 5.23,
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 3.74,
+      "score": 4.86,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
-      "ticker": "XDWH.DE",
-      "name": "Xtrackers Europe Health Care Acc",
-      "advice": "TRIM",
-      "score": 6.38,
-      "theme": "HEALTH",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "BNKE.PA",
-      "name": "Amundi Euro Stoxx Banks UCITS ETF Acc",
-      "advice": "STRONG_SELL",
-      "score": 2.18,
-      "theme": "FINANCIALS",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "XDW0.DE",
-      "name": "Xtrackers Europe Energy Acc",
-      "advice": "HOLD",
-      "score": 7.42,
-      "theme": "ENERGY",
-      "confidence": "HIGH"
-    },
-    {
       "ticker": "EWSP.AS",
       "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
-      "advice": "HOLD",
-      "score": 7.15,
+      "advice": "BUY",
+      "score": 8.13,
       "theme": "SP500-SECTOR",
       "confidence": "HIGH"
     },
     {
-      "ticker": "QDVF.DE",
-      "name": "iShares S&P 500 Financials Acc",
-      "advice": "HOLD",
-      "score": 7.09,
+      "ticker": "ECGH.L",
+      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
+      "advice": "BUY",
+      "score": 7.97,
+      "theme": "COMMODITY",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "XDWF.DE",
+      "name": "Xtrackers Europe Financials Acc",
+      "advice": "BUY",
+      "score": 7.81,
       "theme": "FINANCIALS",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "2B70.DE",
-      "name": "iShares Nasdaq US Biotechnology UCITS ETF USD (Acc)",
-      "advice": "HOLD",
-      "score": 7.02,
-      "theme": "HEALTH",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "QDVR.DE",
-      "name": "iShares S&P 500 Comm Services Acc",
-      "advice": "HOLD",
-      "score": 7.02,
-      "theme": "SP500-SECTOR",
       "confidence": "HIGH"
     },
     {
       "ticker": "QDVG.DE",
       "name": "iShares S&P 500 Health Care Acc",
-      "advice": "HOLD",
-      "score": 7.01,
+      "advice": "BUY",
+      "score": 7.75,
       "theme": "HEALTH",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "ASWC.DE",
+      "name": "HANetf ICAV - Future of Defence UCITS ETF - Accumulating EUR",
+      "advice": "BUY",
+      "score": 7.73,
+      "theme": "DEFENCE",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "USPY.DE",
+      "name": "L&G Cybersecurity Acc",
+      "advice": "BUY",
+      "score": 7.69,
+      "theme": "TECH-THEMATIC",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "2B70.DE",
+      "name": "iShares Nasdaq US Biotechnology UCITS ETF USD (Acc)",
+      "advice": "BUY",
+      "score": 7.68,
+      "theme": "HEALTH",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "LYTR.DE",
+      "name": "Lyxor Commodities Refinitiv/CoreCommodity CRB TR UCITS ETF -",
+      "advice": "ACCUMULATE",
+      "score": 7.67,
+      "theme": "COMMODITY",
       "confidence": "HIGH"
     }
   ],
