@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-29",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: HALO (6.5), PGY (5.9), URBN (5.5)",
-  "etf_summary": "🟢 10 BUY | 🌀 5 ACCUMULATE | 🟡 9 HOLD | 🔶 1 TRIM | 🔴 1 SELL | 🏆 Top: EWSP.AS (8.1), ECGH.L (8.0), XDWF.DE (7.8) | 🤖 LLM 40/52 mislukt (3.73% gewicht neutraal)",
+  "updated": "2026-10-30",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: HALO (6.4), BIIB (6.2), BJ (5.9)",
+  "etf_summary": "🟢 2 BUY | 🌀 0 ACCUMULATE | 🟡 20 HOLD | 🔶 1 TRIM | 🔴 2 SELL | 🏆 Top: XDWF.DE (7.8), EWSP.AS (7.8), QDVR.DE (7.6) | ⚠️ DEFENCE 1/2 (50%) — themaconcentratie risico! | ⚠️ TECH-THEMATIC 1/2 (50%) — themaconcentratie risico! | 🤖 LLM 38/50 mislukt (3.69% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
@@ -11,119 +11,119 @@
     "CONFLICT": 0
   },
   "etf_distribution": {
-    "BUY": 10,
-    "ACCUMULATE": 5,
-    "HOLD": 9,
+    "BUY": 2,
+    "ACCUMULATE": 0,
+    "HOLD": 20,
     "TRIM": 1,
-    "SELL": 1
+    "SELL": 2
   },
   "stocks_watch": [
     {
       "ticker": "HALO",
       "name": "",
       "advice": "TRIM",
-      "score": 6.47,
+      "score": 6.38,
       "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "PGY",
-      "name": "Pagaya Technologies Ltd.",
-      "advice": "HOLD",
-      "score": 5.87,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "URBN",
-      "name": "Urban Outfitters, Inc.",
-      "advice": "HOLD",
-      "score": 5.47,
-      "confidence": "HIGH"
     },
     {
       "ticker": "BIIB",
       "name": "Biogen Inc.",
       "advice": "HOLD",
-      "score": 5.43,
+      "score": 6.2,
       "confidence": "HIGH"
     },
     {
-      "ticker": "CART",
-      "name": "Maplebear Inc.",
+      "ticker": "BJ",
+      "name": "BJ's Wholesale Club Holdings, I",
       "advice": "HOLD",
-      "score": 5.23,
+      "score": 5.88,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "URBN",
+      "name": "Urban Outfitters, Inc.",
+      "advice": "HOLD",
+      "score": 5.64,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "MICC",
+      "name": "The Magnum Ice Cream Company N.",
+      "advice": "HOLD",
+      "score": 5.12,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 4.86,
+      "score": 4.77,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
-      "ticker": "EWSP.AS",
-      "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
+      "ticker": "USPY.DE",
+      "name": "L&G Cybersecurity Acc",
       "advice": "BUY",
-      "score": 8.13,
-      "theme": "SP500-SECTOR",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "ECGH.L",
-      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
-      "advice": "BUY",
-      "score": 7.97,
-      "theme": "COMMODITY",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "XDWF.DE",
-      "name": "Xtrackers Europe Financials Acc",
-      "advice": "BUY",
-      "score": 7.81,
-      "theme": "FINANCIALS",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "QDVG.DE",
-      "name": "iShares S&P 500 Health Care Acc",
-      "advice": "BUY",
-      "score": 7.75,
-      "theme": "HEALTH",
+      "score": 7.27,
+      "theme": "TECH-THEMATIC",
       "confidence": "HIGH"
     },
     {
       "ticker": "ASWC.DE",
       "name": "HANetf ICAV - Future of Defence UCITS ETF - Accumulating EUR",
       "advice": "BUY",
-      "score": 7.73,
+      "score": 7.26,
       "theme": "DEFENCE",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "USPY.DE",
-      "name": "L&G Cybersecurity Acc",
-      "advice": "BUY",
-      "score": 7.69,
-      "theme": "TECH-THEMATIC",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "2B70.DE",
-      "name": "iShares Nasdaq US Biotechnology UCITS ETF USD (Acc)",
-      "advice": "BUY",
-      "score": 7.68,
-      "theme": "HEALTH",
       "confidence": "MEDIUM"
     },
     {
-      "ticker": "LYTR.DE",
-      "name": "Lyxor Commodities Refinitiv/CoreCommodity CRB TR UCITS ETF -",
-      "advice": "ACCUMULATE",
-      "score": 7.67,
-      "theme": "COMMODITY",
+      "ticker": "XDWH.DE",
+      "name": "Xtrackers Europe Health Care Acc",
+      "advice": "TRIM",
+      "score": 6.75,
+      "theme": "HEALTH",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "XCHA.DE",
+      "name": "Xtrackers CSI 300 China Acc",
+      "advice": "STRONG_SELL",
+      "score": 1.25,
+      "theme": "OTHER/BROAD",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "BNKE.PA",
+      "name": "Amundi Euro Stoxx Banks UCITS ETF Acc",
+      "advice": "STRONG_SELL",
+      "score": 1.0,
+      "theme": "FINANCIALS",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "XDWF.DE",
+      "name": "Xtrackers Europe Financials Acc",
+      "advice": "HOLD",
+      "score": 7.85,
+      "theme": "FINANCIALS",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "EWSP.AS",
+      "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
+      "advice": "HOLD",
+      "score": 7.81,
+      "theme": "SP500-SECTOR",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "QDVR.DE",
+      "name": "iShares S&P 500 Comm Services Acc",
+      "advice": "HOLD",
+      "score": 7.64,
+      "theme": "SP500-SECTOR",
       "confidence": "HIGH"
     }
   ],
