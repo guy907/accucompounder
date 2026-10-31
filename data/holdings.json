@@ -1,7 +1,7 @@
 {
-  "updated": "30-10-2026 19:30",
+  "updated": "31-10-2026 15:20",
   "etf_pnl_pct": 16.58,
-  "stock_pnl_pct": 57.85,
+  "stock_pnl_pct": 57.76,
   "etfs": [
     {
       "ticker": "USPY.DE",
@@ -9,7 +9,7 @@
       "pnl_pct": 59.63,
       "status": "Core",
       "buy_date": "2026-04-21",
-      "days_held": 192,
+      "days_held": 193,
       "ann_pct": null
     },
     {
@@ -18,7 +18,7 @@
       "pnl_pct": 25.26,
       "status": "Core",
       "buy_date": "2026-08-06",
-      "days_held": 85,
+      "days_held": 86,
       "ann_pct": null
     },
     {
@@ -27,7 +27,7 @@
       "pnl_pct": 15.5,
       "status": "Core",
       "buy_date": "2026-09-11",
-      "days_held": 49,
+      "days_held": 50,
       "ann_pct": null
     },
     {
@@ -36,7 +36,7 @@
       "pnl_pct": -9.92,
       "status": "Satellite",
       "buy_date": "2026-08-17",
-      "days_held": 74,
+      "days_held": 75,
       "ann_pct": null
     },
     {
@@ -45,7 +45,7 @@
       "pnl_pct": 1.71,
       "status": "Satellite",
       "buy_date": "2026-08-21",
-      "days_held": 70,
+      "days_held": 71,
       "ann_pct": null
     },
     {
@@ -54,27 +54,27 @@
       "pnl_pct": -3.78,
       "status": "Satellite",
       "buy_date": "2026-08-07",
-      "days_held": 84,
+      "days_held": 85,
       "ann_pct": null
     }
   ],
   "stocks": [
     {
       "ticker": "HALO",
-      "weight_pct": 76.04,
-      "pnl_pct": 78.16,
+      "weight_pct": 75.84,
+      "pnl_pct": 77.6,
       "status": "Core",
       "buy_date": "2026-07-13",
-      "days_held": 109,
+      "days_held": 110,
       "ann_pct": null
     },
     {
       "ticker": "SMFG",
-      "weight_pct": 23.96,
-      "pnl_pct": 15.93,
+      "weight_pct": 24.16,
+      "pnl_pct": 16.8,
       "status": "Core",
       "buy_date": "2026-03-10",
-      "days_held": 234,
+      "days_held": 235,
       "ann_pct": null
     }
   ],
@@ -93,7 +93,7 @@
     "n_exits": 1
   },
   "allin_stk": {
-    "pct": 19.16,
+    "pct": 19.14,
     "n_exits": 10
   }
 }
