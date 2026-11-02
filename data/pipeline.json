@@ -1,129 +1,115 @@
 {
-  "updated": "2026-11-01",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: HALO (6.4), BIIB (6.2), BJ (5.9)",
-  "etf_summary": "🟢 2 BUY | 🌀 0 ACCUMULATE | 🟡 20 HOLD | 🔶 1 TRIM | 🔴 2 SELL | 🏆 Top: XDWF.DE (7.8), EWSP.AS (7.8), QDVR.DE (7.6) | ⚠️ DEFENCE 1/2 (50%) — themaconcentratie risico! | ⚠️ TECH-THEMATIC 1/2 (50%) — themaconcentratie risico! | 🤖 LLM 38/50 mislukt (3.69% gewicht neutraal)",
+  "updated": "2026-11-02",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 3 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: URBN (6.8), BJ (6.3), HALO (6.2)",
+  "etf_summary": "🟢 1 BUY | 🌀 0 ACCUMULATE | 🟡 22 HOLD | 🔶 2 TRIM | 🔴 0 SELL | 🏆 Top: GGUE.DE (8.1), EWSP.AS (7.7), QDVK.DE (7.4) | ⚠️ SMART-BETA 1/1 (100%) — themaconcentratie risico! | 📅 koers: 25/25 op koers >2d | 🤖 LLM 38/50 mislukt (3.69% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 5,
+    "HOLD": 3,
     "TRIM": 1,
     "SELL": 0,
     "CONFLICT": 0
   },
   "etf_distribution": {
-    "BUY": 2,
+    "BUY": 1,
     "ACCUMULATE": 0,
-    "HOLD": 20,
-    "TRIM": 1,
-    "SELL": 2
+    "HOLD": 22,
+    "TRIM": 2,
+    "SELL": 0
   },
   "stocks_watch": [
     {
-      "ticker": "HALO",
-      "name": "",
-      "advice": "TRIM",
-      "score": 6.38,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "BIIB",
-      "name": "Biogen Inc.",
+      "ticker": "URBN",
+      "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 6.2,
+      "score": 6.77,
       "confidence": "HIGH"
     },
     {
       "ticker": "BJ",
       "name": "BJ's Wholesale Club Holdings, I",
       "advice": "HOLD",
-      "score": 5.88,
+      "score": 6.33,
       "confidence": "HIGH"
     },
     {
-      "ticker": "URBN",
-      "name": "Urban Outfitters, Inc.",
-      "advice": "HOLD",
-      "score": 5.64,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "MICC",
-      "name": "The Magnum Ice Cream Company N.",
-      "advice": "HOLD",
-      "score": 5.12,
+      "ticker": "HALO",
+      "name": "",
+      "advice": "TRIM",
+      "score": 6.16,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 4.77,
+      "score": 5.07,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
-      "ticker": "USPY.DE",
-      "name": "L&G Cybersecurity Acc",
+      "ticker": "GGUE.DE",
+      "name": "UBS Global Gender Equality UCITS Hedged A Acc EUR",
       "advice": "BUY",
-      "score": 7.27,
-      "theme": "TECH-THEMATIC",
+      "score": 8.05,
+      "theme": "SMART-BETA",
       "confidence": "HIGH"
-    },
-    {
-      "ticker": "ASWC.DE",
-      "name": "HANetf ICAV - Future of Defence UCITS ETF - Accumulating EUR",
-      "advice": "BUY",
-      "score": 7.26,
-      "theme": "DEFENCE",
-      "confidence": "MEDIUM"
     },
     {
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "TRIM",
-      "score": 6.75,
+      "score": 6.44,
       "theme": "HEALTH",
       "confidence": "HIGH"
     },
     {
-      "ticker": "XCHA.DE",
-      "name": "Xtrackers CSI 300 China Acc",
-      "advice": "STRONG_SELL",
-      "score": 1.25,
-      "theme": "OTHER/BROAD",
+      "ticker": "QDVF.DE",
+      "name": "iShares S&P 500 Financials Acc",
+      "advice": "TRIM",
+      "score": 6.43,
+      "theme": "FINANCIALS",
       "confidence": "HIGH"
-    },
-    {
-      "ticker": "BNKE.PA",
-      "name": "Amundi Euro Stoxx Banks UCITS ETF Acc",
-      "advice": "STRONG_SELL",
-      "score": 1.0,
-      "theme": "FINANCIALS",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "XDWF.DE",
-      "name": "Xtrackers Europe Financials Acc",
-      "advice": "HOLD",
-      "score": 7.85,
-      "theme": "FINANCIALS",
-      "confidence": "MEDIUM"
     },
     {
       "ticker": "EWSP.AS",
       "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
       "advice": "HOLD",
-      "score": 7.81,
+      "score": 7.71,
       "theme": "SP500-SECTOR",
       "confidence": "HIGH"
     },
     {
-      "ticker": "QDVR.DE",
-      "name": "iShares S&P 500 Comm Services Acc",
+      "ticker": "QDVK.DE",
+      "name": "iShares S&P 500 Energy Acc",
       "advice": "HOLD",
-      "score": 7.64,
-      "theme": "SP500-SECTOR",
+      "score": 7.41,
+      "theme": "ENERGY",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "XDWF.DE",
+      "name": "Xtrackers Europe Financials Acc",
+      "advice": "HOLD",
+      "score": 7.36,
+      "theme": "FINANCIALS",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "XDWU.DE",
+      "name": "Xtrackers Europe Utilities Acc",
+      "advice": "HOLD",
+      "score": 7.25,
+      "theme": "OTHER/BROAD",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "2B7B.DE",
+      "name": "iShares S&P 500 Materials Acc",
+      "advice": "HOLD",
+      "score": 7.23,
+      "theme": "INDUSTRY",
       "confidence": "HIGH"
     }
   ],
