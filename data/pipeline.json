@@ -1,66 +1,65 @@
 {
-  "updated": "2026-11-02",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 3 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: URBN (6.8), BJ (6.3), HALO (6.2)",
-  "etf_summary": "🟢 1 BUY | 🌀 0 ACCUMULATE | 🟡 22 HOLD | 🔶 2 TRIM | 🔴 0 SELL | 🏆 Top: GGUE.DE (8.1), EWSP.AS (7.7), QDVK.DE (7.4) | ⚠️ SMART-BETA 1/1 (100%) — themaconcentratie risico! | 📅 koers: 25/25 op koers >2d | 🤖 LLM 38/50 mislukt (3.69% gewicht neutraal)",
+  "updated": "2026-11-03",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 4 HOLD | 🔶 1 TRIM | 🔴 0 SELL | ⚠️ Healthcare 3/5 (60%) — sectorconcentratie risico! | 🏆 Top: URBN (7.3), BIIB (7.2), VRTX (6.8)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 21 HOLD | 🔶 2 TRIM | 🔴 2 SELL | 🏆 Top: XDWF.DE (7.2), EWSP.AS (7.1), QDVK.DE (7.0) | 📅 koers: 21/25 op koers >2d | 🤖 LLM 36/50 mislukt (3.5% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 3,
+    "HOLD": 4,
     "TRIM": 1,
     "SELL": 0,
     "CONFLICT": 0
   },
   "etf_distribution": {
-    "BUY": 1,
+    "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 22,
+    "HOLD": 21,
     "TRIM": 2,
-    "SELL": 0
+    "SELL": 2
   },
   "stocks_watch": [
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 6.77,
+      "score": 7.27,
       "confidence": "HIGH"
     },
     {
-      "ticker": "BJ",
-      "name": "BJ's Wholesale Club Holdings, I",
+      "ticker": "BIIB",
+      "name": "Biogen Inc.",
       "advice": "HOLD",
-      "score": 6.33,
+      "score": 7.16,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorpor",
+      "advice": "HOLD",
+      "score": 6.78,
       "confidence": "HIGH"
     },
     {
       "ticker": "HALO",
       "name": "",
       "advice": "TRIM",
-      "score": 6.16,
+      "score": 6.19,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 5.07,
+      "score": 5.34,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
-      "ticker": "GGUE.DE",
-      "name": "UBS Global Gender Equality UCITS Hedged A Acc EUR",
-      "advice": "BUY",
-      "score": 8.05,
-      "theme": "SMART-BETA",
-      "confidence": "HIGH"
-    },
-    {
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "TRIM",
-      "score": 6.44,
+      "score": 6.05,
       "theme": "HEALTH",
       "confidence": "HIGH"
     },
@@ -68,7 +67,31 @@
       "ticker": "QDVF.DE",
       "name": "iShares S&P 500 Financials Acc",
       "advice": "TRIM",
-      "score": 6.43,
+      "score": 5.88,
+      "theme": "FINANCIALS",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "USPY.DE",
+      "name": "L&G Cybersecurity Acc",
+      "advice": "SELL",
+      "score": 4.34,
+      "theme": "TECH-THEMATIC",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "QDVE.DE",
+      "name": "iShares S&P 500 Info Tech Acc",
+      "advice": "STRONG_SELL",
+      "score": 2.96,
+      "theme": "TECH-THEMATIC",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "XDWF.DE",
+      "name": "Xtrackers Europe Financials Acc",
+      "advice": "HOLD",
+      "score": 7.19,
       "theme": "FINANCIALS",
       "confidence": "HIGH"
     },
@@ -76,7 +99,7 @@
       "ticker": "EWSP.AS",
       "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
       "advice": "HOLD",
-      "score": 7.71,
+      "score": 7.12,
       "theme": "SP500-SECTOR",
       "confidence": "HIGH"
     },
@@ -84,33 +107,17 @@
       "ticker": "QDVK.DE",
       "name": "iShares S&P 500 Energy Acc",
       "advice": "HOLD",
-      "score": 7.41,
+      "score": 7.04,
       "theme": "ENERGY",
       "confidence": "HIGH"
     },
     {
-      "ticker": "XDWF.DE",
-      "name": "Xtrackers Europe Financials Acc",
+      "ticker": "GGUE.DE",
+      "name": "UBS Global Gender Equality UCITS Hedged A Acc EUR",
       "advice": "HOLD",
-      "score": 7.36,
-      "theme": "FINANCIALS",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "XDWU.DE",
-      "name": "Xtrackers Europe Utilities Acc",
-      "advice": "HOLD",
-      "score": 7.25,
-      "theme": "OTHER/BROAD",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "2B7B.DE",
-      "name": "iShares S&P 500 Materials Acc",
-      "advice": "HOLD",
-      "score": 7.23,
-      "theme": "INDUSTRY",
-      "confidence": "HIGH"
+      "score": 6.95,
+      "theme": "SMART-BETA",
+      "confidence": "MEDIUM"
     }
   ],
   "regime_note": "Market context only (log-only audit). No signal use."
