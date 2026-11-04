@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "trades": [
+    {
+      "date": "2026-11-04 11:59",
+      "ticker": "QDVF.DE",
+      "side": "SELL",
+      "pnl_pct": 17.83,
+      "note": "ETF rebalance."
+    },
     {
       "date": "2026-09-29 16:00",
       "ticker": "DKNG",
