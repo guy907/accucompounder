@@ -1,56 +1,63 @@
 {
-  "updated": "2026-11-04",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: URBN (6.7), AMZN (6.3), HALO (6.0)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 23 HOLD | 🔶 1 TRIM | 🔴 1 SELL | 🏆 Top: EWSP.AS (7.2), XDWF.DE (7.2), QDVG.DE (7.1) | 🤖 LLM 37/50 mislukt (3.59% gewicht neutraal)",
+  "updated": "2026-11-05",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: URBN (6.8), HALO (6.6), AMZN (6.3)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 22 HOLD | 🔶 1 TRIM | 🔴 3 SELL | 🏆 Top: EWSP.AS (7.5), XDWF.DE (7.2), QDVK.DE (7.2) | 🤖 LLM 39/52 mislukt (3.64% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
     "HOLD": 5,
-    "TRIM": 0,
+    "TRIM": 1,
     "SELL": 0,
     "CONFLICT": 0
   },
   "etf_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 23,
+    "HOLD": 22,
     "TRIM": 1,
-    "SELL": 1
+    "SELL": 3
   },
   "stocks_watch": [
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 6.7,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "advice": "HOLD",
-      "score": 6.28,
+      "score": 6.77,
       "confidence": "HIGH"
     },
     {
       "ticker": "HALO",
       "name": "",
+      "advice": "TRIM",
+      "score": 6.58,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
       "advice": "HOLD",
-      "score": 6.02,
+      "score": 6.3,
       "confidence": "HIGH"
     },
     {
       "ticker": "VRTX",
       "name": "Vertex Pharmaceuticals Incorpor",
       "advice": "HOLD",
-      "score": 5.93,
+      "score": 5.87,
       "confidence": "HIGH"
+    },
+    {
+      "ticker": "MGNI",
+      "name": "Magnite, Inc.",
+      "advice": "HOLD",
+      "score": 5.68,
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 5.24,
+      "score": 5.52,
       "confidence": "MEDIUM"
     }
   ],
@@ -59,65 +66,65 @@
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "TRIM",
-      "score": 6.1,
+      "score": 6.07,
       "theme": "HEALTH",
       "confidence": "HIGH"
     },
     {
-      "ticker": "LYTR.DE",
-      "name": "Lyxor Commodities Refinitiv/CoreCommodity CRB TR UCITS ETF -",
+      "ticker": "ECGH.L",
+      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
       "advice": "SELL",
-      "score": 4.79,
+      "score": 4.04,
       "theme": "COMMODITY",
       "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "QDVE.DE",
+      "name": "iShares S&P 500 Info Tech Acc",
+      "advice": "STRONG_SELL",
+      "score": 2.61,
+      "theme": "TECH-THEMATIC",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "DFEN.DE",
+      "name": "VanEck Defense Acc",
+      "advice": "STRONG_SELL",
+      "score": 2.54,
+      "theme": "OTHER/BROAD",
+      "confidence": "HIGH"
     },
     {
       "ticker": "EWSP.AS",
       "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
       "advice": "HOLD",
-      "score": 7.25,
+      "score": 7.46,
       "theme": "SP500-SECTOR",
-      "confidence": "MEDIUM"
+      "confidence": "HIGH"
     },
     {
       "ticker": "XDWF.DE",
       "name": "Xtrackers Europe Financials Acc",
       "advice": "HOLD",
-      "score": 7.25,
+      "score": 7.22,
       "theme": "FINANCIALS",
       "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "QDVG.DE",
-      "name": "iShares S&P 500 Health Care Acc",
-      "advice": "HOLD",
-      "score": 7.1,
-      "theme": "HEALTH",
-      "confidence": "HIGH"
     },
     {
       "ticker": "QDVK.DE",
       "name": "iShares S&P 500 Energy Acc",
       "advice": "HOLD",
-      "score": 6.96,
+      "score": 7.19,
       "theme": "ENERGY",
       "confidence": "HIGH"
     },
     {
-      "ticker": "IS3Q.DE",
-      "name": "iShares Edge MSCI World Quality",
+      "ticker": "2B70.DE",
+      "name": "iShares Nasdaq US Biotechnology UCITS ETF USD (Acc)",
       "advice": "HOLD",
-      "score": 6.89,
-      "theme": "SMART-BETA",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "XDW0.DE",
-      "name": "Xtrackers Europe Energy Acc",
-      "advice": "HOLD",
-      "score": 6.66,
-      "theme": "ENERGY",
-      "confidence": "HIGH"
+      "score": 7.1,
+      "theme": "HEALTH",
+      "confidence": "MEDIUM"
     }
   ],
   "regime_note": "Market context only (log-only audit). No signal use."
