@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-06",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: URBN (6.0), HALO (5.6), VRTX (5.6)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 18 HOLD | 🔶 1 TRIM | 🔴 6 SELL | 🏆 Top: XDWF.DE (7.6), EWSP.AS (7.5), 2B7B.DE (7.1) | 🤖 LLM 36/50 mislukt (3.5% gewicht neutraal)",
+  "updated": "2026-11-09",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 6 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: URBN (6.2), AMZN (6.0), VRTX (5.8)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 15 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: EWSP.AS (6.8), XDWH.DE (6.7), ASWC.DE (5.0) | 📅 koers: 15/15 op koers >2d | 🤖 LLM 17/30 mislukt (2.75% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 5,
+    "HOLD": 6,
     "TRIM": 0,
     "SELL": 0,
     "CONFLICT": 0
@@ -13,111 +13,118 @@
   "etf_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 18,
-    "TRIM": 1,
-    "SELL": 6
+    "HOLD": 15,
+    "TRIM": 0,
+    "SELL": 0
   },
   "stocks_watch": [
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 6.05,
+      "score": 6.18,
       "confidence": "HIGH"
     },
     {
-      "ticker": "HALO",
-      "name": "",
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
       "advice": "HOLD",
-      "score": 5.64,
+      "score": 5.97,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "VRTX",
       "name": "Vertex Pharmaceuticals Incorpor",
       "advice": "HOLD",
-      "score": 5.58,
+      "score": 5.82,
       "confidence": "HIGH"
     },
     {
-      "ticker": "MNST",
-      "name": "Monster Beverage Corporation",
+      "ticker": "HALO",
+      "name": "",
       "advice": "HOLD",
-      "score": 5.46,
-      "confidence": "HIGH"
+      "score": 5.43,
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 5.25,
+      "score": 5.18,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "MGNI",
+      "name": "Magnite, Inc.",
+      "advice": "HOLD",
+      "score": 4.79,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
+      "ticker": "EWSP.AS",
+      "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
+      "advice": "HOLD",
+      "score": 6.8,
+      "theme": "SP500-SECTOR",
+      "confidence": "HIGH"
+    },
+    {
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
-      "advice": "TRIM",
-      "score": 6.41,
+      "advice": "HOLD",
+      "score": 6.68,
       "theme": "HEALTH",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "LYTR.DE",
-      "name": "Lyxor Commodities Refinitiv/CoreCommodity CRB TR UCITS ETF -",
-      "advice": "SELL",
-      "score": 4.17,
-      "theme": "COMMODITY",
       "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "ECGH.L",
-      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
-      "advice": "SELL",
-      "score": 4.14,
-      "theme": "COMMODITY",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "CSJP.MI",
-      "name": "iShares VII PLC - iShares MSCI Japan ETF USD Acc",
-      "advice": "STRONG_SELL",
-      "score": 3.38,
-      "theme": "OTHER/BROAD",
-      "confidence": "HIGH"
     },
     {
       "ticker": "ASWC.DE",
       "name": "HANetf ICAV - Future of Defence UCITS ETF - Accumulating EUR",
-      "advice": "STRONG_SELL",
-      "score": 2.58,
+      "advice": "HOLD",
+      "score": 5.0,
       "theme": "DEFENCE",
       "confidence": "HIGH"
     },
     {
-      "ticker": "QDVE.DE",
-      "name": "iShares S&P 500 Info Tech Acc",
-      "advice": "STRONG_SELL",
-      "score": 2.49,
-      "theme": "TECH-THEMATIC",
-      "confidence": "MEDIUM"
+      "ticker": "BNKE.PA",
+      "name": "Amundi Euro Stoxx Banks UCITS ETF Acc",
+      "advice": "HOLD",
+      "score": 5.0,
+      "theme": "FINANCIALS",
+      "confidence": "HIGH"
     },
     {
-      "ticker": "DFEN.DE",
-      "name": "VanEck Defense Acc",
-      "advice": "STRONG_SELL",
-      "score": 1.25,
+      "ticker": "COPM.MI",
+      "name": "Global X Copper Miners Acc",
+      "advice": "HOLD",
+      "score": 5.0,
+      "theme": "COMMODITY",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "COPX.L",
+      "name": "Global X Copper Miners UCITS ETF USD Acc",
+      "advice": "HOLD",
+      "score": 5.0,
+      "theme": "COMMODITY",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "CSJP.MI",
+      "name": "iShares VII PLC - iShares MSCI Japan ETF USD Acc",
+      "advice": "HOLD",
+      "score": 5.0,
       "theme": "OTHER/BROAD",
       "confidence": "HIGH"
     },
     {
-      "ticker": "XDWF.DE",
-      "name": "Xtrackers Europe Financials Acc",
+      "ticker": "DFEN.DE",
+      "name": "VanEck Defense Acc",
       "advice": "HOLD",
-      "score": 7.6,
-      "theme": "FINANCIALS",
-      "confidence": "MEDIUM"
+      "score": 5.0,
+      "theme": "OTHER/BROAD",
+      "confidence": "HIGH"
     }
   ],
   "regime_note": "Market context only (log-only audit). No signal use."
