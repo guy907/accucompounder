@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-09",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 6 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: URBN (6.2), AMZN (6.0), VRTX (5.8)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 15 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: EWSP.AS (6.8), XDWH.DE (6.7), ASWC.DE (5.0) | 📅 koers: 15/15 op koers >2d | 🤖 LLM 17/30 mislukt (2.75% gewicht neutraal)",
+  "updated": "2026-11-10",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 6 HOLD | 🔶 0 TRIM | 🔴 0 SELL | ⚠️ Healthcare 3/6 (50%) — sectorconcentratie risico! | 🏆 Top: IQV (6.3), HALO (5.9), URBN (5.8)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 24 HOLD | 🔶 0 TRIM | 🔴 1 SELL | 🏆 Top: XDWF.DE (7.3), 2B70.DE (7.1), XDWH.DE (7.1) | 📅 koers: 22/25 op koers >2d | 🤖 LLM 38/50 mislukt (3.69% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
@@ -13,117 +13,117 @@
   "etf_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 15,
+    "HOLD": 24,
     "TRIM": 0,
-    "SELL": 0
+    "SELL": 1
   },
   "stocks_watch": [
     {
-      "ticker": "URBN",
-      "name": "Urban Outfitters, Inc.",
+      "ticker": "IQV",
+      "name": "IQVIA Holdings, Inc.",
       "advice": "HOLD",
-      "score": 6.18,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "advice": "HOLD",
-      "score": 5.97,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "VRTX",
-      "name": "Vertex Pharmaceuticals Incorpor",
-      "advice": "HOLD",
-      "score": 5.82,
+      "score": 6.31,
       "confidence": "HIGH"
     },
     {
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 5.43,
-      "confidence": "MEDIUM"
+      "score": 5.9,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "URBN",
+      "name": "Urban Outfitters, Inc.",
+      "advice": "HOLD",
+      "score": 5.78,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorpor",
+      "advice": "HOLD",
+      "score": 5.08,
+      "confidence": "HIGH"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 5.18,
+      "score": 4.58,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "MGNI",
       "name": "Magnite, Inc.",
       "advice": "HOLD",
-      "score": 4.79,
+      "score": 4.49,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
-      "ticker": "EWSP.AS",
-      "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
+      "ticker": "LYTR.DE",
+      "name": "Lyxor Commodities Refinitiv/CoreCommodity CRB TR UCITS ETF -",
+      "advice": "STRONG_SELL",
+      "score": 3.03,
+      "theme": "COMMODITY",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "XDWF.DE",
+      "name": "Xtrackers Europe Financials Acc",
       "advice": "HOLD",
-      "score": 6.8,
-      "theme": "SP500-SECTOR",
+      "score": 7.31,
+      "theme": "FINANCIALS",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "2B70.DE",
+      "name": "iShares Nasdaq US Biotechnology UCITS ETF USD (Acc)",
+      "advice": "HOLD",
+      "score": 7.13,
+      "theme": "HEALTH",
       "confidence": "HIGH"
     },
     {
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "HOLD",
-      "score": 6.68,
+      "score": 7.06,
       "theme": "HEALTH",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "ASWC.DE",
-      "name": "HANetf ICAV - Future of Defence UCITS ETF - Accumulating EUR",
-      "advice": "HOLD",
-      "score": 5.0,
-      "theme": "DEFENCE",
       "confidence": "HIGH"
     },
     {
-      "ticker": "BNKE.PA",
-      "name": "Amundi Euro Stoxx Banks UCITS ETF Acc",
+      "ticker": "XDWM.DE",
+      "name": "Xtrackers Europe Materials Acc",
       "advice": "HOLD",
-      "score": 5.0,
-      "theme": "FINANCIALS",
+      "score": 7.05,
+      "theme": "INDUSTRY",
       "confidence": "HIGH"
     },
     {
-      "ticker": "COPM.MI",
-      "name": "Global X Copper Miners Acc",
+      "ticker": "INSX.L",
+      "name": "Invesco Dow Jones US Insurance UCITS ETF USD Acc",
       "advice": "HOLD",
-      "score": 5.0,
-      "theme": "COMMODITY",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "COPX.L",
-      "name": "Global X Copper Miners UCITS ETF USD Acc",
-      "advice": "HOLD",
-      "score": 5.0,
-      "theme": "COMMODITY",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "CSJP.MI",
-      "name": "iShares VII PLC - iShares MSCI Japan ETF USD Acc",
-      "advice": "HOLD",
-      "score": 5.0,
+      "score": 7.01,
       "theme": "OTHER/BROAD",
       "confidence": "HIGH"
     },
     {
-      "ticker": "DFEN.DE",
-      "name": "VanEck Defense Acc",
+      "ticker": "QDVQ.DE",
+      "name": "iShares S&P 500 Consumer Disc Acc",
       "advice": "HOLD",
-      "score": 5.0,
-      "theme": "OTHER/BROAD",
+      "score": 6.94,
+      "theme": "SP500-SECTOR",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "2B7B.DE",
+      "name": "iShares S&P 500 Materials Acc",
+      "advice": "HOLD",
+      "score": 6.81,
+      "theme": "INDUSTRY",
       "confidence": "HIGH"
     }
   ],
