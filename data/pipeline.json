@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-11",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 7 HOLD | 🔶 0 TRIM | 🔴 0 SELL | ⚠️ Healthcare 3/7 (43%) — sectorconcentratie risico! | 🏆 Top: EXEL (6.3), URBN (5.8), AMZN (5.7)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 25 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: XDWF.DE (7.3), QDVQ.DE (7.1), EWSP.AS (7.1) | 🤖 LLM 38/50 mislukt (3.69% gewicht neutraal)",
+  "updated": "2026-11-12",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 6 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: AMD (6.0), URBN (5.9), HALO (5.8)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 26 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: XDWM.DE (7.3), INSX.L (7.3), XDWF.DE (7.2) | 🤖 LLM 39/52 mislukt (3.64% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 7,
+    "HOLD": 6,
     "TRIM": 0,
     "SELL": 0,
     "CONFLICT": 0
@@ -13,91 +13,100 @@
   "etf_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 25,
+    "HOLD": 26,
     "TRIM": 0,
     "SELL": 0
   },
   "stocks_watch": [
     {
-      "ticker": "EXEL",
-      "name": "Exelixis, Inc.",
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
       "advice": "HOLD",
-      "score": 6.35,
-      "confidence": "HIGH"
+      "score": 5.95,
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 5.75,
+      "score": 5.92,
       "confidence": "HIGH"
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
+      "ticker": "HALO",
+      "name": "",
       "advice": "HOLD",
-      "score": 5.73,
+      "score": 5.77,
       "confidence": "HIGH"
     },
     {
       "ticker": "VRTX",
       "name": "Vertex Pharmaceuticals Incorpor",
       "advice": "HOLD",
-      "score": 5.27,
+      "score": 5.38,
       "confidence": "HIGH"
-    },
-    {
-      "ticker": "SMFG",
-      "name": "",
-      "advice": "HOLD",
-      "score": 5.08,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "HALO",
-      "name": "",
-      "advice": "HOLD",
-      "score": 5.02,
-      "confidence": "MEDIUM"
     },
     {
       "ticker": "MGNI",
       "name": "Magnite, Inc.",
       "advice": "HOLD",
-      "score": 4.73,
+      "score": 5.02,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "SMFG",
+      "name": "",
+      "advice": "HOLD",
+      "score": 4.71,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
+      "ticker": "XDWM.DE",
+      "name": "Xtrackers Europe Materials Acc",
+      "advice": "HOLD",
+      "score": 7.3,
+      "theme": "INDUSTRY",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "INSX.L",
+      "name": "Invesco Dow Jones US Insurance UCITS ETF USD Acc",
+      "advice": "HOLD",
+      "score": 7.28,
+      "theme": "OTHER/BROAD",
+      "confidence": "HIGH"
+    },
+    {
       "ticker": "XDWF.DE",
       "name": "Xtrackers Europe Financials Acc",
       "advice": "HOLD",
-      "score": 7.29,
+      "score": 7.21,
       "theme": "FINANCIALS",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "AWAT.PA",
+      "name": "Amundi Water ESG Acc",
+      "advice": "HOLD",
+      "score": 7.02,
+      "theme": "OTHER/BROAD",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "ZPRV.DE",
+      "name": "SPDR US Small Cap Value Acc",
+      "advice": "HOLD",
+      "score": 6.92,
+      "theme": "OTHER/BROAD",
       "confidence": "HIGH"
     },
     {
       "ticker": "QDVQ.DE",
       "name": "iShares S&P 500 Consumer Disc Acc",
       "advice": "HOLD",
-      "score": 7.11,
-      "theme": "SP500-SECTOR",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "EWSP.AS",
-      "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
-      "advice": "HOLD",
-      "score": 7.1,
-      "theme": "SP500-SECTOR",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "2B7D.DE",
-      "name": "iShares S&P 500 Consumer Stap Acc",
-      "advice": "HOLD",
-      "score": 7.08,
+      "score": 6.91,
       "theme": "SP500-SECTOR",
       "confidence": "HIGH"
     },
@@ -105,33 +114,17 @@
       "ticker": "2B7B.DE",
       "name": "iShares S&P 500 Materials Acc",
       "advice": "HOLD",
-      "score": 7.01,
+      "score": 6.85,
       "theme": "INDUSTRY",
       "confidence": "HIGH"
     },
     {
-      "ticker": "AWAT.PA",
-      "name": "Amundi Water ESG Acc",
+      "ticker": "EWSP.AS",
+      "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
       "advice": "HOLD",
-      "score": 6.87,
-      "theme": "OTHER/BROAD",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "IUST.DE",
-      "name": "iShares Digitalisation UCITS Acc",
-      "advice": "HOLD",
-      "score": 6.7,
-      "theme": "OTHER/BROAD",
+      "score": 6.76,
+      "theme": "SP500-SECTOR",
       "confidence": "HIGH"
-    },
-    {
-      "ticker": "QDVK.DE",
-      "name": "iShares S&P 500 Energy Acc",
-      "advice": "HOLD",
-      "score": 6.57,
-      "theme": "ENERGY",
-      "confidence": "MEDIUM"
     }
   ],
   "regime_note": "Market context only (log-only audit). No signal use."
