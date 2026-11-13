@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-12",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 6 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: AMD (6.0), URBN (5.9), HALO (5.8)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 26 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: XDWM.DE (7.3), INSX.L (7.3), XDWF.DE (7.2) | 🤖 LLM 39/52 mislukt (3.64% gewicht neutraal)",
+  "updated": "2026-11-13",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 6 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: AMZN (5.9), URBN (5.5), HALO (5.2)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 25 HOLD | 🔶 1 TRIM | 🔴 0 SELL | 🏆 Top: XDWM.DE (7.0), IS3Q.DE (7.0), XDWF.DE (7.0) | 🤖 LLM 39/52 mislukt (3.64% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
@@ -13,118 +13,118 @@
   "etf_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 26,
-    "TRIM": 0,
+    "HOLD": 25,
+    "TRIM": 1,
     "SELL": 0
   },
   "stocks_watch": [
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
       "advice": "HOLD",
-      "score": 5.95,
-      "confidence": "MEDIUM"
+      "score": 5.89,
+      "confidence": "HIGH"
     },
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 5.92,
+      "score": 5.52,
       "confidence": "HIGH"
     },
     {
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 5.77,
-      "confidence": "HIGH"
+      "score": 5.18,
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "VRTX",
       "name": "Vertex Pharmaceuticals Incorpor",
       "advice": "HOLD",
-      "score": 5.38,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "MGNI",
-      "name": "Magnite, Inc.",
-      "advice": "HOLD",
-      "score": 5.02,
+      "score": 5.1,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 4.71,
+      "score": 4.65,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "MGNI",
+      "name": "Magnite, Inc.",
+      "advice": "HOLD",
+      "score": 3.87,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
+      "ticker": "XDWH.DE",
+      "name": "Xtrackers Europe Health Care Acc",
+      "advice": "TRIM",
+      "score": 6.67,
+      "theme": "HEALTH",
+      "confidence": "HIGH"
+    },
+    {
       "ticker": "XDWM.DE",
       "name": "Xtrackers Europe Materials Acc",
       "advice": "HOLD",
-      "score": 7.3,
+      "score": 6.99,
       "theme": "INDUSTRY",
       "confidence": "HIGH"
     },
     {
-      "ticker": "INSX.L",
-      "name": "Invesco Dow Jones US Insurance UCITS ETF USD Acc",
+      "ticker": "IS3Q.DE",
+      "name": "iShares Edge MSCI World Quality",
       "advice": "HOLD",
-      "score": 7.28,
-      "theme": "OTHER/BROAD",
-      "confidence": "HIGH"
+      "score": 6.97,
+      "theme": "SMART-BETA",
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "XDWF.DE",
       "name": "Xtrackers Europe Financials Acc",
       "advice": "HOLD",
-      "score": 7.21,
+      "score": 6.96,
       "theme": "FINANCIALS",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "AWAT.PA",
-      "name": "Amundi Water ESG Acc",
-      "advice": "HOLD",
-      "score": 7.02,
-      "theme": "OTHER/BROAD",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "ZPRV.DE",
-      "name": "SPDR US Small Cap Value Acc",
-      "advice": "HOLD",
-      "score": 6.92,
-      "theme": "OTHER/BROAD",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "QDVQ.DE",
-      "name": "iShares S&P 500 Consumer Disc Acc",
-      "advice": "HOLD",
-      "score": 6.91,
-      "theme": "SP500-SECTOR",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "2B7B.DE",
-      "name": "iShares S&P 500 Materials Acc",
-      "advice": "HOLD",
-      "score": 6.85,
-      "theme": "INDUSTRY",
       "confidence": "HIGH"
     },
     {
       "ticker": "EWSP.AS",
       "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
       "advice": "HOLD",
-      "score": 6.76,
+      "score": 6.88,
       "theme": "SP500-SECTOR",
       "confidence": "HIGH"
+    },
+    {
+      "ticker": "ZPRX.DE",
+      "name": "SPDR Europe Small Cap Value Acc",
+      "advice": "HOLD",
+      "score": 6.74,
+      "theme": "OTHER/BROAD",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "INSX.L",
+      "name": "Invesco Dow Jones US Insurance UCITS ETF USD Acc",
+      "advice": "HOLD",
+      "score": 6.67,
+      "theme": "OTHER/BROAD",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "AWAT.PA",
+      "name": "Amundi Water ESG Acc",
+      "advice": "HOLD",
+      "score": 6.38,
+      "theme": "OTHER/BROAD",
+      "confidence": "MEDIUM"
     }
   ],
   "regime_note": "Market context only (log-only audit). No signal use."
