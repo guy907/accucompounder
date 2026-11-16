@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-16",
  "method": "Equal-weighted daily price returns of every real traded ticker (live holdings + realized exits), rebased 100. Price-only, no dividends/fees. Benchmarks URTH (MSCI World) + SPY, same window, free yfinance.",
  "constituents": [
   "CSJP.AS",
@@ -203,7 +203,8 @@
   "2026-11-10",
   "2026-11-11",
   "2026-11-12",
-  "2026-11-13"
+  "2026-11-13",
+  "2026-11-16"
  ],
  "active_basket_norm": [
   100.0,
@@ -386,7 +387,8 @@
   121.49,
   123.35,
   122.58,
-  121.65
+  121.63,
+  120.28
  ],
  "msci_world_norm": [
   100.0,
@@ -569,7 +571,8 @@
   109.69,
   110.83,
   110.36,
-  109.81
+  110.07,
+  108.24
  ],
  "sp500_norm": [
   100.0,
@@ -752,6 +755,7 @@
   110.93,
   112.39,
   112.0,
-  111.23
+  111.59,
+  109.53
  ]
 }
