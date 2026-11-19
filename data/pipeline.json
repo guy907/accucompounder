@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-18",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 7 HOLD | 🔶 0 TRIM | 🔴 0 SELL | ⚠️ Consumer Cyclical 3/7 (43%) — sectorconcentratie risico! | 🏆 Top: AMZN (5.7), HALO (5.4), SMFG (5.4)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 11 HOLD | 🔶 0 TRIM | 🔴 4 SELL | 🏆 Top: XDWH.DE (6.3), EWSP.AS (6.1), IMIE.PA (5.2) | 🤖 LLM 16/30 mislukt (2.59% gewicht neutraal)",
+  "updated": "2026-11-19",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 7 HOLD | 🔶 0 TRIM | 🔴 0 SELL | ⚠️ Healthcare 3/7 (43%) — sectorconcentratie risico! | 🏆 Top: URBN (6.1), AMRX (5.9), AMZN (5.8)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 10 HOLD | 🔶 0 TRIM | 🔴 5 SELL | 🏆 Top: XDWH.DE (6.3), EWSP.AS (5.3), ASWC.DE (5.0) | 🤖 LLM 16/30 mislukt (2.59% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
@@ -13,67 +13,75 @@
   "etf_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 11,
+    "HOLD": 10,
     "TRIM": 0,
-    "SELL": 4
+    "SELL": 5
   },
   "stocks_watch": [
+    {
+      "ticker": "URBN",
+      "name": "Urban Outfitters, Inc.",
+      "advice": "HOLD",
+      "score": 6.06,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "AMRX",
+      "name": "Amneal Pharmaceuticals, Inc.",
+      "advice": "HOLD",
+      "score": 5.87,
+      "confidence": "MEDIUM"
+    },
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
       "advice": "HOLD",
-      "score": 5.73,
+      "score": 5.85,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorpor",
+      "advice": "HOLD",
+      "score": 5.68,
       "confidence": "HIGH"
     },
     {
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 5.43,
+      "score": 5.5,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 5.38,
+      "score": 4.72,
       "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "GME",
-      "name": "GameStop Corporation",
-      "advice": "HOLD",
-      "score": 5.33,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "URBN",
-      "name": "Urban Outfitters, Inc.",
-      "advice": "HOLD",
-      "score": 5.28,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "VRTX",
-      "name": "Vertex Pharmaceuticals Incorpor",
-      "advice": "HOLD",
-      "score": 4.95,
-      "confidence": "HIGH"
     },
     {
       "ticker": "MGNI",
       "name": "Magnite, Inc.",
       "advice": "HOLD",
-      "score": 4.54,
+      "score": 4.38,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
+      "ticker": "BNKE.PA",
+      "name": "Amundi Euro Stoxx Banks UCITS ETF Acc",
+      "advice": "SELL",
+      "score": 4.4,
+      "theme": "FINANCIALS",
+      "confidence": "HIGH"
+    },
+    {
       "ticker": "LYTR.DE",
       "name": "Lyxor Commodities Refinitiv/CoreCommodity CRB TR UCITS ETF -",
       "advice": "STRONG_SELL",
-      "score": 2.33,
+      "score": 2.08,
       "theme": "COMMODITY",
       "confidence": "MEDIUM"
     },
@@ -81,7 +89,7 @@
       "ticker": "ECGH.L",
       "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
       "advice": "STRONG_SELL",
-      "score": 2.06,
+      "score": 1.92,
       "theme": "COMMODITY",
       "confidence": "MEDIUM"
     },
@@ -89,7 +97,7 @@
       "ticker": "COPM.MI",
       "name": "Global X Copper Miners Acc",
       "advice": "STRONG_SELL",
-      "score": 0.79,
+      "score": 0.92,
       "theme": "COMMODITY",
       "confidence": "MEDIUM"
     },
@@ -97,33 +105,17 @@
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "HOLD",
-      "score": 6.34,
+      "score": 6.28,
       "theme": "HEALTH",
-      "confidence": "HIGH"
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "EWSP.AS",
       "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
       "advice": "HOLD",
-      "score": 6.12,
+      "score": 5.27,
       "theme": "SP500-SECTOR",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "IMIE.PA",
-      "name": "State Street SPDR MSCI ACWI IMI UCITS ETF",
-      "advice": "HOLD",
-      "score": 5.21,
-      "theme": "OTHER/BROAD",
       "confidence": "HIGH"
-    },
-    {
-      "ticker": "BNKE.PA",
-      "name": "Amundi Euro Stoxx Banks UCITS ETF Acc",
-      "advice": "HOLD",
-      "score": 5.11,
-      "theme": "FINANCIALS",
-      "confidence": "MEDIUM"
     },
     {
       "ticker": "ASWC.DE",
@@ -131,6 +123,14 @@
       "advice": "HOLD",
       "score": 5.0,
       "theme": "DEFENCE",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "CSJP.MI",
+      "name": "iShares VII PLC - iShares MSCI Japan ETF USD Acc",
+      "advice": "HOLD",
+      "score": 5.0,
+      "theme": "OTHER/BROAD",
       "confidence": "HIGH"
     }
   ],
