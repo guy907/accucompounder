@@ -73,8 +73,11 @@ fetch('data/benchmark.json').then(r=>r.json()).then(b=>{
  var n=(b.constituents||[]).length;
  var startLabel=new Date(b.dates[0]+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
  var basketName='Live basket ('+n+' real tickers)';
- document.getElementById('k-basket').innerHTML=`<span class="pos" style="font-size:1.35em">${last}</span> <small style="color:#5B6B7C;font-weight:400">vs ${m}</small>`;
- document.getElementById('excess').textContent=`Outperformance: +${(last-m).toFixed(1)}pp vs MSCI World since ${startLabel}.`;
+  var diff=+(last-m).toFixed(1);
+  var cls=diff>=0?'pos':'neg';
+  var label=diff>=0?'Outperformance':'Underperformance';
+  document.getElementById('k-basket').innerHTML=`<span class="${cls}" style="font-size:1.35em">${last}</span> <small style="color:#5B6B7C;font-weight:400">vs ${m}</small>`;
+  document.getElementById('excess').textContent=`${label}: ${diff>=0?'+':''}${diff}pp vs MSCI World since ${startLabel}.`;
  document.getElementById('since').textContent=startLabel;
  var c=echarts.init(document.getElementById('bench'));
   c.setOption({tooltip:{trigger:'axis'},legend:{data:[basketName,'MSCI World (URTH)','S&P500 (SPY)']},xAxis:{type:'category',data:b.dates},yAxis:{type:'value'},series:[

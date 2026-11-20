@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-19",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 7 HOLD | 🔶 0 TRIM | 🔴 0 SELL | ⚠️ Healthcare 3/7 (43%) — sectorconcentratie risico! | 🏆 Top: URBN (6.1), AMRX (5.9), AMZN (5.8)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 10 HOLD | 🔶 0 TRIM | 🔴 5 SELL | 🏆 Top: XDWH.DE (6.3), EWSP.AS (5.3), ASWC.DE (5.0) | 🤖 LLM 16/30 mislukt (2.59% gewicht neutraal)",
+  "updated": "2026-11-20",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 7 HOLD | 🔶 0 TRIM | 🔴 0 SELL | ⚠️ Healthcare 3/7 (43%) — sectorconcentratie risico! | 🏆 Top: AMZN (5.8), AMRX (5.8), URBN (5.6)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 6 HOLD | 🔶 0 TRIM | 🔴 9 SELL | 🏆 Top: XDWH.DE (6.1), ASWC.DE (5.0), EWSP.AS (5.0) | 🤖 LLM 16/30 mislukt (2.59% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
@@ -13,109 +13,69 @@
   "etf_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 10,
+    "HOLD": 6,
     "TRIM": 0,
-    "SELL": 5
+    "SELL": 9
   },
   "stocks_watch": [
     {
-      "ticker": "URBN",
-      "name": "Urban Outfitters, Inc.",
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
       "advice": "HOLD",
-      "score": 6.06,
+      "score": 5.8,
       "confidence": "HIGH"
     },
     {
       "ticker": "AMRX",
       "name": "Amneal Pharmaceuticals, Inc.",
       "advice": "HOLD",
-      "score": 5.87,
+      "score": 5.75,
       "confidence": "MEDIUM"
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
+      "ticker": "URBN",
+      "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 5.85,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "VRTX",
-      "name": "Vertex Pharmaceuticals Incorpor",
-      "advice": "HOLD",
-      "score": 5.68,
+      "score": 5.61,
       "confidence": "HIGH"
     },
     {
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 5.5,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "SMFG",
-      "name": "",
-      "advice": "HOLD",
-      "score": 4.72,
+      "score": 5.21,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "MGNI",
       "name": "Magnite, Inc.",
       "advice": "HOLD",
-      "score": 4.38,
+      "score": 5.18,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorpor",
+      "advice": "HOLD",
+      "score": 5.11,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "SMFG",
+      "name": "",
+      "advice": "HOLD",
+      "score": 4.53,
       "confidence": "MEDIUM"
     }
   ],
   "etf_queue": [
     {
-      "ticker": "BNKE.PA",
-      "name": "Amundi Euro Stoxx Banks UCITS ETF Acc",
-      "advice": "SELL",
-      "score": 4.4,
-      "theme": "FINANCIALS",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "LYTR.DE",
-      "name": "Lyxor Commodities Refinitiv/CoreCommodity CRB TR UCITS ETF -",
-      "advice": "STRONG_SELL",
-      "score": 2.08,
-      "theme": "COMMODITY",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "ECGH.L",
-      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
-      "advice": "STRONG_SELL",
-      "score": 1.92,
-      "theme": "COMMODITY",
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "COPM.MI",
-      "name": "Global X Copper Miners Acc",
-      "advice": "STRONG_SELL",
-      "score": 0.92,
-      "theme": "COMMODITY",
-      "confidence": "MEDIUM"
-    },
-    {
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "HOLD",
-      "score": 6.28,
+      "score": 6.13,
       "theme": "HEALTH",
       "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "EWSP.AS",
-      "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
-      "advice": "HOLD",
-      "score": 5.27,
-      "theme": "SP500-SECTOR",
-      "confidence": "HIGH"
     },
     {
       "ticker": "ASWC.DE",
@@ -126,12 +86,108 @@
       "confidence": "HIGH"
     },
     {
-      "ticker": "CSJP.MI",
-      "name": "iShares VII PLC - iShares MSCI Japan ETF USD Acc",
+      "ticker": "EWSP.AS",
+      "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
+      "advice": "HOLD",
+      "score": 5.0,
+      "theme": "SP500-SECTOR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "IMIE.PA",
+      "name": "State Street SPDR MSCI ACWI IMI UCITS ETF",
       "advice": "HOLD",
       "score": 5.0,
       "theme": "OTHER/BROAD",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "SC0U.DE",
+      "name": "Invesco STOXX Europe 600 Optimised Banks UCITS ETF",
+      "advice": "HOLD",
+      "score": 5.0,
+      "theme": "FINANCIALS",
       "confidence": "HIGH"
+    },
+    {
+      "ticker": "USPY.DE",
+      "name": "L&G Cybersecurity Acc",
+      "advice": "HOLD",
+      "score": 5.0,
+      "theme": "TECH-THEMATIC",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "BNKE.PA",
+      "name": "Amundi Euro Stoxx Banks UCITS ETF Acc",
+      "advice": "SELL",
+      "score": 4.14,
+      "theme": "FINANCIALS",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "XCHA.DE",
+      "name": "Xtrackers CSI 300 China Acc",
+      "advice": "STRONG_SELL",
+      "score": 2.26,
+      "theme": "OTHER/BROAD",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "CSJP.MI",
+      "name": "iShares VII PLC - iShares MSCI Japan ETF USD Acc",
+      "advice": "STRONG_SELL",
+      "score": 2.24,
+      "theme": "OTHER/BROAD",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "QDVE.DE",
+      "name": "iShares S&P 500 Info Tech Acc",
+      "advice": "STRONG_SELL",
+      "score": 1.78,
+      "theme": "TECH-THEMATIC",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "LYTR.DE",
+      "name": "Lyxor Commodities Refinitiv/CoreCommodity CRB TR UCITS ETF -",
+      "advice": "STRONG_SELL",
+      "score": 1.6,
+      "theme": "COMMODITY",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "ECGH.L",
+      "name": "L&G Multi-Strategy Enhanced Commodities GBP Hedged Acc UCITS",
+      "advice": "STRONG_SELL",
+      "score": 1.46,
+      "theme": "COMMODITY",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "COPM.MI",
+      "name": "Global X Copper Miners Acc",
+      "advice": "STRONG_SELL",
+      "score": 0.62,
+      "theme": "COMMODITY",
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "DFEN.DE",
+      "name": "VanEck Defense Acc",
+      "advice": "STRONG_SELL",
+      "score": 0.31,
+      "theme": "OTHER/BROAD",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "COPX.L",
+      "name": "Global X Copper Miners UCITS ETF USD Acc",
+      "advice": "STRONG_SELL",
+      "score": 0.15,
+      "theme": "COMMODITY",
+      "confidence": "MEDIUM"
     }
   ],
   "regime_note": "Market context only (log-only audit). No signal use."

@@ -18,7 +18,7 @@
 <div class="timeline" id="tl"></div></main><footer>© AccuCompounder Research — Educational showcase only. Not financial advice. Past performance ≠ future results. | <a href="trades.xml">RSS Trades</a> | <a href="tearsheet.html">Tearsheet</a></footer>
 <script>
 fetch('data/trades.json').then(r=>r.json()).then(d=>{
- document.getElementById('tl').innerHTML=d.trades.map(t=>`<div><b>${String(t.date).slice(0,10)}</b> — <b>${t.side}</b> ${t.ticker}${t.pnl_pct!=null?` <span class="${t.pnl_pct>=0?'pos':'neg'}">${t.pnl_pct}%</span>`:''}</div>`).join('');
+  document.getElementById('tl').innerHTML=d.trades.map(t=>`<div><b>${String(t.date).slice(0,10)}</b> — <b>${t.side}</b> ${t.ticker}${t.pnl_pct!=null?` <span class="${t.pnl_pct>=0?'pos':'neg'}">${t.pnl_pct}%</span>`:''}${t.note?`<br><small style="color:#5B6B7C">${t.note}</small>`:''}</div>`).join('');
 }).catch(()=>{
  document.getElementById('tl').innerHTML='<p class="datafail" style="border-radius:8px">Trade log could not be loaded — <code>data/trades.json</code> did not respond, so <b>no trades are listed here, not because none were made</b>. Every trade is still in the <a href="trades.xml">RSS feed</a> and in the raw file at <a href="data/trades.json">data/trades.json</a>.</p>';
 });
