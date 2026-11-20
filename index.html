@@ -30,8 +30,8 @@
 <noscript><p class="noscript">The charts and tables on this page are built from live JSON, which needs JavaScript. The same numbers without it: <a href="data/holdings.json">holdings.json</a>, <a href="data/benchmark.json">benchmark.json</a>, <a href="trades.xml">RSS trade feed</a>.</p></noscript>
 <div class="kpis" id="kpis">
  <div class="kpi"><b id="k-tick">–</b><br><span>Tickers (live + exits)</span></div>
- <div class="kpi"><b id="k-etfpct">–</b><br><span>ETF all-in %</span></div>
- <div class="kpi"><b id="k-stkpct">–</b><br><span>Stock all-in %</span></div>
+  <div class="kpi"><b id="k-etfpct">–</b><br><span>ETF all-in %</span><br><small id="k-etfpct-t" style="color:#5B6B7C;font-weight:400">–</small></div>
+  <div class="kpi"><b id="k-stkpct">–</b><br><span>Stock all-in %</span><br><small id="k-stkpct-t" style="color:#5B6B7C;font-weight:400">–</small></div>
  <div class="kpi"><b id="k-basket">–</b><br><span>Live basket vs MSCI</span></div>
 </div>
 <div class="datafail" id="f-holdings" hidden>Holdings could not be shown — either <code>data/holdings.json</code> did not load, or the charting library was blocked. The raw numbers are still readable at <a href="data/holdings.json">data/holdings.json</a>.</div>
@@ -50,8 +50,14 @@ fetch('data/holdings.json').then(r=>r.json()).then(d=>{
  document.getElementById('upd').textContent=d.updated;
  var nl=d.etfs.length+d.stocks.length, nx=d.allin_etf.n_exits+d.allin_stk.n_exits;
  document.getElementById('k-tick').textContent=nl+nx;
- document.getElementById('k-etfpct').textContent=d.allin_etf.pct+'%';
- document.getElementById('k-stkpct').textContent=d.allin_stk.pct+'%';
+  document.getElementById('k-etfpct').textContent=d.allin_etf.pct+'%';
+  document.getElementById('k-stkpct').textContent=d.allin_stk.pct+'%';
+  const spanLabel=s=>{if(!s||!s.since)return '';
+    const since=new Date(s.since+'T00:00:00').toLocaleDateString('en-GB',{month:'short',year:'numeric'});
+    if(s.ann_pct!=null)return `since ${since} · ${s.period} · ann. ${s.ann_pct>=0?'+':''}${s.ann_pct}%/yr`;
+    return `since ${since} · ${s.period} (not annualized)`;};
+  document.getElementById('k-etfpct-t').textContent=spanLabel(d.allin_etf);
+  document.getElementById('k-stkpct-t').textContent=spanLabel(d.allin_stk);
  document.getElementById('k-etf').textContent=d.allin_etf.pct+'%';
  document.getElementById('k-stk').textContent=d.allin_stk.pct+'%';
  document.getElementById('n-live').textContent=nl;

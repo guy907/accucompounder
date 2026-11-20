@@ -25,7 +25,7 @@ fetch('data/pipeline.json').then(r=>r.json()).then(d=>{
  const EN=x=>String(x||'').replace(/sectorconcentratie risico!/gi,'concentration risk').trim();
  document.getElementById('ss').textContent=EN(d.stock_summary);
  document.getElementById('es').textContent=EN(d.etf_summary);
-  const dot={BUY:'🟢',ACCUMULATE:'🌀',HOLD:'🟡',TRIM:'🔶',SELL:'🔴',CONFLICT:'⚪'};
+  const dot={BUY:'🟢',ACCUMULATE:'🌀',HOLD:'🟡',TRIM:'🔶',SELL:'🔴',STRONG_SELL:'🔴',CONFLICT:'⚪'};
   const trow=x=>`<tr><td><b>${x.ticker}</b></td><td>${dot[x.advice]||''} ${x.advice}</td><td>${x.score??''}</td></tr>`;
   document.getElementById('st').innerHTML+=''+d.stocks_watch.map(trow).join('');
   document.getElementById('et').innerHTML+=''+d.etf_queue.map(trow).join('');

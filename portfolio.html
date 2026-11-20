@@ -13,8 +13,8 @@
 <header><nav class="nav"><span class="brand">AccuCompounder <small>Research</small></span>
 <a href="index.html">Home</a><a href="portfolio.html" class="active">Portfolio</a><a href="pipeline.html">Pipeline</a><a href="trades.html">Trades</a><a href="methodology.html">Methodology</a><a href="tearsheet.html">Tearsheet</a></nav></header>
 <main><h1>Portfolio — weights in %</h1>
-<div class="kpis"><div class="kpi"><b id="etf-pnl">–</b><br><span>ETF all-in (live + exits)</span></div>
-<div class="kpi"><b id="stk-pnl">–</b><br><span>Stock all-in (live + exits)</span></div>
+<div class="kpis"><div class="kpi"><b id="etf-pnl">–</b><br><span>ETF all-in (live + exits)</span><br><small id="etf-pnl-t" style="color:#5B6B7C;font-weight:400">–</small></div>
+<div class="kpi"><b id="stk-pnl">–</b><br><span>Stock all-in (live + exits)</span><br><small id="stk-pnl-t" style="color:#5B6B7C;font-weight:400">–</small></div>
 <div class="kpi"><b id="n-hold">–</b><br><span>Tickers (live + exits)</span></div></div>
 <p>UCITS accumulating ETFs + US/EU compounders. Core = sleeve weight ≥15%, Satellite below — full rule in <a href="methodology.html">Methodology</a>.</p>
 <noscript><p class="noscript">The tables below are built from live JSON and need JavaScript. Without it, read the raw data at <a href="data/holdings.json">data/holdings.json</a> or the monthly <a href="tearsheet.html">tearsheet PDF</a>.</p></noscript>
@@ -36,9 +36,15 @@ fetch('data/holdings.json').then(r=>r.json()).then(d=>{
  const r=(s,n)=>`${s.avg_pct}% (${s.wins}/${s.n} wins)`;
   const pl=(n)=>n==1?'1 exit':n+' exits';
   document.getElementById('realized').textContent=`All-in per deployed euro (live + exits): ETFs ${d.allin_etf.pct}% (${pl(d.allin_etf.n_exits)}) · stocks ${d.allin_stk.pct}% (${pl(d.allin_stk.n_exits)}). Live alone: ETFs ${d.etf_pnl_pct}%, stocks ${d.stock_pnl_pct}%. Realized exits avg: ETFs ${r(d.realized_etf)} · stocks ${r(d.realized_stk)} — details on the Trades page.`;
- const fmt=v=>`<span class="${v>=0?'pos':'neg'}">${v}%</span>`;
-  document.getElementById('etf-pnl').innerHTML=fmt(d.allin_etf.pct);
-  document.getElementById('stk-pnl').innerHTML=fmt(d.allin_stk.pct);
+  const fmt=v=>`<span class="${v>=0?'pos':'neg'}">${v}%</span>`;
+   document.getElementById('etf-pnl').innerHTML=fmt(d.allin_etf.pct);
+   document.getElementById('stk-pnl').innerHTML=fmt(d.allin_stk.pct);
+  const spanLabel=s=>{if(!s||!s.since)return '';
+    const since=new Date(s.since+'T00:00:00').toLocaleDateString('en-GB',{month:'short',year:'numeric'});
+    if(s.ann_pct!=null)return `since ${since} · ${s.period} · ann. ${s.ann_pct>=0?'+':''}${s.ann_pct}%/yr`;
+    return `since ${since} · ${s.period} (not annualized)`;};
+   document.getElementById('etf-pnl-t').textContent=spanLabel(d.allin_etf);
+   document.getElementById('stk-pnl-t').textContent=spanLabel(d.allin_stk);
   document.getElementById('n-hold').textContent=d.etfs.length+d.stocks.length+d.allin_etf.n_exits+d.allin_stk.n_exits;
  }).catch(()=>{
   document.getElementById('realized').innerHTML='<span class="datafail" style="display:inline-block">Holdings could not be loaded — <code>data/holdings.json</code> did not respond, so the tables below are <b>empty, not zero</b>. The raw data is still readable at <a href="data/holdings.json">data/holdings.json</a>, and every position appears in the <a href="trades.xml">RSS feed</a>.</span>';
