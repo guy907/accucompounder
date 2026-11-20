@@ -1,11 +1,11 @@
 {
   "updated": "2026-11-20",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 7 HOLD | 🔶 0 TRIM | 🔴 0 SELL | ⚠️ Healthcare 3/7 (43%) — sectorconcentratie risico! | 🏆 Top: AMZN (5.8), AMRX (5.8), URBN (5.6)",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: MGNI (6.5), URBN (5.8), HALO (5.5)",
   "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 6 HOLD | 🔶 0 TRIM | 🔴 9 SELL | 🏆 Top: XDWH.DE (6.1), ASWC.DE (5.0), EWSP.AS (5.0) | 🤖 LLM 16/30 mislukt (2.59% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
-    "HOLD": 7,
+    "HOLD": 5,
     "TRIM": 0,
     "SELL": 0,
     "CONFLICT": 0
@@ -19,52 +19,38 @@
   },
   "stocks_watch": [
     {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
+      "ticker": "MGNI",
+      "name": "Magnite, Inc.",
       "advice": "HOLD",
-      "score": 5.8,
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "AMRX",
-      "name": "Amneal Pharmaceuticals, Inc.",
-      "advice": "HOLD",
-      "score": 5.75,
+      "score": 6.51,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 5.61,
+      "score": 5.83,
       "confidence": "HIGH"
     },
     {
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 5.21,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "MGNI",
-      "name": "Magnite, Inc.",
-      "advice": "HOLD",
-      "score": 5.18,
+      "score": 5.49,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "VRTX",
       "name": "Vertex Pharmaceuticals Incorpor",
       "advice": "HOLD",
-      "score": 5.11,
+      "score": 5.26,
       "confidence": "HIGH"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 4.53,
+      "score": 4.34,
       "confidence": "MEDIUM"
     }
   ],

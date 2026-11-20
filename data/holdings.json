@@ -1,12 +1,12 @@
 {
-  "updated": "19-11-2026 19:30",
-  "etf_pnl_pct": 13.06,
-  "stock_pnl_pct": 20.19,
+  "updated": "20-11-2026 19:30",
+  "etf_pnl_pct": 9.71,
+  "stock_pnl_pct": 19.35,
   "etfs": [
     {
       "ticker": "USPY.DE",
-      "weight_pct": 30.83,
-      "pnl_pct": 62.4,
+      "weight_pct": 29.8,
+      "pnl_pct": 52.32,
       "status": "Core",
       "buy_date": "2026-04-21",
       "days_held": 213,
@@ -14,8 +14,8 @@
     },
     {
       "ticker": "XDWH.DE",
-      "weight_pct": 25.44,
-      "pnl_pct": 12.97,
+      "weight_pct": 26.3,
+      "pnl_pct": 13.33,
       "status": "Core",
       "buy_date": "2026-09-11",
       "days_held": 70,
@@ -23,8 +23,8 @@
     },
     {
       "ticker": "XCHA.DE",
-      "weight_pct": 16.07,
-      "pnl_pct": -9.13,
+      "weight_pct": 16.4,
+      "pnl_pct": -10.01,
       "status": "Core",
       "buy_date": "2026-08-17",
       "days_held": 95,
@@ -32,8 +32,8 @@
     },
     {
       "ticker": "CSJP.AS",
-      "weight_pct": 14.17,
-      "pnl_pct": -1.76,
+      "weight_pct": 14.1,
+      "pnl_pct": -5.12,
       "status": "Satellite",
       "buy_date": "2026-08-21",
       "days_held": 91,
@@ -41,8 +41,8 @@
     },
     {
       "ticker": "ASWC.DE",
-      "weight_pct": 13.5,
-      "pnl_pct": -9.06,
+      "weight_pct": 13.4,
+      "pnl_pct": -12.38,
       "status": "Satellite",
       "buy_date": "2026-08-07",
       "days_held": 105,
@@ -52,8 +52,8 @@
   "stocks": [
     {
       "ticker": "HALO",
-      "weight_pct": 70.15,
-      "pnl_pct": 25.15,
+      "weight_pct": 71.23,
+      "pnl_pct": 26.2,
       "status": "Core",
       "buy_date": "2026-07-13",
       "days_held": 130,
@@ -61,8 +61,8 @@
     },
     {
       "ticker": "SMFG",
-      "weight_pct": 29.85,
-      "pnl_pct": 9.94,
+      "weight_pct": 28.77,
+      "pnl_pct": 5.21,
       "status": "Core",
       "buy_date": "2026-03-10",
       "days_held": 255,
@@ -80,7 +80,7 @@
     "n": 10
   },
   "allin_etf": {
-    "pct": 14.25,
+    "pct": 11.96,
     "n_exits": 2,
     "since": "2026-04-21",
     "days": 213,
@@ -88,7 +88,7 @@
     "ann_pct": null
   },
   "allin_stk": {
-    "pct": 10.61,
+    "pct": 10.42,
     "n_exits": 10,
     "since": "2026-03-10",
     "days": 255,
