@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-23",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: MGNI (5.4), URBN (4.8), HALO (4.0)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 15 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: XDWH.DE (6.1), ASWC.DE (5.0), BNKE.PA (5.0) | 📅 koers: 15/15 op koers >2d | 🤖 LLM 17/30 mislukt (2.75% gewicht neutraal)",
+  "updated": "2026-11-24",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: MGNI (4.7), URBN (3.9), HALO (3.8)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 15 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: XDWH.DE (6.5), ASWC.DE (5.0), BNKE.PA (5.0) | 📅 koers: 14/15 op koers >2d | 🤖 LLM 15/30 mislukt (2.43% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
@@ -22,35 +22,35 @@
       "ticker": "MGNI",
       "name": "Magnite, Inc.",
       "advice": "HOLD",
-      "score": 5.37,
-      "confidence": "HIGH"
+      "score": 4.69,
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 4.83,
+      "score": 3.93,
       "confidence": "HIGH"
     },
     {
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 4.05,
+      "score": 3.81,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "VRTX",
       "name": "Vertex Pharmaceuticals Incorpor",
       "advice": "HOLD",
-      "score": 3.98,
+      "score": 3.59,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 3.52,
+      "score": 2.71,
       "confidence": "MEDIUM"
     }
   ],
@@ -59,7 +59,7 @@
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "HOLD",
-      "score": 6.09,
+      "score": 6.46,
       "theme": "HEALTH",
       "confidence": "HIGH"
     },
@@ -117,7 +117,7 @@
       "advice": "HOLD",
       "score": 5.0,
       "theme": "COMMODITY",
-      "confidence": "HIGH"
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "EWSP.AS",
