@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-24",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: MGNI (4.7), URBN (3.9), HALO (3.8)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 15 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: XDWH.DE (6.5), ASWC.DE (5.0), BNKE.PA (5.0) | 📅 koers: 14/15 op koers >2d | 🤖 LLM 15/30 mislukt (2.43% gewicht neutraal)",
+  "updated": "2026-11-25",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: MGNI (5.6), URBN (5.3), HALO (4.8)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 15 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: XDWH.DE (6.4), ASWC.DE (5.0), BNKE.PA (5.0) | 🤖 LLM 16/30 mislukt (2.59% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
@@ -22,35 +22,35 @@
       "ticker": "MGNI",
       "name": "Magnite, Inc.",
       "advice": "HOLD",
-      "score": 4.69,
+      "score": 5.63,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 3.93,
-      "confidence": "HIGH"
+      "score": 5.35,
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 3.81,
+      "score": 4.76,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "VRTX",
       "name": "Vertex Pharmaceuticals Incorpor",
       "advice": "HOLD",
-      "score": 3.59,
+      "score": 4.28,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 2.71,
+      "score": 2.95,
       "confidence": "MEDIUM"
     }
   ],
@@ -59,9 +59,9 @@
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "HOLD",
-      "score": 6.46,
+      "score": 6.39,
       "theme": "HEALTH",
-      "confidence": "HIGH"
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "ASWC.DE",
