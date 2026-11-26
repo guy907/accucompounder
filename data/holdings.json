@@ -1,71 +1,71 @@
 {
-  "updated": "25-11-2026 19:30",
-  "etf_pnl_pct": 10.08,
-  "stock_pnl_pct": 21.95,
+  "updated": "26-11-2026 19:30",
+  "etf_pnl_pct": 12.87,
+  "stock_pnl_pct": 22.5,
   "etfs": [
     {
       "ticker": "USPY.DE",
-      "weight_pct": 29.37,
-      "pnl_pct": 50.64,
+      "weight_pct": 30.07,
+      "pnl_pct": 58.13,
       "status": "Core",
       "buy_date": "2026-04-21",
-      "days_held": 218,
+      "days_held": 219,
       "ann_pct": null
     },
     {
       "ticker": "XDWH.DE",
-      "weight_pct": 26.84,
-      "pnl_pct": 16.07,
+      "weight_pct": 26.46,
+      "pnl_pct": 17.34,
       "status": "Core",
       "buy_date": "2026-09-11",
-      "days_held": 75,
+      "days_held": 76,
       "ann_pct": null
     },
     {
       "ticker": "XCHA.DE",
-      "weight_pct": 16.2,
-      "pnl_pct": -10.77,
+      "weight_pct": 15.87,
+      "pnl_pct": -10.38,
       "status": "Core",
       "buy_date": "2026-08-17",
-      "days_held": 100,
+      "days_held": 101,
       "ann_pct": null
     },
     {
       "ticker": "CSJP.AS",
-      "weight_pct": 14.2,
-      "pnl_pct": -4.1,
+      "weight_pct": 14.09,
+      "pnl_pct": -2.47,
       "status": "Satellite",
       "buy_date": "2026-08-21",
-      "days_held": 96,
+      "days_held": 97,
       "ann_pct": null
     },
     {
       "ticker": "ASWC.DE",
-      "weight_pct": 13.38,
-      "pnl_pct": -12.23,
+      "weight_pct": 13.5,
+      "pnl_pct": -9.19,
       "status": "Satellite",
       "buy_date": "2026-08-07",
-      "days_held": 110,
+      "days_held": 111,
       "ann_pct": null
     }
   ],
   "stocks": [
     {
       "ticker": "HALO",
-      "weight_pct": 70.84,
-      "pnl_pct": 28.23,
+      "weight_pct": 70.96,
+      "pnl_pct": 29.03,
       "status": "Core",
       "buy_date": "2026-07-13",
-      "days_held": 135,
+      "days_held": 136,
       "ann_pct": null
     },
     {
       "ticker": "SMFG",
-      "weight_pct": 29.16,
-      "pnl_pct": 8.98,
+      "weight_pct": 29.04,
+      "pnl_pct": 9.03,
       "status": "Core",
       "buy_date": "2026-03-10",
-      "days_held": 260,
+      "days_held": 261,
       "ann_pct": null
     }
   ],
@@ -80,19 +80,19 @@
     "n": 10
   },
   "allin_etf": {
-    "pct": 12.22,
+    "pct": 14.12,
     "n_exits": 2,
     "since": "2026-04-21",
-    "days": 218,
+    "days": 219,
     "period": "7.2 mo",
     "ann_pct": null
   },
   "allin_stk": {
-    "pct": 11.01,
+    "pct": 11.13,
     "n_exits": 10,
     "since": "2026-03-10",
-    "days": 260,
-    "period": "8.5 mo",
+    "days": 261,
+    "period": "8.6 mo",
     "ann_pct": null
   }
 }

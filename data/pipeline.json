@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-25",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: MGNI (5.6), URBN (5.3), HALO (4.8)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 15 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: XDWH.DE (6.4), ASWC.DE (5.0), BNKE.PA (5.0) | 🤖 LLM 16/30 mislukt (2.59% gewicht neutraal)",
+  "updated": "2026-11-26",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: MGNI (5.5), HALO (4.6), VRTX (4.4)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 15 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: XDWH.DE (6.3), ASWC.DE (5.0), BNKE.PA (5.0) | 🤖 LLM 18/30 mislukt (2.91% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
@@ -22,35 +22,35 @@
       "ticker": "MGNI",
       "name": "Magnite, Inc.",
       "advice": "HOLD",
-      "score": 5.63,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "URBN",
-      "name": "Urban Outfitters, Inc.",
-      "advice": "HOLD",
-      "score": 5.35,
+      "score": 5.5,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "HALO",
       "name": "",
       "advice": "HOLD",
-      "score": 4.76,
+      "score": 4.56,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "VRTX",
       "name": "Vertex Pharmaceuticals Incorpor",
       "advice": "HOLD",
-      "score": 4.28,
+      "score": 4.44,
+      "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "URBN",
+      "name": "Urban Outfitters, Inc.",
+      "advice": "HOLD",
+      "score": 4.27,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 2.95,
+      "score": 3.16,
       "confidence": "MEDIUM"
     }
   ],
@@ -59,7 +59,7 @@
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "HOLD",
-      "score": 6.39,
+      "score": 6.31,
       "theme": "HEALTH",
       "confidence": "MEDIUM"
     },
@@ -141,7 +141,7 @@
       "advice": "HOLD",
       "score": 5.0,
       "theme": "COMMODITY",
-      "confidence": "MEDIUM"
+      "confidence": "HIGH"
     },
     {
       "ticker": "QDVE.DE",
@@ -173,7 +173,7 @@
       "advice": "HOLD",
       "score": 5.0,
       "theme": "OTHER/BROAD",
-      "confidence": "MEDIUM"
+      "confidence": "HIGH"
     }
   ],
   "regime_note": "Market context only (log-only audit). No signal use."
