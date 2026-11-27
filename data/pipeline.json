@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-26",
-  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: MGNI (5.5), HALO (4.6), VRTX (4.4)",
-  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 15 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: XDWH.DE (6.3), ASWC.DE (5.0), BNKE.PA (5.0) | 🤖 LLM 18/30 mislukt (2.91% gewicht neutraal)",
+  "updated": "2026-11-27",
+  "stock_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 5 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: MGNI (5.9), VRTX (5.1), HALO (4.6)",
+  "etf_summary": "🟢 0 BUY | 🌀 0 ACCUMULATE | 🟡 15 HOLD | 🔶 0 TRIM | 🔴 0 SELL | 🏆 Top: XDWH.DE (6.6), USPY.DE (6.1), EWSP.AS (5.4) | 🤖 LLM 18/30 mislukt (2.91% gewicht neutraal)",
   "stock_distribution": {
     "BUY": 0,
     "ACCUMULATE": 0,
@@ -22,35 +22,35 @@
       "ticker": "MGNI",
       "name": "Magnite, Inc.",
       "advice": "HOLD",
-      "score": 5.5,
-      "confidence": "MEDIUM"
-    },
-    {
-      "ticker": "HALO",
-      "name": "",
-      "advice": "HOLD",
-      "score": 4.56,
+      "score": 5.87,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "VRTX",
       "name": "Vertex Pharmaceuticals Incorpor",
       "advice": "HOLD",
-      "score": 4.44,
+      "score": 5.11,
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "HALO",
+      "name": "",
+      "advice": "HOLD",
+      "score": 4.61,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "URBN",
       "name": "Urban Outfitters, Inc.",
       "advice": "HOLD",
-      "score": 4.27,
+      "score": 4.56,
       "confidence": "MEDIUM"
     },
     {
       "ticker": "SMFG",
       "name": "",
       "advice": "HOLD",
-      "score": 3.16,
+      "score": 4.38,
       "confidence": "MEDIUM"
     }
   ],
@@ -59,9 +59,25 @@
       "ticker": "XDWH.DE",
       "name": "Xtrackers Europe Health Care Acc",
       "advice": "HOLD",
-      "score": 6.31,
+      "score": 6.62,
       "theme": "HEALTH",
       "confidence": "MEDIUM"
+    },
+    {
+      "ticker": "USPY.DE",
+      "name": "L&G Cybersecurity Acc",
+      "advice": "HOLD",
+      "score": 6.14,
+      "theme": "TECH-THEMATIC",
+      "confidence": "HIGH"
+    },
+    {
+      "ticker": "EWSP.AS",
+      "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
+      "advice": "HOLD",
+      "score": 5.38,
+      "theme": "SP500-SECTOR",
+      "confidence": "HIGH"
     },
     {
       "ticker": "ASWC.DE",
@@ -120,14 +136,6 @@
       "confidence": "MEDIUM"
     },
     {
-      "ticker": "EWSP.AS",
-      "name": "iShares S&P 500 Equal Weight UCITS ETF USD (Acc)",
-      "advice": "HOLD",
-      "score": 5.0,
-      "theme": "SP500-SECTOR",
-      "confidence": "HIGH"
-    },
-    {
       "ticker": "IMIE.PA",
       "name": "State Street SPDR MSCI ACWI IMI UCITS ETF",
       "advice": "HOLD",
@@ -141,7 +149,7 @@
       "advice": "HOLD",
       "score": 5.0,
       "theme": "COMMODITY",
-      "confidence": "HIGH"
+      "confidence": "MEDIUM"
     },
     {
       "ticker": "QDVE.DE",
@@ -157,14 +165,6 @@
       "advice": "HOLD",
       "score": 5.0,
       "theme": "FINANCIALS",
-      "confidence": "HIGH"
-    },
-    {
-      "ticker": "USPY.DE",
-      "name": "L&G Cybersecurity Acc",
-      "advice": "HOLD",
-      "score": 5.0,
-      "theme": "TECH-THEMATIC",
       "confidence": "HIGH"
     },
     {
